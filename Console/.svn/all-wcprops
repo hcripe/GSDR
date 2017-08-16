@@ -1,0 +1,461 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console
+END
+ringbuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/ringbuffer.cs
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/AssemblyInfo.cs
+END
+cwedit.resx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/cwedit.resx
+END
+setup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/setup.cs
+END
+ClusterSetup.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15/trunk/PowerSDR%20express/Console/ClusterSetup.Designer.cs
+END
+Genesis.ico
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/Genesis.ico
+END
+ClusterSetup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/ClusterSetup.cs
+END
+console.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/console.cs
+END
+win32.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/win32.cs
+END
+LoopDLL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/LoopDLL.cs
+END
+splash.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20/trunk/PowerSDR%20express/Console/splash.resx
+END
+portaudio.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/portaudio.cs
+END
+InputBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/InputBox.cs
+END
+FilterForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/FilterForm.cs
+END
+cwkeyer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/cwkeyer.cs
+END
+cwx.resx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/cwx.resx
+END
+cwedit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/cwedit.cs
+END
+ConsoleCrossThreadCallback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/ConsoleCrossThreadCallback.cs
+END
+display_DirectX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/display_DirectX.cs
+END
+GSDR.pfx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/GSDR.pfx
+END
+display_GDI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/display_GDI.cs
+END
+DXClusterClient.resx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/DXClusterClient.resx
+END
+PowerSDR.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/PowerSDR.csproj
+END
+cwx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/cwx.cs
+END
+wave.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/wave.cs
+END
+Skin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/Skin.cs
+END
+CAT Ethernet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/CAT%20Ethernet.cs
+END
+WinLIRC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/WinLIRC.cs
+END
+About.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/About.Designer.cs
+END
+About.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/About.cs
+END
+DXClusterClient.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/DXClusterClient.Designer.cs
+END
+setup.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/setup.resx
+END
+PowerSDR.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/PowerSDR.csproj.user
+END
+ClusterSetup.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/14/trunk/PowerSDR%20express/Console/ClusterSetup.resx
+END
+hiperftimer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/hiperftimer.cs
+END
+console.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/console.resx
+END
+XTRV.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/XTRV.resx
+END
+InputBox.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/InputBox.resx
+END
+dsp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/dsp.cs
+END
+Network Client.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/Network%20Client.cs
+END
+release_notes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/release_notes.cs
+END
+invoke.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/invoke.cs
+END
+VoiceMessages.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/VoiceMessages.Designer.cs
+END
+wizard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/wizard.cs
+END
+audio.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/audio.cs
+END
+XTRV.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/XTRV.cs
+END
+QRP2000.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/QRP2000.cs
+END
+progress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/progress.cs
+END
+eqform.resx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/eqform.resx
+END
+Si570.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/Si570.cs
+END
+RTL_SDR.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/RTL_SDR.cs
+END
+VoiceMessages.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/VoiceMessages.resx
+END
+DebugForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/DebugForm.Designer.cs
+END
+DebugForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/DebugForm.cs
+END
+wave.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/wave.resx
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/14/trunk/PowerSDR%20express/Console/app.config
+END
+Network Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/Network%20Server.cs
+END
+filter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/filter.cs
+END
+About.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/About.resx
+END
+XTRVform.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/XTRVform.Designer.cs
+END
+wave_options.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/wave_options.resx
+END
+eqform.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/eqform.cs
+END
+VoIP.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/22/trunk/PowerSDR%20express/Console/VoIP.resx
+END
+splash.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/splash.cs
+END
+VoiceMessages.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/17/trunk/PowerSDR%20express/Console/VoiceMessages.cs
+END
+database.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/database.cs
+END
+MultiPSK.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/trunk/PowerSDR%20express/Console/MultiPSK.cs
+END
+deltacp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/deltacp.cs
+END
+DXClusterClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/23/trunk/PowerSDR%20express/Console/DXClusterClient.cs
+END
+wizard.resx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/14/trunk/PowerSDR%20express/Console/wizard.resx
+END
+wave_options.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/21/trunk/PowerSDR%20express/Console/wave_options.cs
+END
+VoIP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/22/trunk/PowerSDR%20express/Console/VoIP.cs
+END
+progress.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/progress.resx
+END
+mixer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/14/trunk/PowerSDR%20express/Console/mixer.cs
+END
+FilterForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/PowerSDR%20express/Console/FilterForm.resx
+END
+DebugForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/14/trunk/PowerSDR%20express/Console/DebugForm.resx
+END

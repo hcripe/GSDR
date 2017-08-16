@@ -1,0 +1,33 @@
+D:\source\genesisradio\bin\Release_new\Genesis.exe.config
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.csprojResolveAssemblyReference.cache
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.About.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Console.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.cwedit.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.CWX.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.EQForm.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.FilterForm.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\System.Windows.Forms.ButtonTS.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Progress.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Properties.Resources.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Setup.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\Splash_Screen.Splash.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.WaveControl.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.WaveOptions.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.SetupWizard.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.ClusterSetup.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.DebugForm.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.DXClusterClient.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.InputBox.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Invoke.SMeter2.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.Invoke.SMeter1.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.VoiceMessages.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.VoIP.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.XTRV.resources
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.csproj.GenerateResource.Cache
+D:\source\genesisradio\bin\Release_new\Genesis.exe.manifest
+D:\source\genesisradio\bin\Release_new\Genesis.application
+D:\source\genesisradio\bin\Release_new\Genesis.exe
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\Genesis.exe.manifest
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\Genesis.application
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\Genesis.exe
+D:\source\genesisradio\trunk\PowerSDR express\Console\obj\x86\Release\PowerSDR.csproj.CoreCompileInputs.cache

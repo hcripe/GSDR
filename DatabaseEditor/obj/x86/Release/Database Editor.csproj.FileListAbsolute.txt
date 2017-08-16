@@ -1,0 +1,9 @@
+D:\source\genesisradio\bin\Release_new\Database Editor.exe
+D:\source\genesisradio\bin\Release_new\Database Editor.pdb
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\Database Editor.csprojResolveAssemblyReference.cache
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\DatabaseEditor.DatabaseEditorClass.resources
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\DatabaseEditor.Properties.Resources.resources
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\Database Editor.csproj.GenerateResource.Cache
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\Database Editor.exe
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\Database Editor.pdb
+D:\source\genesisradio\trunk\PowerSDR express\DatabaseEditor\obj\x86\Release\Database Editor.csproj.CoreCompileInputs.cache
