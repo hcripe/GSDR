@@ -70,7 +70,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <StartWithIE>true</StartWithIE>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
-    <StartWorkingDirectory>f:\PowerSDR express\bin\Debug\</StartWorkingDirectory>
+    <StartWorkingDirectory>d:\source\genesisradio\bin\Debug\</StartWorkingDirectory>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
   </PropertyGroup>
@@ -78,7 +78,7 @@
     <StartWithIE>true</StartWithIE>
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <StartWorkingDirectory>F:\PowerSDR express\bin\Debug x64\</StartWorkingDirectory>
+    <StartWorkingDirectory>d:\source\genesisradio\bin\Debug x64\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>

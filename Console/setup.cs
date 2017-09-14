@@ -20480,6 +20480,9 @@ namespace PowerSDR
                         if (sp.IsOpen)
                         {
                             a.Add(sp.PortName);
+                            sp.RtsEnable = false;
+                            sp.DtrEnable = false;
+                            Thread.Sleep(100);
                             sp.Close();
                         }
                     }

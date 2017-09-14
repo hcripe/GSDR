@@ -1257,7 +1257,7 @@ namespace PowerSDR
 
             Splash.SetStatus("Initializing Database");			// Set progress point
             DB.AppDataPath = Application.StartupPath;
-            DB.Init();											// Initialize the database
+            DB.Init();                                          // Initialize the database
 
             Splash.SetStatus("Initializing DSP");				// Set progress point
 

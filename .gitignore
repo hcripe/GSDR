@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+Console/obj/*
+DatabaseEditor/obj/*
+
 
 # Build results
 [Dd]ebug/
