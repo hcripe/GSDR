@@ -9,7 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+Console/.svn/*
 Console/obj/*
+DatabaseEditor/.svn/*
 DatabaseEditor/obj/*
 
 
