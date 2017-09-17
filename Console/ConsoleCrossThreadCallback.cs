@@ -879,7 +879,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        if (btnATT.Checked)
+                        if (chkG59ATTbtn.Checked)
                             return 1;
                         else
                             return 0;
@@ -904,7 +904,7 @@ namespace PowerSDR
                     {
                         case Model.GENESIS_G59USB:
                         case Model.GENESIS_G59NET:
-                            btnATT.Checked = false;
+                            chkG59ATTbtn.Checked = false;
                             break;
 
                         case Model.GENESIS_G11:
@@ -918,7 +918,7 @@ namespace PowerSDR
                     {
                         case Model.GENESIS_G59USB:
                         case Model.GENESIS_G59NET:
-                            btnATT.Checked = true;
+                            chkG59ATTbtn.Checked = true;
                             break;
 
                         case Model.GENESIS_G11:
@@ -940,7 +940,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        if (btnHIGH_RF.Checked)
+                        if (chkG59RFbtn.Checked)
                             return 1;
                         else
                             return 0;
@@ -965,7 +965,7 @@ namespace PowerSDR
                     {
                         case Model.GENESIS_G59USB:
                         case Model.GENESIS_G59NET:
-                            btnHIGH_RF.Checked = false;
+                            chkG59RFbtn.Checked = false;
                             break;
 
                         case Model.GENESIS_G11:
@@ -979,7 +979,7 @@ namespace PowerSDR
                     {
                         case Model.GENESIS_G59USB:
                         case Model.GENESIS_G59NET:
-                            btnHIGH_RF.Checked = true;
+                            chkG59RFbtn.Checked = true;
                             break;
 
                         case Model.GENESIS_G11:
@@ -1002,7 +1002,7 @@ namespace PowerSDR
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
                         {
-                            if (btnHIGH_AF.Checked)
+                            if (chkG59AFbtn.Checked)
                                 return 1;
                             else
                                 return 0;
@@ -1032,12 +1032,12 @@ namespace PowerSDR
                         {
                             if (value == 0)
                             {
-                                btnHIGH_AF.Checked = false;
+                                chkG59AFbtn.Checked = false;
                                 cat_af_preamp_status = 0;
                             }
                             else if (value == 1)
                             {
-                                btnHIGH_AF.Checked = true;
+                                chkG59AFbtn.Checked = true;
                                 cat_af_preamp_status = 1;
                             }
                         }

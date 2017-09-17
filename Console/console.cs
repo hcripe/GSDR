@@ -992,9 +992,9 @@ namespace PowerSDR
         private PrettyTrackBar ptbDisplayZoom;
         private LabelTS label1;
         private LabelTS label2;
-        private CheckBoxTS btnHIGH_AF;
-        private CheckBoxTS btnHIGH_RF;
-        private CheckBoxTS btnATT;
+        private CheckBoxTS chkG59AFbtn;
+        private CheckBoxTS chkG59RFbtn;
+        private CheckBoxTS chkG59ATTbtn;
         private ButtonTS btnEraseMemory;
         private CheckBoxTS chkVFOsinc;
         public GroupBoxTS grpG160;
@@ -1507,9 +1507,9 @@ namespace PowerSDR
             this.udCWSpeed = new System.Windows.Forms.NumericUpDownTS();
             this.btnG160_X2 = new System.Windows.Forms.RadioButtonTS();
             this.btnG160_X1 = new System.Windows.Forms.RadioButtonTS();
-            this.btnATT = new System.Windows.Forms.CheckBoxTS();
-            this.btnHIGH_AF = new System.Windows.Forms.CheckBoxTS();
-            this.btnHIGH_RF = new System.Windows.Forms.CheckBoxTS();
+            this.chkG59ATTbtn = new System.Windows.Forms.CheckBoxTS();
+            this.chkG59AFbtn = new System.Windows.Forms.CheckBoxTS();
+            this.chkG59RFbtn = new System.Windows.Forms.CheckBoxTS();
             this.btnUSB = new System.Windows.Forms.LabelTS();
             this.ptbRX0Gain = new PowerSDR.PrettyTrackBar();
             this.chkEnableSubRX = new System.Windows.Forms.CheckBoxTS();
@@ -2302,35 +2302,35 @@ namespace PowerSDR
             this.btnG160_X1.UseVisualStyleBackColor = true;
             this.btnG160_X1.Click += new System.EventHandler(this.btnG160_X1_Click);
             // 
-            // btnATT
+            // chkG59ATTbtn
             // 
-            resources.ApplyResources(this.btnATT, "btnATT");
-            this.btnATT.FlatAppearance.BorderSize = 0;
-            this.btnATT.Image = null;
-            this.btnATT.Name = "btnATT";
-            this.toolTip1.SetToolTip(this.btnATT, resources.GetString("btnATT.ToolTip"));
-            this.btnATT.UseVisualStyleBackColor = true;
-            this.btnATT.CheckedChanged += new System.EventHandler(this.btnATT_CheckedChanged);
+            resources.ApplyResources(this.chkG59ATTbtn, "chkG59ATTbtn");
+            this.chkG59ATTbtn.FlatAppearance.BorderSize = 0;
+            this.chkG59ATTbtn.Image = null;
+            this.chkG59ATTbtn.Name = "chkG59ATTbtn";
+            this.toolTip1.SetToolTip(this.chkG59ATTbtn, resources.GetString("chkG59ATTbtn.ToolTip"));
+            this.chkG59ATTbtn.UseVisualStyleBackColor = true;
+            this.chkG59ATTbtn.CheckedChanged += new System.EventHandler(this.chkG59ATTbtn_CheckedChanged);
             // 
-            // btnHIGH_AF
+            // chkG59AFbtn
             // 
-            resources.ApplyResources(this.btnHIGH_AF, "btnHIGH_AF");
-            this.btnHIGH_AF.FlatAppearance.BorderSize = 0;
-            this.btnHIGH_AF.Image = null;
-            this.btnHIGH_AF.Name = "btnHIGH_AF";
-            this.toolTip1.SetToolTip(this.btnHIGH_AF, resources.GetString("btnHIGH_AF.ToolTip"));
-            this.btnHIGH_AF.UseVisualStyleBackColor = true;
-            this.btnHIGH_AF.CheckedChanged += new System.EventHandler(this.btnHIGH_AF_CheckedChanged);
+            resources.ApplyResources(this.chkG59AFbtn, "chkG59AFbtn");
+            this.chkG59AFbtn.FlatAppearance.BorderSize = 0;
+            this.chkG59AFbtn.Image = null;
+            this.chkG59AFbtn.Name = "chkG59AFbtn";
+            this.toolTip1.SetToolTip(this.chkG59AFbtn, resources.GetString("chkG59AFbtn.ToolTip"));
+            this.chkG59AFbtn.UseVisualStyleBackColor = true;
+            this.chkG59AFbtn.CheckedChanged += new System.EventHandler(this.chkG59AFbtn_CheckedChanged);
             // 
-            // btnHIGH_RF
+            // chkG59RFbtn
             // 
-            resources.ApplyResources(this.btnHIGH_RF, "btnHIGH_RF");
-            this.btnHIGH_RF.FlatAppearance.BorderSize = 0;
-            this.btnHIGH_RF.Image = null;
-            this.btnHIGH_RF.Name = "btnHIGH_RF";
-            this.toolTip1.SetToolTip(this.btnHIGH_RF, resources.GetString("btnHIGH_RF.ToolTip"));
-            this.btnHIGH_RF.UseVisualStyleBackColor = true;
-            this.btnHIGH_RF.CheckedChanged += new System.EventHandler(this.btnHIGH_RF_CheckedChanged);
+            resources.ApplyResources(this.chkG59RFbtn, "chkG59RFbtn");
+            this.chkG59RFbtn.FlatAppearance.BorderSize = 0;
+            this.chkG59RFbtn.Image = null;
+            this.chkG59RFbtn.Name = "chkG59RFbtn";
+            this.toolTip1.SetToolTip(this.chkG59RFbtn, resources.GetString("chkG59RFbtn.ToolTip"));
+            this.chkG59RFbtn.UseVisualStyleBackColor = true;
+            this.chkG59RFbtn.CheckedChanged += new System.EventHandler(this.chkG59RFbtn_CheckedChanged);
             // 
             // btnUSB
             // 
@@ -5513,9 +5513,9 @@ namespace PowerSDR
             // 
             // grpG59
             // 
-            this.grpG59.Controls.Add(this.btnATT);
-            this.grpG59.Controls.Add(this.btnHIGH_AF);
-            this.grpG59.Controls.Add(this.btnHIGH_RF);
+            this.grpG59.Controls.Add(this.chkG59ATTbtn);
+            this.grpG59.Controls.Add(this.chkG59AFbtn);
+            this.grpG59.Controls.Add(this.chkG59RFbtn);
             resources.ApplyResources(this.grpG59, "grpG59");
             this.grpG59.Name = "grpG59";
             this.grpG59.TabStop = false;
@@ -24054,22 +24054,22 @@ namespace PowerSDR
                         e.Handled = true;
                         break;
                     case Keys.A:
-                        if (!btnHIGH_AF.Checked)
-                            btnHIGH_AF.Checked = true;
+                        if (!chkG59AFbtn.Checked)
+                            chkG59AFbtn.Checked = true;
                         else
-                            btnHIGH_AF.Checked = false;
+                            chkG59AFbtn.Checked = false;
                         break;
                     case Keys.R:
-                        if (!btnHIGH_RF.Checked)
-                            btnHIGH_RF.Checked = true;
+                        if (!chkG59RFbtn.Checked)
+                            chkG59RFbtn.Checked = true;
                         else
-                            btnHIGH_RF.Checked = false;
+                            chkG59RFbtn.Checked = false;
                         break;
                     case Keys.T:
-                        if (!btnATT.Checked)
-                            btnATT.Checked = true;
+                        if (!chkG59ATTbtn.Checked)
+                            chkG59ATTbtn.Checked = true;
                         else
-                            btnATT.Checked = false;
+                            chkG59ATTbtn.Checked = false;
                         break;
                     case Keys.D:
                         switch (Display_GDI.CurrentDisplayMode)
@@ -36269,7 +36269,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        return btnHIGH_RF.Checked;
+                        return chkG59RFbtn.Checked;
                         
                     case Model.GENESIS_G11:
                         return chkG11RFbtn.Checked;
@@ -36284,7 +36284,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        btnHIGH_RF.Checked = value;
+                        chkG59RFbtn.Checked = value;
                         break;
 
                     case Model.GENESIS_G11:
@@ -36294,7 +36294,7 @@ namespace PowerSDR
             }
         }
 
-        private void btnHIGH_RF_CheckedChanged(object sender, EventArgs e)
+        private void chkG59RFbtn_CheckedChanged(object sender, EventArgs e)
         {
             switch (current_model)
             {
@@ -36303,30 +36303,30 @@ namespace PowerSDR
                     {
                         if (current_model == Model.GENESIS_G59USB)
                         {
-                            if (btnHIGH_RF.Checked)
+                            if (chkG59RFbtn.Checked)
                             {
-                                btnHIGH_RF.BackColor = Color.GreenYellow;
+                                chkG59RFbtn.BackColor = Color.GreenYellow;
                                 lblRFNewVFO.BackColor = Color.Red;
                                 g59.WriteToDevice(11, 0);               // PREAMP ON
                             }
                             else
                             {
-                                btnHIGH_RF.BackColor = SystemColors.Control;
+                                chkG59RFbtn.BackColor = SystemColors.Control;
                                 lblRFNewVFO.BackColor = NewBackgroundVFOColor;
                                 g59.WriteToDevice(12, 0);               // PREAMP OFF
                             }
                         }
                         else if (current_model == Model.GENESIS_G59NET)
                         {
-                            if (btnHIGH_RF.Checked)
+                            if (chkG59RFbtn.Checked)
                             {
-                                btnHIGH_RF.BackColor = Color.GreenYellow;
+                                chkG59RFbtn.BackColor = Color.GreenYellow;
                                 lblRFNewVFO.BackColor = Color.Red;
                                 net_device.WriteToDevice(11, 0);               // PREAMP ON
                             }
                             else
                             {
-                                btnHIGH_RF.BackColor = SystemColors.Control;
+                                chkG59RFbtn.BackColor = SystemColors.Control;
                                 lblRFNewVFO.BackColor = NewBackgroundVFOColor;
                                 net_device.WriteToDevice(12, 0);               // PREAMP OFF
                             }
@@ -36363,7 +36363,7 @@ namespace PowerSDR
 
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        return btnHIGH_AF.Checked;
+                        return chkG59AFbtn.Checked;
 
                     default:
                         return false;
@@ -36376,7 +36376,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        btnHIGH_AF.Checked = value;
+                        chkG59AFbtn.Checked = value;
                         break;
 
                     case Model.GENESIS_G11:
@@ -36386,7 +36386,7 @@ namespace PowerSDR
             }
         }
 
-        private void btnHIGH_AF_CheckedChanged(object sender, EventArgs e)
+        private void chkG59AFbtn_CheckedChanged(object sender, EventArgs e)
         {
             switch (current_model)
             {
@@ -36395,30 +36395,30 @@ namespace PowerSDR
                     {
                         if (current_model == Model.GENESIS_G59USB)
                         {
-                            if (btnHIGH_AF.Checked)
+                            if (chkG59AFbtn.Checked)
                             {
-                                btnHIGH_AF.BackColor = Color.GreenYellow;
+                                chkG59AFbtn.BackColor = Color.GreenYellow;
                                 lblAFNewVFO.BackColor = Color.Red;
                                 g59.WriteToDevice(5, 0);                      // AF ON
                             }
                             else
                             {
-                                btnHIGH_AF.BackColor = SystemColors.Control;
+                                chkG59AFbtn.BackColor = SystemColors.Control;
                                 lblAFNewVFO.BackColor = NewBackgroundVFOColor;
                                 g59.WriteToDevice(6, 0);                      // AF OFF
                             }
                         }
                         else if (current_model == Model.GENESIS_G59NET)
                         {
-                            if (btnHIGH_AF.Checked)
+                            if (chkG59AFbtn.Checked)
                             {
-                                btnHIGH_AF.BackColor = Color.GreenYellow;
+                                chkG59AFbtn.BackColor = Color.GreenYellow;
                                 lblAFNewVFO.BackColor = Color.Red;
                                 net_device.WriteToDevice(5, 0);                // AF ON
                             }
                             else
                             {
-                                btnHIGH_AF.BackColor = SystemColors.Control;
+                                chkG59AFbtn.BackColor = SystemColors.Control;
                                 lblAFNewVFO.BackColor = NewBackgroundVFOColor;
                                 net_device.WriteToDevice(6, 0);                // AF OFF
                             }
@@ -36452,7 +36452,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        return btnATT.Checked;
+                        return chkG59ATTbtn.Checked;
 
                     case Model.GENESIS_G11:
                         return chkG11ATTbtn.Checked;
@@ -36468,7 +36468,7 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        btnATT.Checked = value;
+                        chkG59ATTbtn.Checked = value;
                         break;
 
                     case Model.GENESIS_G11:
@@ -36478,7 +36478,7 @@ namespace PowerSDR
             }
         }
 
-        private void btnATT_CheckedChanged(object sender, EventArgs e)
+        private void chkG59ATTbtn_CheckedChanged(object sender, EventArgs e)
         {
             switch (current_model)
             {
@@ -36487,30 +36487,30 @@ namespace PowerSDR
                     {
                         if (current_model == Model.GENESIS_G59USB)
                         {
-                            if (btnATT.Checked)
+                            if (chkG59ATTbtn.Checked)
                             {
-                                btnATT.BackColor = Color.GreenYellow;
+                                chkG59ATTbtn.BackColor = Color.GreenYellow;
                                 lblATTNewVFO.BackColor = Color.Red;
                                 g59.WriteToDevice(16, 0);                       // ATT ON
                             }
                             else
                             {
-                                btnATT.BackColor = SystemColors.Control;
+                                chkG59ATTbtn.BackColor = SystemColors.Control;
                                 lblATTNewVFO.BackColor = NewBackgroundVFOColor;
                                 g59.WriteToDevice(17, 0);                       // ATT OFF
                             }
                         }
                         else if (current_model == Model.GENESIS_G59NET)
                         {
-                            if (btnATT.Checked)
+                            if (chkG59ATTbtn.Checked)
                             {
-                                btnATT.BackColor = Color.GreenYellow;
+                                chkG59ATTbtn.BackColor = Color.GreenYellow;
                                 lblATTNewVFO.BackColor = Color.Red;
                                 net_device.WriteToDevice(16, 0);                // ATT ON
                             }
                             else
                             {
-                                btnATT.BackColor = SystemColors.Control;
+                                chkG59ATTbtn.BackColor = SystemColors.Control;
                                 lblATTNewVFO.BackColor = NewBackgroundVFOColor;
                                 net_device.WriteToDevice(17, 0);                // ATT OFF
                             }
@@ -36540,10 +36540,10 @@ namespace PowerSDR
         {
             if (current_model == Model.GENESIS_G59USB || current_model == Model.GENESIS_G59NET)
             {
-                if (btnHIGH_AF.Checked)
-                    btnHIGH_AF.Checked = false;
+                if (chkG59AFbtn.Checked)
+                    chkG59AFbtn.Checked = false;
                 else
-                    btnHIGH_AF.Checked = true;
+                    chkG59AFbtn.Checked = true;
             }
             else if (current_model == Model.GENESIS_G11)
             {
@@ -36565,10 +36565,10 @@ namespace PowerSDR
         {
             if (current_model == Model.GENESIS_G59USB || current_model == Model.GENESIS_G59NET)
             {
-                if (btnHIGH_RF.Checked)
-                    btnHIGH_RF.Checked = false;
+                if (chkG59RFbtn.Checked)
+                    chkG59RFbtn.Checked = false;
                 else
-                    btnHIGH_RF.Checked = true;
+                    chkG59RFbtn.Checked = true;
             }
             else if (current_model == Model.GENESIS_G11)
             {
@@ -36590,10 +36590,10 @@ namespace PowerSDR
         {
             if (current_model == Model.GENESIS_G59USB || current_model == Model.GENESIS_G59NET)
             {
-                if (btnATT.Checked)
-                    btnATT.Checked = false;
+                if (chkG59ATTbtn.Checked)
+                    chkG59ATTbtn.Checked = false;
                 else
-                    btnATT.Checked = true;
+                    chkG59ATTbtn.Checked = true;
             }
             else if (current_model == Model.GENESIS_G11)
             {
@@ -40951,11 +40951,11 @@ namespace PowerSDR
                     Thread.Sleep(1);
                     G59XTRV_separateRXTX = G59_XTRV_separate_RXTX;      // force refresh
                     Thread.Sleep(1);
-                    btnATT_CheckedChanged(this, EventArgs.Empty);
+                    chkG59ATTbtn_CheckedChanged(this, EventArgs.Empty);
                     Thread.Sleep(1);
-                    btnHIGH_AF_CheckedChanged(this, EventArgs.Empty);
+                    chkG59AFbtn_CheckedChanged(this, EventArgs.Empty);
                     Thread.Sleep(1);
-                    btnHIGH_RF_CheckedChanged(this, EventArgs.Empty);
+                    chkG59RFbtn_CheckedChanged(this, EventArgs.Empty);
                     Thread.Sleep(1);
 
                     double freq = loscFreq;
@@ -41036,11 +41036,11 @@ namespace PowerSDR
                         Thread.Sleep(1);
                         G59XTRV_separateRXTX = G59_XTRV_separate_RXTX;      // force refresh
                         Thread.Sleep(1);
-                        btnATT_CheckedChanged(this, EventArgs.Empty);
+                        chkG59ATTbtn_CheckedChanged(this, EventArgs.Empty);
                         Thread.Sleep(1);
-                        btnHIGH_AF_CheckedChanged(this, EventArgs.Empty);
+                        chkG59AFbtn_CheckedChanged(this, EventArgs.Empty);
                         Thread.Sleep(1);
-                        btnHIGH_RF_CheckedChanged(this, EventArgs.Empty);
+                        chkG59RFbtn_CheckedChanged(this, EventArgs.Empty);
                         Thread.Sleep(1);
                     }
                 }

@@ -786,121 +786,121 @@
   <data name="&gt;&gt;btnG160_X1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnATT.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+  <data name="chkG59ATTbtn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
-  <data name="btnATT.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="chkG59ATTbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnATT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chkG59ATTbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
-  <data name="btnATT.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chkG59ATTbtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 79</value>
   </data>
-  <data name="btnATT.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chkG59ATTbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
   </data>
-  <data name="btnATT.TabIndex" type="System.Int32, mscorlib">
+  <data name="chkG59ATTbtn.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
   </data>
-  <data name="btnATT.Text" xml:space="preserve">
+  <data name="chkG59ATTbtn.Text" xml:space="preserve">
     <value>ATT</value>
   </data>
-  <data name="btnATT.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="chkG59ATTbtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="btnATT.ToolTip" xml:space="preserve">
+  <data name="chkG59ATTbtn.ToolTip" xml:space="preserve">
     <value>Attenuation</value>
   </data>
-  <data name="&gt;&gt;btnATT.Name" xml:space="preserve">
-    <value>btnATT</value>
+  <data name="&gt;&gt;chkG59ATTbtn.Name" xml:space="preserve">
+    <value>chkG59ATTbtn</value>
   </data>
-  <data name="&gt;&gt;btnATT.Type" xml:space="preserve">
+  <data name="&gt;&gt;chkG59ATTbtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBoxTS, Genesis, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;btnATT.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkG59ATTbtn.Parent" xml:space="preserve">
     <value>grpG59</value>
   </data>
-  <data name="&gt;&gt;btnATT.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkG59ATTbtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnHIGH_AF.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+  <data name="chkG59AFbtn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
-  <data name="btnHIGH_AF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="chkG59AFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnHIGH_AF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chkG59AFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
-  <data name="btnHIGH_AF.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chkG59AFbtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 21</value>
   </data>
-  <data name="btnHIGH_AF.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chkG59AFbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
   </data>
-  <data name="btnHIGH_AF.TabIndex" type="System.Int32, mscorlib">
+  <data name="chkG59AFbtn.TabIndex" type="System.Int32, mscorlib">
     <value>79</value>
   </data>
-  <data name="btnHIGH_AF.Text" xml:space="preserve">
+  <data name="chkG59AFbtn.Text" xml:space="preserve">
     <value>AF Preamp</value>
   </data>
-  <data name="btnHIGH_AF.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="chkG59AFbtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="btnHIGH_AF.ToolTip" xml:space="preserve">
+  <data name="chkG59AFbtn.ToolTip" xml:space="preserve">
     <value>+20dB AF amplification</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_AF.Name" xml:space="preserve">
-    <value>btnHIGH_AF</value>
+  <data name="&gt;&gt;chkG59AFbtn.Name" xml:space="preserve">
+    <value>chkG59AFbtn</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_AF.Type" xml:space="preserve">
+  <data name="&gt;&gt;chkG59AFbtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBoxTS, Genesis, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_AF.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkG59AFbtn.Parent" xml:space="preserve">
     <value>grpG59</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_AF.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkG59AFbtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnHIGH_RF.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+  <data name="chkG59RFbtn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
-  <data name="btnHIGH_RF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="chkG59RFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnHIGH_RF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chkG59RFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
-  <data name="btnHIGH_RF.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chkG59RFbtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 50</value>
   </data>
-  <data name="btnHIGH_RF.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chkG59RFbtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
   </data>
-  <data name="btnHIGH_RF.TabIndex" type="System.Int32, mscorlib">
+  <data name="chkG59RFbtn.TabIndex" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
-  <data name="btnHIGH_RF.Text" xml:space="preserve">
+  <data name="chkG59RFbtn.Text" xml:space="preserve">
     <value>RF Preamp</value>
   </data>
-  <data name="btnHIGH_RF.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="chkG59RFbtn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="btnHIGH_RF.ToolTip" xml:space="preserve">
+  <data name="chkG59RFbtn.ToolTip" xml:space="preserve">
     <value>RF preamp</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_RF.Name" xml:space="preserve">
-    <value>btnHIGH_RF</value>
+  <data name="&gt;&gt;chkG59RFbtn.Name" xml:space="preserve">
+    <value>chkG59RFbtn</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_RF.Type" xml:space="preserve">
+  <data name="&gt;&gt;chkG59RFbtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBoxTS, Genesis, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_RF.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkG59RFbtn.Parent" xml:space="preserve">
     <value>grpG59</value>
   </data>
-  <data name="&gt;&gt;btnHIGH_RF.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkG59RFbtn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="btnUSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
