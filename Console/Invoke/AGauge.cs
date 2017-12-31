@@ -62,7 +62,7 @@ namespace PowerSDR
         private Single m_value = 0;
         public Int32 m_NeedleRadius = 160;
         private Point m_Center = new Point(120, 180);
-        private Boolean drawGaugeBackground = true;
+//        private Boolean drawGaugeBackground = true;
         public Bitmap gaugeBitmap;
 
         #endregion

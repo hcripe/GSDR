@@ -166,7 +166,7 @@ namespace PowerSDR
                     client1_connected = false;
                     client2_connected = false;
 
-                    IPHostEntry ipEntry = Dns.GetHostByAddress(ServerIPAddress);
+                    IPHostEntry ipEntry = Dns.GetHostEntry(ServerIPAddress);
                     IPAddress[] aryLocalAddr = ipEntry.AddressList;
                     client1 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                     client2 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -824,30 +824,32 @@ namespace PowerSDR
                                 {
                                     if (command.Contains("{Mode}"))
                                     {
-                                            text = "Mode: " + console.CurrentDSPMode.ToString();
+                                        text = "Mode: " + console.CurrentDSPMode.ToString();
                                     }
                                     else if (command.Contains("{Band}"))
                                     {
-                                            text = console.CurrentBand.ToString();
-                                            text = text.Replace("B", "");
-                                            text = text.Replace("M", "m");
-                                            text = "Band: " + text;
+                                        text = console.CurrentBand.ToString();
+                                        text = text.Replace("B", "");
+                                        text = text.Replace("M", "m");
+                                        text = "Band: " + text;
                                     }
                                     else if (command.Contains("{AGC}"))
                                     {
-                                            text = "AGC: " + console.current_agc_mode.ToString();
+                                        AGCMode agc_mode = console.current_agc_mode;
+                                        text = "AGC: " + agc_mode.ToString();
                                     }
                                     else if (command.Contains("{Display}"))
                                     {
-                                            text = "Display: " + console.CurrentDisplayMode.ToString();
+
+                                        text = "Display: " + console.CurrentDisplayMode.ToString();
                                     }
                                     else if (command.Contains("{Preamp}"))
                                     {
-                                            text = "Preamp: " + "off";
+                                        text = "Preamp: " + "off";
                                     }
                                     else if (command.Contains("{DSP~Fltr}") || command.Contains("{DSP~Filtr}"))
                                     {
-                                            text = "Filter: " + Math.Abs(console.FilterHighValue - console.FilterLowValue).ToString() + "Hz";
+                                        text = "Filter: " + Math.Abs(console.FilterHighValue - console.FilterLowValue).ToString() + "Hz";
                                     }
                                 }
                                 else if (command.StartsWith("[0] Get SMeter-Main"))
@@ -1518,7 +1520,6 @@ namespace PowerSDR
         private bool run_CAT_send_thread = false;
         private bool run_CAT_client = false;
         private Thread CAT_send_thread;
-        private Thread CAT_thread;
         private Mutex send_mutex = null;
         private System.Windows.Forms.Timer timeout_timer = null;
         public bool IPv6_enabled = false;
@@ -1952,7 +1953,6 @@ namespace PowerSDR
 
                 if (val.StartsWith("Display data"))
                 {
-                    int j = 0;
                     string[] vals = buffer.GetString(data, 0, count).Split(';');
                     
                     for(int i=0; i<vals.Length-1; i++)

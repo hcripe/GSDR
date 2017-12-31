@@ -150,7 +150,6 @@ namespace PowerSDR
         private static SlimDX.Direct3D9.Font high_swr_font;
         private static Rectangle waterfall_rect;
         private static byte[] waterfall_memory;
-        private static Surface backbuf;
         private static int waterfall_bmp_size;
         private static int waterfall_bmp_stride;
         private static DataStream waterfall_data_stream;
@@ -1385,7 +1384,6 @@ namespace PowerSDR
             int[] step_list = { 10, 20, 25, 50 };
             //int step_power = 1;
             //int step_index = 0;
-            int freq_step_size = 50;
             int filter_left = 0;
             int filter_right = 0;
             int notch_low = 0;

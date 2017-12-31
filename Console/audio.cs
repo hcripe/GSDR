@@ -126,7 +126,6 @@ namespace PowerSDR
         public static bool loopDLL_enabled = false;
         public static TestChannels ChannelTest = TestChannels.Left;
         private static Thread MultiPSK_thread;
-        private static Thread RTL_SDR_thread;
         private static bool run_MultiPSK_server_thread = false;
         private static bool server_rf_spectar = true;                // yt7pwr
 

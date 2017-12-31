@@ -380,9 +380,9 @@ namespace System.Windows.Forms
 		public static void CallControlScale(Control c, object[] obj)
 		{
 			if(obj.Length == 1)
-				c.Scale((float)obj[0]);
+				c.Scale(new SizeF((float)obj[0], (float)obj[0]));
 			else if(obj.Length == 2)
-				c.Scale((float)obj[0], (float)obj[1]);
+				c.Scale(new SizeF((float)obj[0], (float)obj[1]));
 		}
 
 		public static object CallControlSelectNextControl(Control c, object[] obj)

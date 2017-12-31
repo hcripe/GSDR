@@ -182,7 +182,7 @@ namespace PowerSDR
             this.lblGenesis.Name = "lblGenesis";
             this.lblGenesis.Size = new System.Drawing.Size(279, 25);
             this.lblGenesis.TabIndex = 2;
-            this.lblGenesis.Text = "Genesis  2.0 by YT7PWR";
+            this.lblGenesis.Text = "Genesis 2.1 by YT7PWR";
             // 
             // lblFIRMWARE
             // 

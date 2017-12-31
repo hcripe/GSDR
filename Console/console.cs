@@ -562,7 +562,7 @@ namespace PowerSDR
 
     unsafe public partial class Console : System.Windows.Forms.Form
     {
-        const string GSDR_revision = "  v2.0.16";
+        const string GSDR_revision = "  v2.1.0";
         private CheckBoxTS chkG6ATT_18dB;
         private CheckBoxTS chkG6ATT_12dB;
 
@@ -2082,7 +2082,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkNoiseGate, "chkNoiseGate");
             this.chkNoiseGate.FlatAppearance.BorderSize = 0;
-            this.chkNoiseGate.Image = null;
             this.chkNoiseGate.Name = "chkNoiseGate";
             this.toolTip1.SetToolTip(this.chkNoiseGate, resources.GetString("chkNoiseGate.ToolTip"));
             this.chkNoiseGate.CheckedChanged += new System.EventHandler(this.chkNoiseGate_CheckedChanged);
@@ -2091,7 +2090,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkVOX, "chkVOX");
             this.chkVOX.FlatAppearance.BorderSize = 0;
-            this.chkVOX.Image = null;
             this.chkVOX.Name = "chkVOX";
             this.toolTip1.SetToolTip(this.chkVOX, resources.GetString("chkVOX.ToolTip"));
             this.chkVOX.CheckedChanged += new System.EventHandler(this.chkVOX_CheckedChanged);
@@ -2100,7 +2098,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkDSPComp, "chkDSPComp");
             this.chkDSPComp.FlatAppearance.BorderSize = 0;
-            this.chkDSPComp.Image = null;
             this.chkDSPComp.Name = "chkDSPComp";
             this.toolTip1.SetToolTip(this.chkDSPComp, resources.GetString("chkDSPComp.ToolTip"));
             this.chkDSPComp.CheckedChanged += new System.EventHandler(this.chkDSPComp_CheckedChanged);
@@ -2109,7 +2106,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkDSPCompander, "chkDSPCompander");
             this.chkDSPCompander.FlatAppearance.BorderSize = 0;
-            this.chkDSPCompander.Image = null;
             this.chkDSPCompander.Name = "chkDSPCompander";
             this.toolTip1.SetToolTip(this.chkDSPCompander, resources.GetString("chkDSPCompander.ToolTip"));
             this.chkDSPCompander.CheckedChanged += new System.EventHandler(this.chkDSPCompander_CheckedChanged);
@@ -2126,7 +2122,6 @@ namespace PowerSDR
             // chkShowTXFilter
             // 
             resources.ApplyResources(this.chkShowTXFilter, "chkShowTXFilter");
-            this.chkShowTXFilter.Image = null;
             this.chkShowTXFilter.Name = "chkShowTXFilter";
             this.toolTip1.SetToolTip(this.chkShowTXFilter, resources.GetString("chkShowTXFilter.ToolTip"));
             this.chkShowTXFilter.CheckedChanged += new System.EventHandler(this.chkShowTXFilter_CheckedChanged);
@@ -2144,8 +2139,8 @@ namespace PowerSDR
             this.ptbPWR.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbPWR, resources.GetString("ptbPWR.ToolTip"));
             this.ptbPWR.Value = 50;
-            this.ptbPWR.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbPWR_Wheel);
             this.ptbPWR.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbPWR_Scroll);
+            this.ptbPWR.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbPWR_Wheel);
             // 
             // ptbRF
             // 
@@ -2160,8 +2155,8 @@ namespace PowerSDR
             this.ptbRF.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbRF, resources.GetString("ptbRF.ToolTip"));
             this.ptbRF.Value = 90;
-            this.ptbRF.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbRF_Wheel);
             this.ptbRF.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbRF_Scroll);
+            this.ptbRF.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbRF_Wheel);
             // 
             // ptbAF
             // 
@@ -2176,13 +2171,12 @@ namespace PowerSDR
             this.ptbAF.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbAF, resources.GetString("ptbAF.ToolTip"));
             this.ptbAF.Value = 50;
-            this.ptbAF.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbAF_Wheel);
             this.ptbAF.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbAF_Scroll);
+            this.ptbAF.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbAF_Wheel);
             // 
             // btnNetwork
             // 
             this.btnNetwork.BackColor = System.Drawing.Color.Red;
-            this.btnNetwork.Image = null;
             resources.ApplyResources(this.btnNetwork, "btnNetwork");
             this.btnNetwork.Name = "btnNetwork";
             this.toolTip1.SetToolTip(this.btnNetwork, resources.GetString("btnNetwork.ToolTip"));
@@ -2191,7 +2185,6 @@ namespace PowerSDR
             // chkShowTXCWFreq
             // 
             resources.ApplyResources(this.chkShowTXCWFreq, "chkShowTXCWFreq");
-            this.chkShowTXCWFreq.Image = null;
             this.chkShowTXCWFreq.Name = "chkShowTXCWFreq";
             this.toolTip1.SetToolTip(this.chkShowTXCWFreq, resources.GetString("chkShowTXCWFreq.ToolTip"));
             this.chkShowTXCWFreq.CheckedChanged += new System.EventHandler(this.chkShowTXCWFreq_CheckedChanged);
@@ -2200,7 +2193,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkCWVAC, "chkCWVAC");
             this.chkCWVAC.FlatAppearance.BorderSize = 0;
-            this.chkCWVAC.Image = null;
             this.chkCWVAC.Name = "chkCWVAC";
             this.toolTip1.SetToolTip(this.chkCWVAC, resources.GetString("chkCWVAC.ToolTip"));
             this.chkCWVAC.CheckedChanged += new System.EventHandler(this.chkCWVAC_CheckedChanged);
@@ -2237,7 +2229,6 @@ namespace PowerSDR
             resources.ApplyResources(this.chkCWIambic, "chkCWIambic");
             this.chkCWIambic.Checked = true;
             this.chkCWIambic.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkCWIambic.Image = null;
             this.chkCWIambic.Name = "chkCWIambic";
             this.toolTip1.SetToolTip(this.chkCWIambic, resources.GetString("chkCWIambic.ToolTip"));
             this.chkCWIambic.CheckedChanged += new System.EventHandler(this.chkCWIambic_CheckedChanged);
@@ -2249,7 +2240,6 @@ namespace PowerSDR
             this.chkBreakIn.Checked = true;
             this.chkBreakIn.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkBreakIn.FlatAppearance.BorderSize = 0;
-            this.chkBreakIn.Image = null;
             this.chkBreakIn.Name = "chkBreakIn";
             this.toolTip1.SetToolTip(this.chkBreakIn, resources.GetString("chkBreakIn.ToolTip"));
             this.chkBreakIn.UseVisualStyleBackColor = false;
@@ -2286,7 +2276,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnG160_X2, "btnG160_X2");
             this.btnG160_X2.FlatAppearance.BorderSize = 0;
-            this.btnG160_X2.Image = null;
             this.btnG160_X2.Name = "btnG160_X2";
             this.toolTip1.SetToolTip(this.btnG160_X2, resources.GetString("btnG160_X2.ToolTip"));
             this.btnG160_X2.UseVisualStyleBackColor = true;
@@ -2296,7 +2285,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnG160_X1, "btnG160_X1");
             this.btnG160_X1.FlatAppearance.BorderSize = 0;
-            this.btnG160_X1.Image = null;
             this.btnG160_X1.Name = "btnG160_X1";
             this.toolTip1.SetToolTip(this.btnG160_X1, resources.GetString("btnG160_X1.ToolTip"));
             this.btnG160_X1.UseVisualStyleBackColor = true;
@@ -2306,7 +2294,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG59ATTbtn, "chkG59ATTbtn");
             this.chkG59ATTbtn.FlatAppearance.BorderSize = 0;
-            this.chkG59ATTbtn.Image = null;
             this.chkG59ATTbtn.Name = "chkG59ATTbtn";
             this.toolTip1.SetToolTip(this.chkG59ATTbtn, resources.GetString("chkG59ATTbtn.ToolTip"));
             this.chkG59ATTbtn.UseVisualStyleBackColor = true;
@@ -2316,7 +2303,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG59AFbtn, "chkG59AFbtn");
             this.chkG59AFbtn.FlatAppearance.BorderSize = 0;
-            this.chkG59AFbtn.Image = null;
             this.chkG59AFbtn.Name = "chkG59AFbtn";
             this.toolTip1.SetToolTip(this.chkG59AFbtn, resources.GetString("chkG59AFbtn.ToolTip"));
             this.chkG59AFbtn.UseVisualStyleBackColor = true;
@@ -2326,7 +2312,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG59RFbtn, "chkG59RFbtn");
             this.chkG59RFbtn.FlatAppearance.BorderSize = 0;
-            this.chkG59RFbtn.Image = null;
             this.chkG59RFbtn.Name = "chkG59RFbtn";
             this.toolTip1.SetToolTip(this.chkG59RFbtn, resources.GetString("chkG59RFbtn.ToolTip"));
             this.chkG59RFbtn.UseVisualStyleBackColor = true;
@@ -2335,7 +2320,6 @@ namespace PowerSDR
             // btnUSB
             // 
             this.btnUSB.BackColor = System.Drawing.Color.Red;
-            this.btnUSB.Image = null;
             resources.ApplyResources(this.btnUSB, "btnUSB");
             this.btnUSB.Name = "btnUSB";
             this.toolTip1.SetToolTip(this.btnUSB, resources.GetString("btnUSB.ToolTip"));
@@ -2354,14 +2338,13 @@ namespace PowerSDR
             this.ptbRX0Gain.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbRX0Gain, resources.GetString("ptbRX0Gain.ToolTip"));
             this.ptbRX0Gain.Value = 100;
-            this.ptbRX0Gain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbRX0Gain_OnWheel);
             this.ptbRX0Gain.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbRX0Gain_Scroll);
+            this.ptbRX0Gain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbRX0Gain_OnWheel);
             // 
             // chkEnableSubRX
             // 
             resources.ApplyResources(this.chkEnableSubRX, "chkEnableSubRX");
             this.chkEnableSubRX.FlatAppearance.BorderSize = 0;
-            this.chkEnableSubRX.Image = null;
             this.chkEnableSubRX.Name = "chkEnableSubRX";
             this.toolTip1.SetToolTip(this.chkEnableSubRX, resources.GetString("chkEnableSubRX.ToolTip"));
             this.chkEnableSubRX.CheckedChanged += new System.EventHandler(this.chkEnableSubRX_CheckedChanged);
@@ -2380,8 +2363,8 @@ namespace PowerSDR
             this.ptbPanSubRX.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbPanSubRX, resources.GetString("ptbPanSubRX.ToolTip"));
             this.ptbPanSubRX.Value = 100;
-            this.ptbPanSubRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbPanSubRX_OnWheel);
             this.ptbPanSubRX.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbPanSubRX_Scroll);
+            this.ptbPanSubRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbPanSubRX_OnWheel);
             // 
             // ptbPanMainRX
             // 
@@ -2396,8 +2379,8 @@ namespace PowerSDR
             this.ptbPanMainRX.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbPanMainRX, resources.GetString("ptbPanMainRX.ToolTip"));
             this.ptbPanMainRX.Value = 0;
-            this.ptbPanMainRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbPanMainRX_OnWheel);
             this.ptbPanMainRX.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbPanMainRX_Scroll);
+            this.ptbPanMainRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbPanMainRX_OnWheel);
             // 
             // ptbRX1Gain
             // 
@@ -2412,193 +2395,177 @@ namespace PowerSDR
             this.ptbRX1Gain.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbRX1Gain, resources.GetString("ptbRX1Gain.ToolTip"));
             this.ptbRX1Gain.Value = 100;
-            this.ptbRX1Gain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbRX1Gain_OnWheel);
             this.ptbRX1Gain.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbRX1Gain_Scroll);
+            this.ptbRX1Gain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbRX1Gain_OnWheel);
             // 
             // radBandGEN
             // 
             resources.ApplyResources(this.radBandGEN, "radBandGEN");
             this.radBandGEN.FlatAppearance.BorderSize = 0;
-            this.radBandGEN.Image = null;
             this.radBandGEN.Name = "radBandGEN";
             this.toolTip1.SetToolTip(this.radBandGEN, resources.GetString("radBandGEN.ToolTip"));
-            this.radBandGEN.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBandGEN.Click += new System.EventHandler(this.btnBandGEN_Click);
             this.radBandGEN.CheckedChanged += new System.EventHandler(this.btnBandGEN_CheckedChanged);
+            this.radBandGEN.Click += new System.EventHandler(this.btnBandGEN_Click);
+            this.radBandGEN.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBandGEN.MouseHover += new System.EventHandler(this.radBandGEN_MouseHover);
             // 
             // radBandWWV
             // 
             resources.ApplyResources(this.radBandWWV, "radBandWWV");
             this.radBandWWV.FlatAppearance.BorderSize = 0;
-            this.radBandWWV.Image = null;
             this.radBandWWV.Name = "radBandWWV";
             this.toolTip1.SetToolTip(this.radBandWWV, resources.GetString("radBandWWV.ToolTip"));
-            this.radBandWWV.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBandWWV.Click += new System.EventHandler(this.btnBandWWV_Click);
             this.radBandWWV.CheckedChanged += new System.EventHandler(this.btnBandWWV_CheckedChanged);
+            this.radBandWWV.Click += new System.EventHandler(this.btnBandWWV_Click);
+            this.radBandWWV.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBandWWV.MouseHover += new System.EventHandler(this.radBandWWV_MouseHover);
             // 
             // radMoreBands
             // 
             resources.ApplyResources(this.radMoreBands, "radMoreBands");
             this.radMoreBands.FlatAppearance.BorderSize = 0;
-            this.radMoreBands.Image = null;
             this.radMoreBands.Name = "radMoreBands";
             this.toolTip1.SetToolTip(this.radMoreBands, resources.GetString("radMoreBands.ToolTip"));
-            this.radMoreBands.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radMoreBands.Click += new System.EventHandler(this.radMoreBands_Click);
+            this.radMoreBands.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radMoreBands.MouseHover += new System.EventHandler(this.radBandVHF_MouseHover);
             // 
             // radBand2
             // 
             resources.ApplyResources(this.radBand2, "radBand2");
             this.radBand2.FlatAppearance.BorderSize = 0;
-            this.radBand2.Image = null;
             this.radBand2.Name = "radBand2";
             this.toolTip1.SetToolTip(this.radBand2, resources.GetString("radBand2.ToolTip"));
-            this.radBand2.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand2.Click += new System.EventHandler(this.btnBand2_Click);
             this.radBand2.CheckedChanged += new System.EventHandler(this.btnBand2_CheckedChanged);
+            this.radBand2.Click += new System.EventHandler(this.btnBand2_Click);
+            this.radBand2.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand2.MouseHover += new System.EventHandler(this.radBand2_MouseHover);
             // 
             // radBand6
             // 
             resources.ApplyResources(this.radBand6, "radBand6");
             this.radBand6.FlatAppearance.BorderSize = 0;
-            this.radBand6.Image = null;
             this.radBand6.Name = "radBand6";
             this.toolTip1.SetToolTip(this.radBand6, resources.GetString("radBand6.ToolTip"));
-            this.radBand6.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand6.Click += new System.EventHandler(this.btnBand6_Click);
             this.radBand6.CheckedChanged += new System.EventHandler(this.btnBand6_CheckedChanged);
+            this.radBand6.Click += new System.EventHandler(this.btnBand6_Click);
+            this.radBand6.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand6.MouseHover += new System.EventHandler(this.radBand6_MouseHover);
             // 
             // radBand10
             // 
             resources.ApplyResources(this.radBand10, "radBand10");
             this.radBand10.FlatAppearance.BorderSize = 0;
-            this.radBand10.Image = null;
             this.radBand10.Name = "radBand10";
             this.toolTip1.SetToolTip(this.radBand10, resources.GetString("radBand10.ToolTip"));
-            this.radBand10.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand10.Click += new System.EventHandler(this.btnBand10_Click);
             this.radBand10.CheckedChanged += new System.EventHandler(this.btnBand10_CheckedChanged);
+            this.radBand10.Click += new System.EventHandler(this.btnBand10_Click);
+            this.radBand10.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand10.MouseHover += new System.EventHandler(this.radBand10_MouseHover);
             // 
             // radBand12
             // 
             resources.ApplyResources(this.radBand12, "radBand12");
             this.radBand12.FlatAppearance.BorderSize = 0;
-            this.radBand12.Image = null;
             this.radBand12.Name = "radBand12";
             this.toolTip1.SetToolTip(this.radBand12, resources.GetString("radBand12.ToolTip"));
-            this.radBand12.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand12.Click += new System.EventHandler(this.btnBand12_Click);
             this.radBand12.CheckedChanged += new System.EventHandler(this.btnBand12_CheckedChanged);
+            this.radBand12.Click += new System.EventHandler(this.btnBand12_Click);
+            this.radBand12.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand12.MouseHover += new System.EventHandler(this.radBand12_MouseHover);
             // 
             // radBand15
             // 
             resources.ApplyResources(this.radBand15, "radBand15");
             this.radBand15.FlatAppearance.BorderSize = 0;
-            this.radBand15.Image = null;
             this.radBand15.Name = "radBand15";
             this.toolTip1.SetToolTip(this.radBand15, resources.GetString("radBand15.ToolTip"));
-            this.radBand15.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand15.Click += new System.EventHandler(this.btnBand15_Click);
             this.radBand15.CheckedChanged += new System.EventHandler(this.btnBand15_CheckedChanged);
+            this.radBand15.Click += new System.EventHandler(this.btnBand15_Click);
+            this.radBand15.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand15.MouseHover += new System.EventHandler(this.radBand15_MouseHover);
             // 
             // radBand17
             // 
             resources.ApplyResources(this.radBand17, "radBand17");
             this.radBand17.FlatAppearance.BorderSize = 0;
-            this.radBand17.Image = null;
             this.radBand17.Name = "radBand17";
             this.toolTip1.SetToolTip(this.radBand17, resources.GetString("radBand17.ToolTip"));
-            this.radBand17.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand17.Click += new System.EventHandler(this.btnBand17_Click);
             this.radBand17.CheckedChanged += new System.EventHandler(this.btnBand17_CheckedChanged);
+            this.radBand17.Click += new System.EventHandler(this.btnBand17_Click);
+            this.radBand17.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand17.MouseHover += new System.EventHandler(this.radBand17_MouseHover);
             // 
             // radBand20
             // 
             resources.ApplyResources(this.radBand20, "radBand20");
             this.radBand20.FlatAppearance.BorderSize = 0;
-            this.radBand20.Image = null;
             this.radBand20.Name = "radBand20";
             this.toolTip1.SetToolTip(this.radBand20, resources.GetString("radBand20.ToolTip"));
-            this.radBand20.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand20.Click += new System.EventHandler(this.btnBand20_Click);
             this.radBand20.CheckedChanged += new System.EventHandler(this.btnBand20_CheckedChanged);
+            this.radBand20.Click += new System.EventHandler(this.btnBand20_Click);
+            this.radBand20.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand20.MouseHover += new System.EventHandler(this.radBand20_MouseHover);
             // 
             // radBand30
             // 
             resources.ApplyResources(this.radBand30, "radBand30");
             this.radBand30.FlatAppearance.BorderSize = 0;
-            this.radBand30.Image = null;
             this.radBand30.Name = "radBand30";
             this.toolTip1.SetToolTip(this.radBand30, resources.GetString("radBand30.ToolTip"));
-            this.radBand30.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand30.Click += new System.EventHandler(this.btnBand30_Click);
             this.radBand30.CheckedChanged += new System.EventHandler(this.btnBand30_CheckedChanged);
+            this.radBand30.Click += new System.EventHandler(this.btnBand30_Click);
+            this.radBand30.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand30.MouseHover += new System.EventHandler(this.radBand30_MouseHover);
             // 
             // radBand40
             // 
             resources.ApplyResources(this.radBand40, "radBand40");
             this.radBand40.FlatAppearance.BorderSize = 0;
-            this.radBand40.Image = null;
             this.radBand40.Name = "radBand40";
             this.toolTip1.SetToolTip(this.radBand40, resources.GetString("radBand40.ToolTip"));
-            this.radBand40.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand40.Click += new System.EventHandler(this.btnBand40_Click);
             this.radBand40.CheckedChanged += new System.EventHandler(this.btnBand40_CheckedChanged);
+            this.radBand40.Click += new System.EventHandler(this.btnBand40_Click);
+            this.radBand40.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand40.MouseHover += new System.EventHandler(this.radBand40_MouseHover);
             // 
             // radBand60
             // 
             resources.ApplyResources(this.radBand60, "radBand60");
             this.radBand60.FlatAppearance.BorderSize = 0;
-            this.radBand60.Image = null;
             this.radBand60.Name = "radBand60";
             this.toolTip1.SetToolTip(this.radBand60, resources.GetString("radBand60.ToolTip"));
-            this.radBand60.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand60.Click += new System.EventHandler(this.btnBand60_Click);
             this.radBand60.CheckedChanged += new System.EventHandler(this.btnBand60_CheckedChanged);
+            this.radBand60.Click += new System.EventHandler(this.btnBand60_Click);
+            this.radBand60.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand60.MouseHover += new System.EventHandler(this.radBand60_MouseHover);
             // 
             // radBand80
             // 
             resources.ApplyResources(this.radBand80, "radBand80");
             this.radBand80.FlatAppearance.BorderSize = 0;
-            this.radBand80.Image = null;
             this.radBand80.Name = "radBand80";
             this.toolTip1.SetToolTip(this.radBand80, resources.GetString("radBand80.ToolTip"));
-            this.radBand80.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand80.Click += new System.EventHandler(this.btnBand80_Click);
             this.radBand80.CheckedChanged += new System.EventHandler(this.btnBand80_CheckedChanged);
+            this.radBand80.Click += new System.EventHandler(this.btnBand80_Click);
+            this.radBand80.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand80.MouseHover += new System.EventHandler(this.radBand80_MouseHover);
             // 
             // radBand160
             // 
             resources.ApplyResources(this.radBand160, "radBand160");
             this.radBand160.FlatAppearance.BorderSize = 0;
-            this.radBand160.Image = null;
             this.radBand160.Name = "radBand160";
             this.toolTip1.SetToolTip(this.radBand160, resources.GetString("radBand160.ToolTip"));
-            this.radBand160.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
-            this.radBand160.Click += new System.EventHandler(this.btnBand160_Click);
             this.radBand160.CheckedChanged += new System.EventHandler(this.btnBand160_CheckedChanged);
+            this.radBand160.Click += new System.EventHandler(this.btnBand160_Click);
+            this.radBand160.MouseLeave += new System.EventHandler(this.MouseLeaveBandButton);
             this.radBand160.MouseHover += new System.EventHandler(this.radBand160_MouseHover);
             // 
             // btnZAP
             // 
             resources.ApplyResources(this.btnZAP, "btnZAP");
             this.btnZAP.FlatAppearance.BorderSize = 0;
-            this.btnZAP.Image = null;
             this.btnZAP.Name = "btnZAP";
             this.toolTip1.SetToolTip(this.btnZAP, resources.GetString("btnZAP.ToolTip"));
             this.btnZAP.CheckStateChanged += new System.EventHandler(this.btnZAP_CheckStateChanged);
@@ -2607,7 +2574,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnVFOA, "btnVFOA");
             this.btnVFOA.FlatAppearance.BorderSize = 0;
-            this.btnVFOA.Image = null;
             this.btnVFOA.Name = "btnVFOA";
             this.toolTip1.SetToolTip(this.btnVFOA, resources.GetString("btnVFOA.ToolTip"));
             this.btnVFOA.Click += new System.EventHandler(this.btnVFOA_Click);
@@ -2616,7 +2582,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkVFOsinc, "chkVFOsinc");
             this.chkVFOsinc.FlatAppearance.BorderSize = 0;
-            this.chkVFOsinc.Image = null;
             this.chkVFOsinc.Name = "chkVFOsinc";
             this.toolTip1.SetToolTip(this.chkVFOsinc, resources.GetString("chkVFOsinc.ToolTip"));
             this.chkVFOsinc.Click += new System.EventHandler(this.chkVFOsinc_Click);
@@ -2625,7 +2590,6 @@ namespace PowerSDR
             // 
             this.btnEraseMemory.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnEraseMemory, "btnEraseMemory");
-            this.btnEraseMemory.Image = null;
             this.btnEraseMemory.Name = "btnEraseMemory";
             this.toolTip1.SetToolTip(this.btnEraseMemory, resources.GetString("btnEraseMemory.ToolTip"));
             this.btnEraseMemory.Click += new System.EventHandler(this.btnEraseMemory_Click);
@@ -2634,7 +2598,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkVFOLock, "chkVFOLock");
             this.chkVFOLock.FlatAppearance.BorderSize = 0;
-            this.chkVFOLock.Image = null;
             this.chkVFOLock.Name = "chkVFOLock";
             this.toolTip1.SetToolTip(this.chkVFOLock, resources.GetString("chkVFOLock.ToolTip"));
             this.chkVFOLock.CheckedChanged += new System.EventHandler(this.chkVFOLock_CheckedChanged);
@@ -2643,7 +2606,6 @@ namespace PowerSDR
             // 
             this.btnMemoryQuickRecall.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnMemoryQuickRecall, "btnMemoryQuickRecall");
-            this.btnMemoryQuickRecall.Image = null;
             this.btnMemoryQuickRecall.Name = "btnMemoryQuickRecall";
             this.toolTip1.SetToolTip(this.btnMemoryQuickRecall, resources.GetString("btnMemoryQuickRecall.ToolTip"));
             this.btnMemoryQuickRecall.Click += new System.EventHandler(this.btnMemoryQuickRestore_Click);
@@ -2652,7 +2614,6 @@ namespace PowerSDR
             // 
             this.btnMemoryQuickSave.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnMemoryQuickSave, "btnMemoryQuickSave");
-            this.btnMemoryQuickSave.Image = null;
             this.btnMemoryQuickSave.Name = "btnMemoryQuickSave";
             this.toolTip1.SetToolTip(this.btnMemoryQuickSave, resources.GetString("btnMemoryQuickSave.ToolTip"));
             this.btnMemoryQuickSave.Click += new System.EventHandler(this.btnMemoryQuickSave_Click);
@@ -2661,7 +2622,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkDisplayPeak, "chkDisplayPeak");
             this.chkDisplayPeak.FlatAppearance.BorderSize = 0;
-            this.chkDisplayPeak.Image = null;
             this.chkDisplayPeak.Name = "chkDisplayPeak";
             this.toolTip1.SetToolTip(this.chkDisplayPeak, resources.GetString("chkDisplayPeak.ToolTip"));
             this.chkDisplayPeak.CheckedChanged += new System.EventHandler(this.chkDisplayPeak_CheckedChanged);
@@ -2682,7 +2642,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkDisplayAVG, "chkDisplayAVG");
             this.chkDisplayAVG.FlatAppearance.BorderSize = 0;
-            this.chkDisplayAVG.Image = null;
             this.chkDisplayAVG.Name = "chkDisplayAVG";
             this.toolTip1.SetToolTip(this.chkDisplayAVG, resources.GetString("chkDisplayAVG.ToolTip"));
             this.chkDisplayAVG.CheckedChanged += new System.EventHandler(this.chkDisplayAVG_CheckedChanged);
@@ -2691,7 +2650,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkRecordWav, "chkRecordWav");
             this.chkRecordWav.FlatAppearance.BorderSize = 0;
-            this.chkRecordWav.Image = null;
             this.chkRecordWav.Name = "chkRecordWav";
             this.toolTip1.SetToolTip(this.chkRecordWav, resources.GetString("chkRecordWav.ToolTip"));
             this.chkRecordWav.CheckedChanged += new System.EventHandler(this.chkRecordWav_CheckedChanged);
@@ -2701,7 +2659,6 @@ namespace PowerSDR
             resources.ApplyResources(this.chkMUT, "chkMUT");
             this.chkMUT.ContextMenuStrip = this.contextMenuMUTE;
             this.chkMUT.FlatAppearance.BorderSize = 0;
-            this.chkMUT.Image = null;
             this.chkMUT.Name = "chkMUT";
             this.toolTip1.SetToolTip(this.chkMUT, resources.GetString("chkMUT.ToolTip"));
             this.chkMUT.CheckedChanged += new System.EventHandler(this.chkMUT_CheckedChanged);
@@ -2744,7 +2701,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkMON, "chkMON");
             this.chkMON.FlatAppearance.BorderSize = 0;
-            this.chkMON.Image = null;
             this.chkMON.Name = "chkMON";
             this.toolTip1.SetToolTip(this.chkMON, resources.GetString("chkMON.ToolTip"));
             this.chkMON.CheckedChanged += new System.EventHandler(this.chkMON_CheckedChanged);
@@ -2753,7 +2709,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkTUN, "chkTUN");
             this.chkTUN.FlatAppearance.BorderSize = 0;
-            this.chkTUN.Image = null;
             this.chkTUN.Name = "chkTUN";
             this.toolTip1.SetToolTip(this.chkTUN, resources.GetString("chkTUN.ToolTip"));
             this.chkTUN.CheckedChanged += new System.EventHandler(this.chkTUN_CheckedChanged);
@@ -2762,17 +2717,15 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkMOX, "chkMOX");
             this.chkMOX.FlatAppearance.BorderSize = 0;
-            this.chkMOX.Image = null;
             this.chkMOX.Name = "chkMOX";
             this.toolTip1.SetToolTip(this.chkMOX, resources.GetString("chkMOX.ToolTip"));
-            this.chkMOX.Click += new System.EventHandler(this.chkMOX_Click);
             this.chkMOX.CheckedChanged += new System.EventHandler(this.chkMOX_CheckedChanged);
+            this.chkMOX.Click += new System.EventHandler(this.chkMOX_Click);
             // 
             // chkPlayWav
             // 
             resources.ApplyResources(this.chkPlayWav, "chkPlayWav");
             this.chkPlayWav.FlatAppearance.BorderSize = 0;
-            this.chkPlayWav.Image = null;
             this.chkPlayWav.Name = "chkPlayWav";
             this.toolTip1.SetToolTip(this.chkPlayWav, resources.GetString("chkPlayWav.ToolTip"));
             this.chkPlayWav.CheckedChanged += new System.EventHandler(this.chkPlayWav_CheckedChanged);
@@ -2884,14 +2837,13 @@ namespace PowerSDR
             this.ptbFilterWidth.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbFilterWidth, resources.GetString("ptbFilterWidth.ToolTip"));
             this.ptbFilterWidth.Value = 1;
-            this.ptbFilterWidth.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbFilterWidth_Wheel);
             this.ptbFilterWidth.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbFilterWidth_Scroll);
+            this.ptbFilterWidth.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbFilterWidth_Wheel);
             // 
             // btnFilterShiftReset
             // 
             this.btnFilterShiftReset.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnFilterShiftReset, "btnFilterShiftReset");
-            this.btnFilterShiftReset.Image = null;
             this.btnFilterShiftReset.Name = "btnFilterShiftReset";
             this.btnFilterShiftReset.Tag = "Reset Filter Shift";
             this.toolTip1.SetToolTip(this.btnFilterShiftReset, resources.GetString("btnFilterShiftReset.ToolTip"));
@@ -2910,15 +2862,14 @@ namespace PowerSDR
             this.ptbFilterShift.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbFilterShift, resources.GetString("ptbFilterShift.ToolTip"));
             this.ptbFilterShift.Value = 0;
-            this.ptbFilterShift.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbFilterShift_Wheel);
             this.ptbFilterShift.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbFilterShift_Scroll);
+            this.ptbFilterShift.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbFilterShift_Wheel);
             // 
             // chkPower
             // 
             resources.ApplyResources(this.chkPower, "chkPower");
             this.chkPower.BackColor = System.Drawing.SystemColors.Control;
             this.chkPower.FlatAppearance.BorderSize = 0;
-            this.chkPower.Image = null;
             this.chkPower.Name = "chkPower";
             this.toolTip1.SetToolTip(this.chkPower, resources.GetString("chkPower.ToolTip"));
             this.chkPower.UseVisualStyleBackColor = false;
@@ -2928,7 +2879,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkDSPNB2, "chkDSPNB2");
             this.chkDSPNB2.FlatAppearance.BorderSize = 0;
-            this.chkDSPNB2.Image = null;
             this.chkDSPNB2.Name = "chkDSPNB2";
             this.toolTip1.SetToolTip(this.chkDSPNB2, resources.GetString("chkDSPNB2.ToolTip"));
             this.chkDSPNB2.CheckedChanged += new System.EventHandler(this.chkDSPNB2_CheckedChanged);
@@ -2937,7 +2887,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkNB, "chkNB");
             this.chkNB.FlatAppearance.BorderSize = 0;
-            this.chkNB.Image = null;
             this.chkNB.Name = "chkNB";
             this.toolTip1.SetToolTip(this.chkNB, resources.GetString("chkNB.ToolTip"));
             this.chkNB.CheckedChanged += new System.EventHandler(this.chkNB_CheckedChanged);
@@ -2946,7 +2895,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkANF, "chkANF");
             this.chkANF.FlatAppearance.BorderSize = 0;
-            this.chkANF.Image = null;
             this.chkANF.Name = "chkANF";
             this.toolTip1.SetToolTip(this.chkANF, resources.GetString("chkANF.ToolTip"));
             this.chkANF.CheckedChanged += new System.EventHandler(this.chkANF_CheckedChanged);
@@ -2955,7 +2903,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkNR, "chkNR");
             this.chkNR.FlatAppearance.BorderSize = 0;
-            this.chkNR.Image = null;
             this.chkNR.Name = "chkNR";
             this.toolTip1.SetToolTip(this.chkNR, resources.GetString("chkNR.ToolTip"));
             this.chkNR.CheckedChanged += new System.EventHandler(this.chkNR_CheckedChanged);
@@ -2964,7 +2911,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkBIN, "chkBIN");
             this.chkBIN.FlatAppearance.BorderSize = 0;
-            this.chkBIN.Image = null;
             this.chkBIN.Name = "chkBIN";
             this.toolTip1.SetToolTip(this.chkBIN, resources.GetString("chkBIN.ToolTip"));
             this.chkBIN.CheckedChanged += new System.EventHandler(this.chkBIN_CheckedChanged);
@@ -3035,7 +2981,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkXIT, "chkXIT");
             this.chkXIT.FlatAppearance.BorderSize = 0;
-            this.chkXIT.Image = null;
             this.chkXIT.Name = "chkXIT";
             this.toolTip1.SetToolTip(this.chkXIT, resources.GetString("chkXIT.ToolTip"));
             this.chkXIT.CheckedChanged += new System.EventHandler(this.chkXIT_CheckedChanged);
@@ -3044,7 +2989,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkRIT, "chkRIT");
             this.chkRIT.FlatAppearance.BorderSize = 0;
-            this.chkRIT.Image = null;
             this.chkRIT.Name = "chkRIT";
             this.toolTip1.SetToolTip(this.chkRIT, resources.GetString("chkRIT.ToolTip"));
             this.chkRIT.CheckedChanged += new System.EventHandler(this.chkRIT_CheckedChanged);
@@ -3075,7 +3019,6 @@ namespace PowerSDR
             // 
             this.btnRITReset.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnRITReset, "btnRITReset");
-            this.btnRITReset.Image = null;
             this.btnRITReset.Name = "btnRITReset";
             this.toolTip1.SetToolTip(this.btnRITReset, resources.GetString("btnRITReset.ToolTip"));
             this.btnRITReset.Click += new System.EventHandler(this.btnRITReset_Click);
@@ -3084,7 +3027,6 @@ namespace PowerSDR
             // 
             this.btnXITReset.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnXITReset, "btnXITReset");
-            this.btnXITReset.Image = null;
             this.btnXITReset.Name = "btnXITReset";
             this.toolTip1.SetToolTip(this.btnXITReset, resources.GetString("btnXITReset.ToolTip"));
             this.btnXITReset.Click += new System.EventHandler(this.btnXITReset_Click);
@@ -3093,7 +3035,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnVFOSwap, "btnVFOSwap");
             this.btnVFOSwap.FlatAppearance.BorderSize = 0;
-            this.btnVFOSwap.Image = null;
             this.btnVFOSwap.Name = "btnVFOSwap";
             this.toolTip1.SetToolTip(this.btnVFOSwap, resources.GetString("btnVFOSwap.ToolTip"));
             this.btnVFOSwap.Click += new System.EventHandler(this.btnVFOSwap_Click);
@@ -3102,7 +3043,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnVFOBtoA, "btnVFOBtoA");
             this.btnVFOBtoA.FlatAppearance.BorderSize = 0;
-            this.btnVFOBtoA.Image = null;
             this.btnVFOBtoA.Name = "btnVFOBtoA";
             this.toolTip1.SetToolTip(this.btnVFOBtoA, resources.GetString("btnVFOBtoA.ToolTip"));
             this.btnVFOBtoA.Click += new System.EventHandler(this.btnVFOBtoA_Click);
@@ -3111,7 +3051,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnVFOAtoB, "btnVFOAtoB");
             this.btnVFOAtoB.FlatAppearance.BorderSize = 0;
-            this.btnVFOAtoB.Image = null;
             this.btnVFOAtoB.Name = "btnVFOAtoB";
             this.toolTip1.SetToolTip(this.btnVFOAtoB, resources.GetString("btnVFOAtoB.ToolTip"));
             this.btnVFOAtoB.Click += new System.EventHandler(this.btnVFOAtoB_Click);
@@ -3120,7 +3059,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkVFOSplit, "chkVFOSplit");
             this.chkVFOSplit.FlatAppearance.BorderSize = 0;
-            this.chkVFOSplit.Image = null;
             this.chkVFOSplit.Name = "chkVFOSplit";
             this.toolTip1.SetToolTip(this.chkVFOSplit, resources.GetString("chkVFOSplit.ToolTip"));
             this.chkVFOSplit.CheckedChanged += new System.EventHandler(this.chkVFOSplit_CheckedChanged);
@@ -3129,7 +3067,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkSQLMainRX, "chkSQLMainRX");
             this.chkSQLMainRX.FlatAppearance.BorderSize = 0;
-            this.chkSQLMainRX.Image = null;
             this.chkSQLMainRX.Name = "chkSQLMainRX";
             this.toolTip1.SetToolTip(this.chkSQLMainRX, resources.GetString("chkSQLMainRX.ToolTip"));
             this.chkSQLMainRX.CheckedChanged += new System.EventHandler(this.chkSQLMainRX_CheckedChanged);
@@ -3192,7 +3129,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkVACEnabled, "chkVACEnabled");
             this.chkVACEnabled.FlatAppearance.BorderSize = 0;
-            this.chkVACEnabled.Image = null;
             this.chkVACEnabled.Name = "chkVACEnabled";
             this.toolTip1.SetToolTip(this.chkVACEnabled, resources.GetString("chkVACEnabled.ToolTip"));
             this.chkVACEnabled.CheckedChanged += new System.EventHandler(this.chkVACEnabled_CheckedChanged);
@@ -3272,15 +3208,14 @@ namespace PowerSDR
             this.ptbSubRXFilterWidth.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbSubRXFilterWidth, resources.GetString("ptbSubRXFilterWidth.ToolTip"));
             this.ptbSubRXFilterWidth.Value = 1;
+            this.ptbSubRXFilterWidth.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbSubRXFilterWidth_Scroll);
             this.ptbSubRXFilterWidth.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbSubRXFilterWidth_OnWheel);
             this.ptbSubRXFilterWidth.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbSubRXFilterWidth_MouseMove);
-            this.ptbSubRXFilterWidth.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbSubRXFilterWidth_Scroll);
             // 
             // btnSubRXFilterShiftReset
             // 
             this.btnSubRXFilterShiftReset.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnSubRXFilterShiftReset, "btnSubRXFilterShiftReset");
-            this.btnSubRXFilterShiftReset.Image = null;
             this.btnSubRXFilterShiftReset.Name = "btnSubRXFilterShiftReset";
             this.btnSubRXFilterShiftReset.Tag = "Reset Filter Shift";
             this.toolTip1.SetToolTip(this.btnSubRXFilterShiftReset, resources.GetString("btnSubRXFilterShiftReset.ToolTip"));
@@ -3299,15 +3234,14 @@ namespace PowerSDR
             this.ptbSubRXFilterShift.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbSubRXFilterShift, resources.GetString("ptbSubRXFilterShift.ToolTip"));
             this.ptbSubRXFilterShift.Value = 0;
+            this.ptbSubRXFilterShift.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbSubRXFilterShift_Scroll);
             this.ptbSubRXFilterShift.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbSubRXFilterShift_OnWheel);
             this.ptbSubRXFilterShift.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptbSubRXFilterShift_MouseMove);
-            this.ptbSubRXFilterShift.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbSubRXFilterShift_Scroll);
             // 
             // chkNB2SubRX
             // 
             resources.ApplyResources(this.chkNB2SubRX, "chkNB2SubRX");
             this.chkNB2SubRX.FlatAppearance.BorderSize = 0;
-            this.chkNB2SubRX.Image = null;
             this.chkNB2SubRX.Name = "chkNB2SubRX";
             this.toolTip1.SetToolTip(this.chkNB2SubRX, resources.GetString("chkNB2SubRX.ToolTip"));
             this.chkNB2SubRX.CheckedChanged += new System.EventHandler(this.chkNB2SubRX_CheckedChanged);
@@ -3316,7 +3250,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkNBSubRX, "chkNBSubRX");
             this.chkNBSubRX.FlatAppearance.BorderSize = 0;
-            this.chkNBSubRX.Image = null;
             this.chkNBSubRX.Name = "chkNBSubRX";
             this.toolTip1.SetToolTip(this.chkNBSubRX, resources.GetString("chkNBSubRX.ToolTip"));
             this.chkNBSubRX.CheckedChanged += new System.EventHandler(this.chkNBSubRX_CheckedChanged);
@@ -3325,7 +3258,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkANFSubRX, "chkANFSubRX");
             this.chkANFSubRX.FlatAppearance.BorderSize = 0;
-            this.chkANFSubRX.Image = null;
             this.chkANFSubRX.Name = "chkANFSubRX";
             this.toolTip1.SetToolTip(this.chkANFSubRX, resources.GetString("chkANFSubRX.ToolTip"));
             this.chkANFSubRX.CheckedChanged += new System.EventHandler(this.chkANFSubRX_CheckedChanged);
@@ -3334,7 +3266,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkNRSubRX, "chkNRSubRX");
             this.chkNRSubRX.FlatAppearance.BorderSize = 0;
-            this.chkNRSubRX.Image = null;
             this.chkNRSubRX.Name = "chkNRSubRX";
             this.toolTip1.SetToolTip(this.chkNRSubRX, resources.GetString("chkNRSubRX.ToolTip"));
             this.chkNRSubRX.CheckedChanged += new System.EventHandler(this.chkNRSubRX_CheckedChanged);
@@ -3343,7 +3274,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkBINSubRX, "chkBINSubRX");
             this.chkBINSubRX.FlatAppearance.BorderSize = 0;
-            this.chkBINSubRX.Image = null;
             this.chkBINSubRX.Name = "chkBINSubRX";
             this.toolTip1.SetToolTip(this.chkBINSubRX, resources.GetString("chkBINSubRX.ToolTip"));
             this.chkBINSubRX.CheckedChanged += new System.EventHandler(this.chkBINSubRX_CheckedChanged);
@@ -3383,8 +3313,8 @@ namespace PowerSDR
             this.ptbSQLMainRX.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbSQLMainRX, resources.GetString("ptbSQLMainRX.ToolTip"));
             this.ptbSQLMainRX.Value = -150;
-            this.ptbSQLMainRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbSQL_OnWheel);
             this.ptbSQLMainRX.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbSQL_Scroll);
+            this.ptbSQLMainRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbSQL_OnWheel);
             // 
             // udSQLSubRX
             // 
@@ -3420,7 +3350,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkSQLSubRX, "chkSQLSubRX");
             this.chkSQLSubRX.FlatAppearance.BorderSize = 0;
-            this.chkSQLSubRX.Image = null;
             this.chkSQLSubRX.Name = "chkSQLSubRX";
             this.toolTip1.SetToolTip(this.chkSQLSubRX, resources.GetString("chkSQLSubRX.ToolTip"));
             this.chkSQLSubRX.CheckedChanged += new System.EventHandler(this.chkSQLSubRX_CheckedChanged);
@@ -3438,8 +3367,8 @@ namespace PowerSDR
             this.ptbSQLSubRX.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbSQLSubRX, resources.GetString("ptbSQLSubRX.ToolTip"));
             this.ptbSQLSubRX.Value = -150;
-            this.ptbSQLSubRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbSQLSubRX_OnWheel);
             this.ptbSQLSubRX.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbSQLSubRX_Scroll);
+            this.ptbSQLSubRX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbSQLSubRX_OnWheel);
             // 
             // udSQLMainRX
             // 
@@ -3496,8 +3425,8 @@ namespace PowerSDR
             this.ptbPWR1.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbPWR1, resources.GetString("ptbPWR1.ToolTip"));
             this.ptbPWR1.Value = 50;
-            this.ptbPWR1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbPWR1_OnWheel);
             this.ptbPWR1.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbPWR1_Scroll);
+            this.ptbPWR1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbPWR1_OnWheel);
             // 
             // ptbRF1
             // 
@@ -3512,8 +3441,8 @@ namespace PowerSDR
             this.ptbRF1.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbRF1, resources.GetString("ptbRF1.ToolTip"));
             this.ptbRF1.Value = 90;
-            this.ptbRF1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbRF1_OnWheel);
             this.ptbRF1.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbRF1_Scroll);
+            this.ptbRF1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbRF1_OnWheel);
             // 
             // ptbAF1
             // 
@@ -3528,8 +3457,8 @@ namespace PowerSDR
             this.ptbAF1.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbAF1, resources.GetString("ptbAF1.ToolTip"));
             this.ptbAF1.Value = 50;
-            this.ptbAF1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbAF1_OnWheel);
             this.ptbAF1.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbAF1_Scroll);
+            this.ptbAF1.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbAF1_OnWheel);
             // 
             // udRF1
             // 
@@ -3627,7 +3556,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblRX2, "lblRX2");
             this.lblRX2.BackColor = System.Drawing.Color.Black;
             this.lblRX2.ForeColor = System.Drawing.Color.Olive;
-            this.lblRX2.Image = null;
             this.lblRX2.Name = "lblRX2";
             this.toolTip1.SetToolTip(this.lblRX2, resources.GetString("lblRX2.ToolTip"));
             this.lblRX2.Click += new System.EventHandler(this.lblRX2_Click);
@@ -3645,8 +3573,8 @@ namespace PowerSDR
             this.ptbNotchWidth.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbNotchWidth, resources.GetString("ptbNotchWidth.ToolTip"));
             this.ptbNotchWidth.Value = 200;
-            this.ptbNotchWidth.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbNotchWidth_OnWheel);
             this.ptbNotchWidth.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbNotchWidth_Scroll);
+            this.ptbNotchWidth.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbNotchWidth_OnWheel);
             // 
             // ptbNotchShift
             // 
@@ -3661,14 +3589,13 @@ namespace PowerSDR
             this.ptbNotchShift.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbNotchShift, resources.GetString("ptbNotchShift.ToolTip"));
             this.ptbNotchShift.Value = 0;
-            this.ptbNotchShift.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbNotchShift_OnWheel);
             this.ptbNotchShift.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbNotchShift_Scroll);
+            this.ptbNotchShift.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbNotchShift_OnWheel);
             // 
             // btnNotchReset
             // 
             this.btnNotchReset.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnNotchReset, "btnNotchReset");
-            this.btnNotchReset.Image = null;
             this.btnNotchReset.Name = "btnNotchReset";
             this.btnNotchReset.Tag = "Reset Filter Shift";
             this.toolTip1.SetToolTip(this.btnNotchReset, resources.GetString("btnNotchReset.ToolTip"));
@@ -3678,7 +3605,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeAM, "radSUBRxModeAM");
             this.radSUBRxModeAM.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeAM.Image = null;
             this.radSUBRxModeAM.Name = "radSUBRxModeAM";
             this.toolTip1.SetToolTip(this.radSUBRxModeAM, resources.GetString("radSUBRxModeAM.ToolTip"));
             this.radSUBRxModeAM.CheckedChanged += new System.EventHandler(this.radSUBRxModeAM_CheckedChanged);
@@ -3687,7 +3613,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeSAM, "radSUBRxModeSAM");
             this.radSUBRxModeSAM.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeSAM.Image = null;
             this.radSUBRxModeSAM.Name = "radSUBRxModeSAM";
             this.toolTip1.SetToolTip(this.radSUBRxModeSAM, resources.GetString("radSUBRxModeSAM.ToolTip"));
             this.radSUBRxModeSAM.CheckedChanged += new System.EventHandler(this.radSUBRxModeSAM_CheckedChanged);
@@ -3696,7 +3621,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeDSB, "radSUBRxModeDSB");
             this.radSUBRxModeDSB.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeDSB.Image = null;
             this.radSUBRxModeDSB.Name = "radSUBRxModeDSB";
             this.toolTip1.SetToolTip(this.radSUBRxModeDSB, resources.GetString("radSUBRxModeDSB.ToolTip"));
             this.radSUBRxModeDSB.CheckedChanged += new System.EventHandler(this.radSUBRxModeDSB_CheckedChanged);
@@ -3705,7 +3629,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeCWU, "radSUBRxModeCWU");
             this.radSUBRxModeCWU.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeCWU.Image = null;
             this.radSUBRxModeCWU.Name = "radSUBRxModeCWU";
             this.toolTip1.SetToolTip(this.radSUBRxModeCWU, resources.GetString("radSUBRxModeCWU.ToolTip"));
             this.radSUBRxModeCWU.CheckedChanged += new System.EventHandler(this.radSUBRxModeCWU_CheckedChanged);
@@ -3714,7 +3637,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeDIGU, "radSUBRxModeDIGU");
             this.radSUBRxModeDIGU.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeDIGU.Image = null;
             this.radSUBRxModeDIGU.Name = "radSUBRxModeDIGU";
             this.toolTip1.SetToolTip(this.radSUBRxModeDIGU, resources.GetString("radSUBRxModeDIGU.ToolTip"));
             this.radSUBRxModeDIGU.CheckedChanged += new System.EventHandler(this.radSUBRxModeDIGU_CheckedChanged);
@@ -3723,7 +3645,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeDIGL, "radSUBRxModeDIGL");
             this.radSUBRxModeDIGL.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeDIGL.Image = null;
             this.radSUBRxModeDIGL.Name = "radSUBRxModeDIGL";
             this.toolTip1.SetToolTip(this.radSUBRxModeDIGL, resources.GetString("radSUBRxModeDIGL.ToolTip"));
             this.radSUBRxModeDIGL.CheckedChanged += new System.EventHandler(this.radSUBRxModeDIGL_CheckedChanged);
@@ -3732,7 +3653,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeLSB, "radSUBRxModeLSB");
             this.radSUBRxModeLSB.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeLSB.Image = null;
             this.radSUBRxModeLSB.Name = "radSUBRxModeLSB";
             this.toolTip1.SetToolTip(this.radSUBRxModeLSB, resources.GetString("radSUBRxModeLSB.ToolTip"));
             this.radSUBRxModeLSB.CheckedChanged += new System.EventHandler(this.radSUBRxModeLSB_CheckedChanged);
@@ -3741,7 +3661,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeSPEC, "radSUBRxModeSPEC");
             this.radSUBRxModeSPEC.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeSPEC.Image = null;
             this.radSUBRxModeSPEC.Name = "radSUBRxModeSPEC";
             this.toolTip1.SetToolTip(this.radSUBRxModeSPEC, resources.GetString("radSUBRxModeSPEC.ToolTip"));
             this.radSUBRxModeSPEC.CheckedChanged += new System.EventHandler(this.radSUBRxModeSPEC_CheckedChanged);
@@ -3750,7 +3669,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeDRM, "radSUBRxModeDRM");
             this.radSUBRxModeDRM.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeDRM.Image = null;
             this.radSUBRxModeDRM.Name = "radSUBRxModeDRM";
             this.toolTip1.SetToolTip(this.radSUBRxModeDRM, resources.GetString("radSUBRxModeDRM.ToolTip"));
             this.radSUBRxModeDRM.CheckedChanged += new System.EventHandler(this.radSUBRxModeDRM_CheckedChanged);
@@ -3759,7 +3677,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeFMN, "radSUBRxModeFMN");
             this.radSUBRxModeFMN.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeFMN.Image = null;
             this.radSUBRxModeFMN.Name = "radSUBRxModeFMN";
             this.toolTip1.SetToolTip(this.radSUBRxModeFMN, resources.GetString("radSUBRxModeFMN.ToolTip"));
             this.radSUBRxModeFMN.CheckedChanged += new System.EventHandler(this.radSUBRxModeFMN_CheckedChanged);
@@ -3769,7 +3686,6 @@ namespace PowerSDR
             resources.ApplyResources(this.radSUBRxModeUSB, "radSUBRxModeUSB");
             this.radSUBRxModeUSB.BackColor = System.Drawing.SystemColors.Control;
             this.radSUBRxModeUSB.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeUSB.Image = null;
             this.radSUBRxModeUSB.Name = "radSUBRxModeUSB";
             this.toolTip1.SetToolTip(this.radSUBRxModeUSB, resources.GetString("radSUBRxModeUSB.ToolTip"));
             this.radSUBRxModeUSB.UseVisualStyleBackColor = false;
@@ -3779,7 +3695,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSUBRxModeCWL, "radSUBRxModeCWL");
             this.radSUBRxModeCWL.FlatAppearance.BorderSize = 0;
-            this.radSUBRxModeCWL.Image = null;
             this.radSUBRxModeCWL.Name = "radSUBRxModeCWL";
             this.toolTip1.SetToolTip(this.radSUBRxModeCWL, resources.GetString("radSUBRxModeCWL.ToolTip"));
             this.radSUBRxModeCWL.CheckedChanged += new System.EventHandler(this.radSUBRxModeCWL_CheckedChanged);
@@ -3788,7 +3703,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeAM, "radModeAM");
             this.radModeAM.FlatAppearance.BorderSize = 0;
-            this.radModeAM.Image = null;
             this.radModeAM.Name = "radModeAM";
             this.toolTip1.SetToolTip(this.radModeAM, resources.GetString("radModeAM.ToolTip"));
             this.radModeAM.CheckedChanged += new System.EventHandler(this.radModeAM_CheckedChanged);
@@ -3797,7 +3711,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeSAM, "radModeSAM");
             this.radModeSAM.FlatAppearance.BorderSize = 0;
-            this.radModeSAM.Image = null;
             this.radModeSAM.Name = "radModeSAM";
             this.toolTip1.SetToolTip(this.radModeSAM, resources.GetString("radModeSAM.ToolTip"));
             this.radModeSAM.CheckedChanged += new System.EventHandler(this.radModeSAM_CheckedChanged);
@@ -3806,7 +3719,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeDSB, "radModeDSB");
             this.radModeDSB.FlatAppearance.BorderSize = 0;
-            this.radModeDSB.Image = null;
             this.radModeDSB.Name = "radModeDSB";
             this.toolTip1.SetToolTip(this.radModeDSB, resources.GetString("radModeDSB.ToolTip"));
             this.radModeDSB.CheckedChanged += new System.EventHandler(this.radModeDSB_CheckedChanged);
@@ -3815,7 +3727,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeCWU, "radModeCWU");
             this.radModeCWU.FlatAppearance.BorderSize = 0;
-            this.radModeCWU.Image = null;
             this.radModeCWU.Name = "radModeCWU";
             this.toolTip1.SetToolTip(this.radModeCWU, resources.GetString("radModeCWU.ToolTip"));
             this.radModeCWU.CheckedChanged += new System.EventHandler(this.radModeCWU_CheckedChanged);
@@ -3824,7 +3735,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeDIGU, "radModeDIGU");
             this.radModeDIGU.FlatAppearance.BorderSize = 0;
-            this.radModeDIGU.Image = null;
             this.radModeDIGU.Name = "radModeDIGU";
             this.toolTip1.SetToolTip(this.radModeDIGU, resources.GetString("radModeDIGU.ToolTip"));
             this.radModeDIGU.CheckedChanged += new System.EventHandler(this.radModeDIGU_CheckedChanged);
@@ -3833,7 +3743,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeDIGL, "radModeDIGL");
             this.radModeDIGL.FlatAppearance.BorderSize = 0;
-            this.radModeDIGL.Image = null;
             this.radModeDIGL.Name = "radModeDIGL";
             this.toolTip1.SetToolTip(this.radModeDIGL, resources.GetString("radModeDIGL.ToolTip"));
             this.radModeDIGL.CheckedChanged += new System.EventHandler(this.radModeDIGL_CheckedChanged);
@@ -3842,7 +3751,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeLSB, "radModeLSB");
             this.radModeLSB.FlatAppearance.BorderSize = 0;
-            this.radModeLSB.Image = null;
             this.radModeLSB.Name = "radModeLSB";
             this.toolTip1.SetToolTip(this.radModeLSB, resources.GetString("radModeLSB.ToolTip"));
             this.radModeLSB.CheckedChanged += new System.EventHandler(this.radModeLSB_CheckedChanged);
@@ -3851,7 +3759,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeSPEC, "radModeSPEC");
             this.radModeSPEC.FlatAppearance.BorderSize = 0;
-            this.radModeSPEC.Image = null;
             this.radModeSPEC.Name = "radModeSPEC";
             this.toolTip1.SetToolTip(this.radModeSPEC, resources.GetString("radModeSPEC.ToolTip"));
             this.radModeSPEC.CheckedChanged += new System.EventHandler(this.radModeSPEC_CheckedChanged);
@@ -3860,7 +3767,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeDRM, "radModeDRM");
             this.radModeDRM.FlatAppearance.BorderSize = 0;
-            this.radModeDRM.Image = null;
             this.radModeDRM.Name = "radModeDRM";
             this.toolTip1.SetToolTip(this.radModeDRM, resources.GetString("radModeDRM.ToolTip"));
             this.radModeDRM.CheckedChanged += new System.EventHandler(this.radModeDRM_CheckedChanged);
@@ -3869,7 +3775,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeFMN, "radModeFMN");
             this.radModeFMN.FlatAppearance.BorderSize = 0;
-            this.radModeFMN.Image = null;
             this.radModeFMN.Name = "radModeFMN";
             this.toolTip1.SetToolTip(this.radModeFMN, resources.GetString("radModeFMN.ToolTip"));
             this.radModeFMN.CheckedChanged += new System.EventHandler(this.radModeFMN_CheckedChanged);
@@ -3879,7 +3784,6 @@ namespace PowerSDR
             resources.ApplyResources(this.radModeUSB, "radModeUSB");
             this.radModeUSB.BackColor = System.Drawing.SystemColors.Control;
             this.radModeUSB.FlatAppearance.BorderSize = 0;
-            this.radModeUSB.Image = null;
             this.radModeUSB.Name = "radModeUSB";
             this.toolTip1.SetToolTip(this.radModeUSB, resources.GetString("radModeUSB.ToolTip"));
             this.radModeUSB.UseVisualStyleBackColor = true;
@@ -3889,7 +3793,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radModeWFM, "radModeWFM");
             this.radModeWFM.FlatAppearance.BorderSize = 0;
-            this.radModeWFM.Image = null;
             this.radModeWFM.Name = "radModeWFM";
             this.toolTip1.SetToolTip(this.radModeWFM, resources.GetString("radModeWFM.ToolTip"));
             this.radModeWFM.CheckedChanged += new System.EventHandler(this.radModeWFM_CheckedChanged);
@@ -3897,7 +3800,6 @@ namespace PowerSDR
             // chkManualNotchFilter
             // 
             resources.ApplyResources(this.chkManualNotchFilter, "chkManualNotchFilter");
-            this.chkManualNotchFilter.Image = null;
             this.chkManualNotchFilter.Name = "chkManualNotchFilter";
             this.toolTip1.SetToolTip(this.chkManualNotchFilter, resources.GetString("chkManualNotchFilter.ToolTip"));
             this.chkManualNotchFilter.UseVisualStyleBackColor = true;
@@ -3907,7 +3809,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG11ATTbtn, "chkG11ATTbtn");
             this.chkG11ATTbtn.FlatAppearance.BorderSize = 0;
-            this.chkG11ATTbtn.Image = null;
             this.chkG11ATTbtn.Name = "chkG11ATTbtn";
             this.toolTip1.SetToolTip(this.chkG11ATTbtn, resources.GetString("chkG11ATTbtn.ToolTip"));
             this.chkG11ATTbtn.UseVisualStyleBackColor = true;
@@ -3917,7 +3818,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG11AFbtn, "chkG11AFbtn");
             this.chkG11AFbtn.FlatAppearance.BorderSize = 0;
-            this.chkG11AFbtn.Image = null;
             this.chkG11AFbtn.Name = "chkG11AFbtn";
             this.toolTip1.SetToolTip(this.chkG11AFbtn, resources.GetString("chkG11AFbtn.ToolTip"));
             this.chkG11AFbtn.UseVisualStyleBackColor = true;
@@ -3927,7 +3827,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG11RFbtn, "chkG11RFbtn");
             this.chkG11RFbtn.FlatAppearance.BorderSize = 0;
-            this.chkG11RFbtn.Image = null;
             this.chkG11RFbtn.Name = "chkG11RFbtn";
             this.toolTip1.SetToolTip(this.chkG11RFbtn, resources.GetString("chkG11RFbtn.ToolTip"));
             this.chkG11RFbtn.UseVisualStyleBackColor = true;
@@ -3938,38 +3837,34 @@ namespace PowerSDR
             resources.ApplyResources(this.radBandHF, "radBandHF");
             this.radBandHF.Checked = true;
             this.radBandHF.FlatAppearance.BorderSize = 0;
-            this.radBandHF.Image = null;
             this.radBandHF.Name = "radBandHF";
             this.radBandHF.TabStop = true;
             this.toolTip1.SetToolTip(this.radBandHF, resources.GetString("radBandHF.ToolTip"));
-            this.radBandHF.Click += new System.EventHandler(this.radBandHF_Click);
             this.radBandHF.CheckedChanged += new System.EventHandler(this.radBandHF_CheckedChanged);
+            this.radBandHF.Click += new System.EventHandler(this.radBandHF_Click);
             // 
             // radBand600
             // 
             resources.ApplyResources(this.radBand600, "radBand600");
             this.radBand600.FlatAppearance.BorderSize = 0;
-            this.radBand600.Image = null;
             this.radBand600.Name = "radBand600";
             this.toolTip1.SetToolTip(this.radBand600, resources.GetString("radBand600.ToolTip"));
-            this.radBand600.Click += new System.EventHandler(this.radBand600_Click);
             this.radBand600.CheckedChanged += new System.EventHandler(this.radBand600_CheckedChanged);
+            this.radBand600.Click += new System.EventHandler(this.radBand600_Click);
             // 
             // radBand2190
             // 
             resources.ApplyResources(this.radBand2190, "radBand2190");
             this.radBand2190.FlatAppearance.BorderSize = 0;
-            this.radBand2190.Image = null;
             this.radBand2190.Name = "radBand2190";
             this.toolTip1.SetToolTip(this.radBand2190, resources.GetString("radBand2190.ToolTip"));
-            this.radBand2190.Click += new System.EventHandler(this.radBand2190_Click);
             this.radBand2190.CheckedChanged += new System.EventHandler(this.radBand2190_CheckedChanged);
+            this.radBand2190.Click += new System.EventHandler(this.radBand2190_Click);
             // 
             // btnFMMC
             // 
             this.btnFMMC.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnFMMC, "btnFMMC");
-            this.btnFMMC.Image = null;
             this.btnFMMC.Name = "btnFMMC";
             this.toolTip1.SetToolTip(this.btnFMMC, resources.GetString("btnFMMC.ToolTip"));
             this.btnFMMC.Click += new System.EventHandler(this.btnFMMC_Click);
@@ -3978,7 +3873,6 @@ namespace PowerSDR
             // 
             this.btnFMMR.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnFMMR, "btnFMMR");
-            this.btnFMMR.Image = null;
             this.btnFMMR.Name = "btnFMMR";
             this.toolTip1.SetToolTip(this.btnFMMR, resources.GetString("btnFMMR.ToolTip"));
             this.btnFMMR.Click += new System.EventHandler(this.btnFMMR_Click);
@@ -3987,7 +3881,6 @@ namespace PowerSDR
             // 
             this.btnFMMS.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnFMMS, "btnFMMS");
-            this.btnFMMS.Image = null;
             this.btnFMMS.Name = "btnFMMS";
             this.toolTip1.SetToolTip(this.btnFMMS, resources.GetString("btnFMMS.ToolTip"));
             this.btnFMMS.Click += new System.EventHandler(this.btnFMMS_Click);
@@ -3998,12 +3891,10 @@ namespace PowerSDR
             this.lblMemoryNumber.BackColor = System.Drawing.Color.Blue;
             this.lblMemoryNumber.ContextMenuStrip = this.contextMemoryMenu;
             this.lblMemoryNumber.ForeColor = System.Drawing.Color.White;
-            this.lblMemoryNumber.Image = null;
-            this.lblMemoryNumber.MinimumSize = new System.Drawing.Size(27, 20);
             this.lblMemoryNumber.Name = "lblMemoryNumber";
             this.toolTip1.SetToolTip(this.lblMemoryNumber, resources.GetString("lblMemoryNumber.ToolTip"));
-            this.lblMemoryNumber.MouseLeave += new System.EventHandler(this.MemoryButton_MouseLeave);
             this.lblMemoryNumber.Click += new System.EventHandler(this.lblMemoryNumber_Click);
+            this.lblMemoryNumber.MouseLeave += new System.EventHandler(this.MemoryButton_MouseLeave);
             this.lblMemoryNumber.MouseHover += new System.EventHandler(this.MemoryButton_MouseHover);
             // 
             // contextMemoryMenu
@@ -4025,12 +3916,10 @@ namespace PowerSDR
             this.lblFMMemory.BackColor = System.Drawing.Color.Blue;
             this.lblFMMemory.ContextMenuStrip = this.contextMenuFMMemory;
             this.lblFMMemory.ForeColor = System.Drawing.Color.White;
-            this.lblFMMemory.Image = null;
-            this.lblFMMemory.MinimumSize = new System.Drawing.Size(27, 20);
             this.lblFMMemory.Name = "lblFMMemory";
             this.toolTip1.SetToolTip(this.lblFMMemory, resources.GetString("lblFMMemory.ToolTip"));
-            this.lblFMMemory.MouseLeave += new System.EventHandler(this.lblFMMemory_MouseLeave);
             this.lblFMMemory.Click += new System.EventHandler(this.lblFMMemory_Click);
+            this.lblFMMemory.MouseLeave += new System.EventHandler(this.lblFMMemory_MouseLeave);
             this.lblFMMemory.MouseHover += new System.EventHandler(this.lblFMMemory_MouseHover);
             // 
             // contextMenuFMMemory
@@ -4076,7 +3965,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFMModeHigh, "radFMModeHigh");
             this.radFMModeHigh.FlatAppearance.BorderSize = 0;
-            this.radFMModeHigh.Image = null;
             this.radFMModeHigh.Name = "radFMModeHigh";
             this.toolTip1.SetToolTip(this.radFMModeHigh, resources.GetString("radFMModeHigh.ToolTip"));
             this.radFMModeHigh.CheckedChanged += new System.EventHandler(this.radFMModeHigh_CheckedChanged);
@@ -4086,7 +3974,6 @@ namespace PowerSDR
             resources.ApplyResources(this.radFMModeSimplex, "radFMModeSimplex");
             this.radFMModeSimplex.Checked = true;
             this.radFMModeSimplex.FlatAppearance.BorderSize = 0;
-            this.radFMModeSimplex.Image = null;
             this.radFMModeSimplex.Name = "radFMModeSimplex";
             this.radFMModeSimplex.TabStop = true;
             this.toolTip1.SetToolTip(this.radFMModeSimplex, resources.GetString("radFMModeSimplex.ToolTip"));
@@ -4096,7 +3983,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFMModeLow, "radFMModeLow");
             this.radFMModeLow.FlatAppearance.BorderSize = 0;
-            this.radFMModeLow.Image = null;
             this.radFMModeLow.Name = "radFMModeLow";
             this.toolTip1.SetToolTip(this.radFMModeLow, resources.GetString("radFMModeLow.ToolTip"));
             this.radFMModeLow.CheckedChanged += new System.EventHandler(this.radFMModeLow_CheckedChanged);
@@ -4105,7 +3991,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkCTCSS, "chkCTCSS");
             this.chkCTCSS.FlatAppearance.BorderSize = 0;
-            this.chkCTCSS.Image = null;
             this.chkCTCSS.Name = "chkCTCSS";
             this.toolTip1.SetToolTip(this.chkCTCSS, resources.GetString("chkCTCSS.ToolTip"));
             this.chkCTCSS.UseVisualStyleBackColor = false;
@@ -4172,14 +4057,13 @@ namespace PowerSDR
             this.ptbFMMicGain.TabStop = false;
             this.toolTip1.SetToolTip(this.ptbFMMicGain, resources.GetString("ptbFMMicGain.ToolTip"));
             this.ptbFMMicGain.Value = 35;
-            this.ptbFMMicGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbFMMicGain_OnWheel);
             this.ptbFMMicGain.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.ptbFMMicGain_Scroll);
+            this.ptbFMMicGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.ptbFMMicGain_OnWheel);
             // 
             // chkVACMute
             // 
             resources.ApplyResources(this.chkVACMute, "chkVACMute");
             this.chkVACMute.FlatAppearance.BorderSize = 0;
-            this.chkVACMute.Image = null;
             this.chkVACMute.Name = "chkVACMute";
             this.toolTip1.SetToolTip(this.chkVACMute, resources.GetString("chkVACMute.ToolTip"));
             this.chkVACMute.CheckedChanged += new System.EventHandler(this.chkVACMute_CheckedChanged);
@@ -4188,7 +4072,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG6ATT_6dB, "chkG6ATT_6dB");
             this.chkG6ATT_6dB.FlatAppearance.BorderSize = 0;
-            this.chkG6ATT_6dB.Image = null;
             this.chkG6ATT_6dB.Name = "chkG6ATT_6dB";
             this.toolTip1.SetToolTip(this.chkG6ATT_6dB, resources.GetString("chkG6ATT_6dB.ToolTip"));
             this.chkG6ATT_6dB.UseVisualStyleBackColor = true;
@@ -4198,7 +4081,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG6AF, "chkG6AF");
             this.chkG6AF.FlatAppearance.BorderSize = 0;
-            this.chkG6AF.Image = null;
             this.chkG6AF.Name = "chkG6AF";
             this.toolTip1.SetToolTip(this.chkG6AF, resources.GetString("chkG6AF.ToolTip"));
             this.chkG6AF.UseVisualStyleBackColor = true;
@@ -4208,7 +4090,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG6RF, "chkG6RF");
             this.chkG6RF.FlatAppearance.BorderSize = 0;
-            this.chkG6RF.Image = null;
             this.chkG6RF.Name = "chkG6RF";
             this.toolTip1.SetToolTip(this.chkG6RF, resources.GetString("chkG6RF.ToolTip"));
             this.chkG6RF.UseVisualStyleBackColor = true;
@@ -4217,7 +4098,6 @@ namespace PowerSDR
             // chkWFMstereo
             // 
             resources.ApplyResources(this.chkWFMstereo, "chkWFMstereo");
-            this.chkWFMstereo.Image = null;
             this.chkWFMstereo.Name = "chkWFMstereo";
             this.toolTip1.SetToolTip(this.chkWFMstereo, resources.GetString("chkWFMstereo.ToolTip"));
             this.chkWFMstereo.UseVisualStyleBackColor = true;
@@ -4227,7 +4107,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG6ATT_12dB, "chkG6ATT_12dB");
             this.chkG6ATT_12dB.FlatAppearance.BorderSize = 0;
-            this.chkG6ATT_12dB.Image = null;
             this.chkG6ATT_12dB.Name = "chkG6ATT_12dB";
             this.toolTip1.SetToolTip(this.chkG6ATT_12dB, resources.GetString("chkG6ATT_12dB.ToolTip"));
             this.chkG6ATT_12dB.UseVisualStyleBackColor = true;
@@ -4237,7 +4116,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkG6ATT_18dB, "chkG6ATT_18dB");
             this.chkG6ATT_18dB.FlatAppearance.BorderSize = 0;
-            this.chkG6ATT_18dB.Image = null;
             this.chkG6ATT_18dB.Name = "chkG6ATT_18dB";
             this.toolTip1.SetToolTip(this.chkG6ATT_18dB, resources.GetString("chkG6ATT_18dB.ToolTip"));
             this.chkG6ATT_18dB.UseVisualStyleBackColor = true;
@@ -4395,7 +4273,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnG500_X1, "btnG500_X1");
             this.btnG500_X1.FlatAppearance.BorderSize = 0;
-            this.btnG500_X1.Image = null;
             this.btnG500_X1.Name = "btnG500_X1";
             this.btnG500_X1.UseVisualStyleBackColor = true;
             this.btnG500_X1.Click += new System.EventHandler(this.btnG500_X1_Click);
@@ -4411,7 +4288,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnG137_X1, "btnG137_X1");
             this.btnG137_X1.FlatAppearance.BorderSize = 0;
-            this.btnG137_X1.Image = null;
             this.btnG137_X1.Name = "btnG137_X1";
             this.btnG137_X1.UseVisualStyleBackColor = true;
             this.btnG137_X1.Click += new System.EventHandler(this.btnG137_X1_Click);
@@ -4427,7 +4303,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnG40_X1, "btnG40_X1");
             this.btnG40_X1.FlatAppearance.BorderSize = 0;
-            this.btnG40_X1.Image = null;
             this.btnG40_X1.Name = "btnG40_X1";
             this.btnG40_X1.UseVisualStyleBackColor = true;
             this.btnG40_X1.Click += new System.EventHandler(this.btnG40_X1_Click);
@@ -4475,7 +4350,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnMsg6, "btnMsg6");
             this.btnMsg6.FlatAppearance.BorderSize = 0;
-            this.btnMsg6.Image = null;
             this.btnMsg6.Name = "btnMsg6";
             this.btnMsg6.UseVisualStyleBackColor = true;
             this.btnMsg6.Click += new System.EventHandler(this.btnMsg6_Click);
@@ -4485,7 +4359,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnMsg5, "btnMsg5");
             this.btnMsg5.FlatAppearance.BorderSize = 0;
-            this.btnMsg5.Image = null;
             this.btnMsg5.Name = "btnMsg5";
             this.btnMsg5.UseVisualStyleBackColor = true;
             this.btnMsg5.Click += new System.EventHandler(this.btnMsg5_Click);
@@ -4495,7 +4368,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnMsg4, "btnMsg4");
             this.btnMsg4.FlatAppearance.BorderSize = 0;
-            this.btnMsg4.Image = null;
             this.btnMsg4.Name = "btnMsg4";
             this.btnMsg4.UseVisualStyleBackColor = true;
             this.btnMsg4.Click += new System.EventHandler(this.btnMsg4_Click);
@@ -4505,7 +4377,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnMsg3, "btnMsg3");
             this.btnMsg3.FlatAppearance.BorderSize = 0;
-            this.btnMsg3.Image = null;
             this.btnMsg3.Name = "btnMsg3";
             this.btnMsg3.UseVisualStyleBackColor = true;
             this.btnMsg3.Click += new System.EventHandler(this.btnMsg3_Click);
@@ -4515,7 +4386,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnMsg2, "btnMsg2");
             this.btnMsg2.FlatAppearance.BorderSize = 0;
-            this.btnMsg2.Image = null;
             this.btnMsg2.Name = "btnMsg2";
             this.btnMsg2.UseVisualStyleBackColor = true;
             this.btnMsg2.Click += new System.EventHandler(this.btnMsg2_Click);
@@ -4526,7 +4396,6 @@ namespace PowerSDR
             resources.ApplyResources(this.btnMsg1, "btnMsg1");
             this.btnMsg1.FlatAppearance.BorderSize = 0;
             this.btnMsg1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMsg1.Image = null;
             this.btnMsg1.Name = "btnMsg1";
             this.btnMsg1.UseVisualStyleBackColor = false;
             this.btnMsg1.Click += new System.EventHandler(this.btnMsg1_Click);
@@ -4600,8 +4469,8 @@ namespace PowerSDR
             this.ptbMIC.SmallChange = 1;
             this.ptbMIC.TabStop = false;
             this.ptbMIC.Value = 35;
-            this.ptbMIC.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbMIC_OnWheel);
             this.ptbMIC.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbMIC_Scroll);
+            this.ptbMIC.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbMIC_OnWheel);
             // 
             // udCPDR
             // 
@@ -4643,8 +4512,8 @@ namespace PowerSDR
             this.ptbCPDR.SmallChange = 1;
             this.ptbCPDR.TabStop = false;
             this.ptbCPDR.Value = 3;
-            this.ptbCPDR.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCPDR_OnWheel);
             this.ptbCPDR.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbCPDR_Scroll);
+            this.ptbCPDR.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCPDR_OnWheel);
             // 
             // udCOMP
             // 
@@ -4686,8 +4555,8 @@ namespace PowerSDR
             this.ptbCOMP.SmallChange = 1;
             this.ptbCOMP.TabStop = false;
             this.ptbCOMP.Value = 3;
-            this.ptbCOMP.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCOMP_OnWheel);
             this.ptbCOMP.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbCOMP_Scroll);
+            this.ptbCOMP.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCOMP_OnWheel);
             // 
             // picNoiseGate
             // 
@@ -4709,8 +4578,8 @@ namespace PowerSDR
             this.ptbNoiseGate.SmallChange = 1;
             this.ptbNoiseGate.TabStop = false;
             this.ptbNoiseGate.Value = -40;
-            this.ptbNoiseGate.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbNoiseGate_OnWheel);
             this.ptbNoiseGate.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbNoiseGate_Scroll);
+            this.ptbNoiseGate.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbNoiseGate_OnWheel);
             // 
             // picVOX
             // 
@@ -4732,8 +4601,8 @@ namespace PowerSDR
             this.ptbVOX.SmallChange = 1;
             this.ptbVOX.TabStop = false;
             this.ptbVOX.Value = 200;
-            this.ptbVOX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVOX_OnWheel);
             this.ptbVOX.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbVOX_Scroll);
+            this.ptbVOX.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVOX_OnWheel);
             // 
             // udMIC
             // 
@@ -4767,13 +4636,11 @@ namespace PowerSDR
             // 
             // lblMIC
             // 
-            this.lblMIC.Image = null;
             resources.ApplyResources(this.lblMIC, "lblMIC");
             this.lblMIC.Name = "lblMIC";
             // 
             // lblTransmitProfile
             // 
-            this.lblTransmitProfile.Image = null;
             resources.ApplyResources(this.lblTransmitProfile, "lblTransmitProfile");
             this.lblTransmitProfile.Name = "lblTransmitProfile";
             // 
@@ -4807,8 +4674,8 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOALSD, "txtVFOALSD");
             this.txtVFOALSD.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOALSD.Name = "txtVFOALSD";
-            this.txtVFOALSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOALSD_MouseMove);
             this.txtVFOALSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOALSD_MouseDown);
+            this.txtVFOALSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOALSD_MouseMove);
             // 
             // txtVFOAMSD
             // 
@@ -4817,9 +4684,9 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOAMSD, "txtVFOAMSD");
             this.txtVFOAMSD.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOAMSD.Name = "txtVFOAMSD";
+            this.txtVFOAMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOAMSD_MouseDown);
             this.txtVFOAMSD.MouseLeave += new System.EventHandler(this.txtVFOAMSD_MouseLeave);
             this.txtVFOAMSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOAMSD_MouseMove);
-            this.txtVFOAMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOAMSD_MouseDown);
             // 
             // txtVFOABand
             // 
@@ -4836,14 +4703,13 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOAFreq, "txtVFOAFreq");
             this.txtVFOAFreq.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOAFreq.Name = "txtVFOAFreq";
-            this.txtVFOAFreq.MouseLeave += new System.EventHandler(this.txtVFOAFreq_MouseLeave);
-            this.txtVFOAFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOAFreq_MouseMove);
             this.txtVFOAFreq.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVFOAFreq_KeyPress);
             this.txtVFOAFreq.LostFocus += new System.EventHandler(this.txtVFOAFreq_LostFocus);
+            this.txtVFOAFreq.MouseLeave += new System.EventHandler(this.txtVFOAFreq_MouseLeave);
+            this.txtVFOAFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOAFreq_MouseMove);
             // 
             // btnHidden
             // 
-            this.btnHidden.Image = null;
             resources.ApplyResources(this.btnHidden, "btnHidden");
             this.btnHidden.Name = "btnHidden";
             this.btnHidden.UseVisualStyleBackColor = true;
@@ -4887,7 +4753,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblATTNewVFO, "lblATTNewVFO");
             this.lblATTNewVFO.BackColor = System.Drawing.Color.Black;
             this.lblATTNewVFO.ForeColor = System.Drawing.Color.Olive;
-            this.lblATTNewVFO.Image = null;
             this.lblATTNewVFO.Name = "lblATTNewVFO";
             this.lblATTNewVFO.Click += new System.EventHandler(this.lblATTNewVFO_Click);
             // 
@@ -4896,7 +4761,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblRFNewVFO, "lblRFNewVFO");
             this.lblRFNewVFO.BackColor = System.Drawing.Color.Black;
             this.lblRFNewVFO.ForeColor = System.Drawing.Color.Olive;
-            this.lblRFNewVFO.Image = null;
             this.lblRFNewVFO.Name = "lblRFNewVFO";
             this.lblRFNewVFO.Click += new System.EventHandler(this.lblRFNewVFO_Click);
             // 
@@ -4905,7 +4769,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblAFNewVFO, "lblAFNewVFO");
             this.lblAFNewVFO.BackColor = System.Drawing.Color.Black;
             this.lblAFNewVFO.ForeColor = System.Drawing.Color.Olive;
-            this.lblAFNewVFO.Image = null;
             this.lblAFNewVFO.Name = "lblAFNewVFO";
             this.lblAFNewVFO.Click += new System.EventHandler(this.lblAFNewVFO_Click);
             // 
@@ -4923,7 +4786,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblVFOBTX, "lblVFOBTX");
             this.lblVFOBTX.BackColor = System.Drawing.Color.Black;
             this.lblVFOBTX.ForeColor = System.Drawing.Color.Olive;
-            this.lblVFOBTX.Image = null;
             this.lblVFOBTX.Name = "lblVFOBTX";
             // 
             // lblVFOATX
@@ -4931,7 +4793,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblVFOATX, "lblVFOATX");
             this.lblVFOATX.BackColor = System.Drawing.Color.Black;
             this.lblVFOATX.ForeColor = System.Drawing.Color.Olive;
-            this.lblVFOATX.Image = null;
             this.lblVFOATX.Name = "lblVFOATX";
             // 
             // lblLOSC
@@ -4939,7 +4800,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblLOSC, "lblLOSC");
             this.lblLOSC.BackColor = System.Drawing.Color.Black;
             this.lblLOSC.ForeColor = System.Drawing.Color.Olive;
-            this.lblLOSC.Image = null;
             this.lblLOSC.Name = "lblLOSC";
             // 
             // lblVFOB
@@ -4947,7 +4807,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblVFOB, "lblVFOB");
             this.lblVFOB.BackColor = System.Drawing.Color.Black;
             this.lblVFOB.ForeColor = System.Drawing.Color.Olive;
-            this.lblVFOB.Image = null;
             this.lblVFOB.Name = "lblVFOB";
             // 
             // lblVFOA
@@ -4955,7 +4814,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblVFOA, "lblVFOA");
             this.lblVFOA.BackColor = System.Drawing.Color.Black;
             this.lblVFOA.ForeColor = System.Drawing.Color.Olive;
-            this.lblVFOA.Image = null;
             this.lblVFOA.Name = "lblVFOA";
             // 
             // panelLOSCnewHover
@@ -4990,11 +4848,11 @@ namespace PowerSDR
             resources.ApplyResources(this.txtLOSCnew, "txtLOSCnew");
             this.txtLOSCnew.ForeColor = System.Drawing.Color.Olive;
             this.txtLOSCnew.Name = "txtLOSCnew";
-            this.txtLOSCnew.MouseLeave += new System.EventHandler(this.txtLOSCnew_MouseLeave);
-            this.txtLOSCnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCnew_MouseMove);
-            this.txtLOSCnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtLOSCnew_MouseDown);
             this.txtLOSCnew.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLOSCnew_KeyPress);
             this.txtLOSCnew.LostFocus += new System.EventHandler(this.txtLOSCnew_LostFocus);
+            this.txtLOSCnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtLOSCnew_MouseDown);
+            this.txtLOSCnew.MouseLeave += new System.EventHandler(this.txtLOSCnew_MouseLeave);
+            this.txtLOSCnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCnew_MouseMove);
             // 
             // txtVFOBnew
             // 
@@ -5003,11 +4861,11 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOBnew, "txtVFOBnew");
             this.txtVFOBnew.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOBnew.Name = "txtVFOBnew";
-            this.txtVFOBnew.MouseLeave += new System.EventHandler(this.txtVFOBnew_MouseLeave);
-            this.txtVFOBnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBnew_MouseMove);
-            this.txtVFOBnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOBnew_MouseDown);
             this.txtVFOBnew.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVFOBnew_KeyPress);
             this.txtVFOBnew.LostFocus += new System.EventHandler(this.txtVFOBnew_LostFocus);
+            this.txtVFOBnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOBnew_MouseDown);
+            this.txtVFOBnew.MouseLeave += new System.EventHandler(this.txtVFOBnew_MouseLeave);
+            this.txtVFOBnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBnew_MouseMove);
             // 
             // txtVFOAnew
             // 
@@ -5016,19 +4874,17 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOAnew, "txtVFOAnew");
             this.txtVFOAnew.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOAnew.Name = "txtVFOAnew";
-            this.txtVFOAnew.MouseLeave += new System.EventHandler(this.txtVFOAnew_MouseLeave);
-            this.txtVFOAnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOAnew_MouseMove);
-            this.txtVFOAnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOAnew_MouseDown);
             this.txtVFOAnew.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVFOAnew_KeyPress);
             this.txtVFOAnew.LostFocus += new System.EventHandler(this.txtVFOAnew_LostFocus);
+            this.txtVFOAnew.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOAnew_MouseDown);
+            this.txtVFOAnew.MouseLeave += new System.EventHandler(this.txtVFOAnew_MouseLeave);
+            this.txtVFOAnew.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOAnew_MouseMove);
             // 
             // sMeterDigital1
             // 
             this.sMeterDigital1.BackColor = System.Drawing.Color.Black;
             this.sMeterDigital1.ContextMenuStrip = this.contextNewVFOSmeter;
             resources.ApplyResources(this.sMeterDigital1, "sMeterDigital1");
-            this.sMeterDigital1.MaximumSize = new System.Drawing.Size(240, 133);
-            this.sMeterDigital1.MinimumSize = new System.Drawing.Size(240, 133);
             this.sMeterDigital1.Name = "sMeterDigital1";
             this.sMeterDigital1.SignalMaxValue = 180F;
             this.sMeterDigital1.SignalMinValue = 0F;
@@ -5043,8 +4899,6 @@ namespace PowerSDR
             this.sMeterDigital2.Brightness = 255;
             this.sMeterDigital2.ContextMenuStrip = this.contextNewVFOSmeter;
             resources.ApplyResources(this.sMeterDigital2, "sMeterDigital2");
-            this.sMeterDigital2.MaximumSize = new System.Drawing.Size(240, 133);
-            this.sMeterDigital2.MinimumSize = new System.Drawing.Size(240, 133);
             this.sMeterDigital2.Name = "sMeterDigital2";
             this.sMeterDigital2.SignalMaxValue = 224F;
             this.sMeterDigital2.SignalMinValue = 0F;
@@ -5056,13 +4910,11 @@ namespace PowerSDR
             // lblNotchShift
             // 
             resources.ApplyResources(this.lblNotchShift, "lblNotchShift");
-            this.lblNotchShift.Image = null;
             this.lblNotchShift.Name = "lblNotchShift";
             // 
             // lblWidth
             // 
             resources.ApplyResources(this.lblWidth, "lblWidth");
-            this.lblWidth.Image = null;
             this.lblWidth.Name = "lblWidth";
             // 
             // grpSoundControls
@@ -5094,7 +4946,6 @@ namespace PowerSDR
             // lblAF
             // 
             resources.ApplyResources(this.lblAF, "lblAF");
-            this.lblAF.Image = null;
             this.lblAF.Name = "lblAF";
             // 
             // lblPWRValue
@@ -5102,7 +4953,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblPWRValue, "lblPWRValue");
             this.lblPWRValue.BackColor = System.Drawing.Color.Transparent;
             this.lblPWRValue.ForeColor = System.Drawing.Color.Black;
-            this.lblPWRValue.Image = null;
             this.lblPWRValue.Name = "lblPWRValue";
             this.lblPWRValue.MouseLeave += new System.EventHandler(this.lblPWRValue_MouseLeave);
             this.lblPWRValue.MouseHover += new System.EventHandler(this.lblPWRValue_MouseHover);
@@ -5112,7 +4962,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblRFValue, "lblRFValue");
             this.lblRFValue.BackColor = System.Drawing.Color.Transparent;
             this.lblRFValue.ForeColor = System.Drawing.Color.Black;
-            this.lblRFValue.Image = null;
             this.lblRFValue.Name = "lblRFValue";
             this.lblRFValue.MouseLeave += new System.EventHandler(this.lblRFValue_MouseLeave);
             this.lblRFValue.MouseHover += new System.EventHandler(this.lblRFValue_MouseHover);
@@ -5128,18 +4977,15 @@ namespace PowerSDR
             // lblRF
             // 
             resources.ApplyResources(this.lblRF, "lblRF");
-            this.lblRF.Image = null;
             this.lblRF.Name = "lblRF";
             // 
             // lblPWR
             // 
             resources.ApplyResources(this.lblPWR, "lblPWR");
-            this.lblPWR.Image = null;
             this.lblPWR.Name = "lblPWR";
             // 
             // lblAGC
             // 
-            this.lblAGC.Image = null;
             resources.ApplyResources(this.lblAGC, "lblAGC");
             this.lblAGC.Name = "lblAGC";
             // 
@@ -5148,7 +4994,6 @@ namespace PowerSDR
             resources.ApplyResources(this.lblAFValue, "lblAFValue");
             this.lblAFValue.BackColor = System.Drawing.Color.Transparent;
             this.lblAFValue.ForeColor = System.Drawing.Color.Black;
-            this.lblAFValue.Image = null;
             this.lblAFValue.Name = "lblAFValue";
             this.lblAFValue.MouseLeave += new System.EventHandler(this.lblAFValue_MouseLeave);
             this.lblAFValue.MouseHover += new System.EventHandler(this.lblAFValue_MouseHover);
@@ -5192,7 +5037,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX4, "btnCWX4");
             this.btnCWX4.FlatAppearance.BorderSize = 0;
-            this.btnCWX4.Image = null;
             this.btnCWX4.Name = "btnCWX4";
             this.btnCWX4.UseVisualStyleBackColor = true;
             this.btnCWX4.Click += new System.EventHandler(this.btnCWX4_Click);
@@ -5202,7 +5046,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX5, "btnCWX5");
             this.btnCWX5.FlatAppearance.BorderSize = 0;
-            this.btnCWX5.Image = null;
             this.btnCWX5.Name = "btnCWX5";
             this.btnCWX5.UseVisualStyleBackColor = true;
             this.btnCWX5.Click += new System.EventHandler(this.btnCWX5_Click);
@@ -5212,7 +5055,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX1, "btnCWX1");
             this.btnCWX1.FlatAppearance.BorderSize = 0;
-            this.btnCWX1.Image = null;
             this.btnCWX1.Name = "btnCWX1";
             this.btnCWX1.UseVisualStyleBackColor = true;
             this.btnCWX1.Click += new System.EventHandler(this.btnCWX1_Click);
@@ -5222,7 +5064,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX6, "btnCWX6");
             this.btnCWX6.FlatAppearance.BorderSize = 0;
-            this.btnCWX6.Image = null;
             this.btnCWX6.Name = "btnCWX6";
             this.btnCWX6.UseVisualStyleBackColor = true;
             this.btnCWX6.Click += new System.EventHandler(this.btnCWX6_Click);
@@ -5232,7 +5073,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX2, "btnCWX2");
             this.btnCWX2.FlatAppearance.BorderSize = 0;
-            this.btnCWX2.Image = null;
             this.btnCWX2.Name = "btnCWX2";
             this.btnCWX2.UseVisualStyleBackColor = true;
             this.btnCWX2.Click += new System.EventHandler(this.btnCWX2_Click);
@@ -5242,7 +5082,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.btnCWX3, "btnCWX3");
             this.btnCWX3.FlatAppearance.BorderSize = 0;
-            this.btnCWX3.Image = null;
             this.btnCWX3.Name = "btnCWX3";
             this.btnCWX3.UseVisualStyleBackColor = true;
             this.btnCWX3.Click += new System.EventHandler(this.btnCWX3_Click);
@@ -5258,7 +5097,6 @@ namespace PowerSDR
             // 
             // lblCWPitchFreq
             // 
-            this.lblCWPitchFreq.Image = null;
             resources.ApplyResources(this.lblCWPitchFreq, "lblCWPitchFreq");
             this.lblCWPitchFreq.Name = "lblCWPitchFreq";
             // 
@@ -5274,12 +5112,11 @@ namespace PowerSDR
             this.ptbCWSpeed.SmallChange = 1;
             this.ptbCWSpeed.TabStop = false;
             this.ptbCWSpeed.Value = 7;
-            this.ptbCWSpeed.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCWSpeed_Wheel);
             this.ptbCWSpeed.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbCWSpeed_Scroll);
+            this.ptbCWSpeed.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbCWSpeed_Wheel);
             // 
             // lblCWSpeed
             // 
-            this.lblCWSpeed.Image = null;
             resources.ApplyResources(this.lblCWSpeed, "lblCWSpeed");
             this.lblCWSpeed.Name = "lblCWSpeed";
             // 
@@ -5304,8 +5141,8 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOBLSD, "txtVFOBLSD");
             this.txtVFOBLSD.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOBLSD.Name = "txtVFOBLSD";
-            this.txtVFOBLSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBLSD_MouseMove);
             this.txtVFOBLSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOBLSD_MouseDown);
+            this.txtVFOBLSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBLSD_MouseMove);
             // 
             // panelVFOBHover
             // 
@@ -5322,16 +5159,15 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOBMSD, "txtVFOBMSD");
             this.txtVFOBMSD.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOBMSD.Name = "txtVFOBMSD";
+            this.txtVFOBMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOBMSD_MouseDown);
             this.txtVFOBMSD.MouseLeave += new System.EventHandler(this.txtVFOBMSD_MouseLeave);
             this.txtVFOBMSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBMSD_MouseMove);
-            this.txtVFOBMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtVFOBMSD_MouseDown);
             // 
             // lblVFOBLSD
             // 
             this.lblVFOBLSD.BackColor = System.Drawing.Color.Cyan;
             resources.ApplyResources(this.lblVFOBLSD, "lblVFOBLSD");
             this.lblVFOBLSD.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lblVFOBLSD.Image = null;
             this.lblVFOBLSD.Name = "lblVFOBLSD";
             // 
             // txtVFOBBand
@@ -5350,10 +5186,10 @@ namespace PowerSDR
             resources.ApplyResources(this.txtVFOBFreq, "txtVFOBFreq");
             this.txtVFOBFreq.ForeColor = System.Drawing.Color.Olive;
             this.txtVFOBFreq.Name = "txtVFOBFreq";
-            this.txtVFOBFreq.MouseLeave += new System.EventHandler(this.txtVFOBFreq_MouseLeave);
-            this.txtVFOBFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBFreq_MouseMove);
             this.txtVFOBFreq.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtVFOBFreq_KeyPress);
             this.txtVFOBFreq.LostFocus += new System.EventHandler(this.txtVFOBFreq_LostFocus);
+            this.txtVFOBFreq.MouseLeave += new System.EventHandler(this.txtVFOBFreq_MouseLeave);
+            this.txtVFOBFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtVFOBFreq_MouseMove);
             // 
             // grpLOSC
             // 
@@ -5383,8 +5219,8 @@ namespace PowerSDR
             resources.ApplyResources(this.txtLOSCLSD, "txtLOSCLSD");
             this.txtLOSCLSD.ForeColor = System.Drawing.Color.Olive;
             this.txtLOSCLSD.Name = "txtLOSCLSD";
-            this.txtLOSCLSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCLSD_MouseMove);
             this.txtLOSCLSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtLOSCLSD_MouseDown);
+            this.txtLOSCLSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCLSD_MouseMove);
             // 
             // txtLOSCMSD
             // 
@@ -5394,9 +5230,9 @@ namespace PowerSDR
             resources.ApplyResources(this.txtLOSCMSD, "txtLOSCMSD");
             this.txtLOSCMSD.ForeColor = System.Drawing.Color.Olive;
             this.txtLOSCMSD.Name = "txtLOSCMSD";
+            this.txtLOSCMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtLOSCMSD_MouseDown);
             this.txtLOSCMSD.MouseLeave += new System.EventHandler(this.txtLOSCMSD_MouseLeave);
             this.txtLOSCMSD.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCMSD_MouseMove);
-            this.txtLOSCMSD.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtLOSCMSD_MouseDown);
             // 
             // txtLOSCFreq
             // 
@@ -5405,10 +5241,10 @@ namespace PowerSDR
             resources.ApplyResources(this.txtLOSCFreq, "txtLOSCFreq");
             this.txtLOSCFreq.ForeColor = System.Drawing.Color.Green;
             this.txtLOSCFreq.Name = "txtLOSCFreq";
-            this.txtLOSCFreq.MouseLeave += new System.EventHandler(this.txtLOSCFreq_MouseLeave);
-            this.txtLOSCFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCFreq_MouseMove);
             this.txtLOSCFreq.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLOSCFreq_KeyPress);
             this.txtLOSCFreq.LostFocus += new System.EventHandler(this.txtLOSCFreq_LostFocus);
+            this.txtLOSCFreq.MouseLeave += new System.EventHandler(this.txtLOSCFreq_MouseLeave);
+            this.txtLOSCFreq.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txtLOSCFreq_MouseMove);
             // 
             // grpG160
             // 
@@ -5431,7 +5267,6 @@ namespace PowerSDR
             // btnG3020_X4
             // 
             resources.ApplyResources(this.btnG3020_X4, "btnG3020_X4");
-            this.btnG3020_X4.Image = null;
             this.btnG3020_X4.Name = "btnG3020_X4";
             this.btnG3020_X4.UseVisualStyleBackColor = true;
             this.btnG3020_X4.Click += new System.EventHandler(this.btnG3020_X4_Click);
@@ -5439,7 +5274,6 @@ namespace PowerSDR
             // btnG3020_X3
             // 
             resources.ApplyResources(this.btnG3020_X3, "btnG3020_X3");
-            this.btnG3020_X3.Image = null;
             this.btnG3020_X3.Name = "btnG3020_X3";
             this.btnG3020_X3.UseVisualStyleBackColor = true;
             this.btnG3020_X3.Click += new System.EventHandler(this.btnG3020_X3_Click);
@@ -5447,7 +5281,6 @@ namespace PowerSDR
             // btnG3020_X2
             // 
             resources.ApplyResources(this.btnG3020_X2, "btnG3020_X2");
-            this.btnG3020_X2.Image = null;
             this.btnG3020_X2.Name = "btnG3020_X2";
             this.btnG3020_X2.UseVisualStyleBackColor = true;
             this.btnG3020_X2.Click += new System.EventHandler(this.btnG3020_X2_Click);
@@ -5455,7 +5288,6 @@ namespace PowerSDR
             // btnG3020_X1
             // 
             resources.ApplyResources(this.btnG3020_X1, "btnG3020_X1");
-            this.btnG3020_X1.Image = null;
             this.btnG3020_X1.Name = "btnG3020_X1";
             this.btnG3020_X1.UseVisualStyleBackColor = true;
             this.btnG3020_X1.Click += new System.EventHandler(this.btnG3020_X1_Click);
@@ -5476,7 +5308,6 @@ namespace PowerSDR
             resources.ApplyResources(this.btnG80_X4, "btnG80_X4");
             this.btnG80_X4.BackColor = System.Drawing.SystemColors.Control;
             this.btnG80_X4.FlatAppearance.BorderSize = 0;
-            this.btnG80_X4.Image = null;
             this.btnG80_X4.Name = "btnG80_X4";
             this.btnG80_X4.UseVisualStyleBackColor = false;
             this.btnG80_X4.Click += new System.EventHandler(this.btnG80_X4_Click);
@@ -5486,7 +5317,6 @@ namespace PowerSDR
             resources.ApplyResources(this.btnG80_X3, "btnG80_X3");
             this.btnG80_X3.BackColor = System.Drawing.SystemColors.Control;
             this.btnG80_X3.FlatAppearance.BorderSize = 0;
-            this.btnG80_X3.Image = null;
             this.btnG80_X3.Name = "btnG80_X3";
             this.btnG80_X3.UseVisualStyleBackColor = false;
             this.btnG80_X3.Click += new System.EventHandler(this.btnG80_X3_Click);
@@ -5496,7 +5326,6 @@ namespace PowerSDR
             resources.ApplyResources(this.btnG80_X2, "btnG80_X2");
             this.btnG80_X2.BackColor = System.Drawing.SystemColors.Control;
             this.btnG80_X2.FlatAppearance.BorderSize = 0;
-            this.btnG80_X2.Image = null;
             this.btnG80_X2.Name = "btnG80_X2";
             this.btnG80_X2.UseVisualStyleBackColor = false;
             this.btnG80_X2.Click += new System.EventHandler(this.btnG80_X2_Click);
@@ -5506,7 +5335,6 @@ namespace PowerSDR
             resources.ApplyResources(this.btnG80_X1, "btnG80_X1");
             this.btnG80_X1.BackColor = System.Drawing.SystemColors.Control;
             this.btnG80_X1.FlatAppearance.BorderSize = 0;
-            this.btnG80_X1.Image = null;
             this.btnG80_X1.Name = "btnG80_X1";
             this.btnG80_X1.UseVisualStyleBackColor = false;
             this.btnG80_X1.Click += new System.EventHandler(this.btnG80_X1_Click);
@@ -5539,7 +5367,6 @@ namespace PowerSDR
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.Control;
-            this.label2.Image = null;
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
@@ -5555,8 +5382,8 @@ namespace PowerSDR
             this.ptbDisplayZoom.SmallChange = 1;
             this.ptbDisplayZoom.TabStop = false;
             this.ptbDisplayZoom.Value = 4;
-            this.ptbDisplayZoom.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbDisplayZoom_Wheel);
             this.ptbDisplayZoom.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbDisplayZoom_Scroll);
+            this.ptbDisplayZoom.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbDisplayZoom_Wheel);
             // 
             // ptbDisplayPan
             // 
@@ -5570,12 +5397,11 @@ namespace PowerSDR
             this.ptbDisplayPan.SmallChange = 10;
             this.ptbDisplayPan.TabStop = false;
             this.ptbDisplayPan.Value = 0;
-            this.ptbDisplayPan.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbDisplayPan_Wheel);
             this.ptbDisplayPan.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbDisplayPan_Scroll);
+            this.ptbDisplayPan.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbDisplayPan_Wheel);
             // 
             // label1
             // 
-            this.label1.Image = null;
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
@@ -5583,7 +5409,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom32x, "radDisplayZoom32x");
             this.radDisplayZoom32x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom32x.Image = null;
             this.radDisplayZoom32x.Name = "radDisplayZoom32x";
             this.radDisplayZoom32x.UseVisualStyleBackColor = true;
             this.radDisplayZoom32x.Click += new System.EventHandler(this.radDisplayZoom32x_Click);
@@ -5592,7 +5417,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom1x, "radDisplayZoom1x");
             this.radDisplayZoom1x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom1x.Image = null;
             this.radDisplayZoom1x.Name = "radDisplayZoom1x";
             this.radDisplayZoom1x.UseVisualStyleBackColor = true;
             this.radDisplayZoom1x.Click += new System.EventHandler(this.radDisplayZoom1x_Click);
@@ -5601,7 +5425,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom2x, "radDisplayZoom2x");
             this.radDisplayZoom2x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom2x.Image = null;
             this.radDisplayZoom2x.Name = "radDisplayZoom2x";
             this.radDisplayZoom2x.UseVisualStyleBackColor = true;
             this.radDisplayZoom2x.Click += new System.EventHandler(this.radDisplayZoom2x_Click);
@@ -5610,7 +5433,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom16x, "radDisplayZoom16x");
             this.radDisplayZoom16x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom16x.Image = null;
             this.radDisplayZoom16x.Name = "radDisplayZoom16x";
             this.radDisplayZoom16x.UseVisualStyleBackColor = true;
             this.radDisplayZoom16x.Click += new System.EventHandler(this.radDisplayZoom16x_Click);
@@ -5619,7 +5441,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom4x, "radDisplayZoom4x");
             this.radDisplayZoom4x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom4x.Image = null;
             this.radDisplayZoom4x.Name = "radDisplayZoom4x";
             this.radDisplayZoom4x.UseVisualStyleBackColor = true;
             this.radDisplayZoom4x.Click += new System.EventHandler(this.radDisplayZoom4x_Click);
@@ -5628,7 +5449,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radDisplayZoom8x, "radDisplayZoom8x");
             this.radDisplayZoom8x.FlatAppearance.BorderSize = 0;
-            this.radDisplayZoom8x.Image = null;
             this.radDisplayZoom8x.Name = "radDisplayZoom8x";
             this.radDisplayZoom8x.UseVisualStyleBackColor = true;
             this.radDisplayZoom8x.Click += new System.EventHandler(this.radDisplayZoom8x_Click);
@@ -5711,7 +5531,6 @@ namespace PowerSDR
             // 
             this.btnChangeTuneStepLarger.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnChangeTuneStepLarger, "btnChangeTuneStepLarger");
-            this.btnChangeTuneStepLarger.Image = null;
             this.btnChangeTuneStepLarger.Name = "btnChangeTuneStepLarger";
             this.btnChangeTuneStepLarger.Click += new System.EventHandler(this.btnChangeTuneStepLarger_Click);
             // 
@@ -5719,7 +5538,6 @@ namespace PowerSDR
             // 
             this.btnTuneStepChangeSmaller.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnTuneStepChangeSmaller, "btnTuneStepChangeSmaller");
-            this.btnTuneStepChangeSmaller.Image = null;
             this.btnTuneStepChangeSmaller.Name = "btnTuneStepChangeSmaller";
             this.btnTuneStepChangeSmaller.Click += new System.EventHandler(this.btnChangeTuneStepSmaller_Click);
             // 
@@ -5727,7 +5545,6 @@ namespace PowerSDR
             // 
             this.btnChangeTuneStepLargerSubRX.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnChangeTuneStepLargerSubRX, "btnChangeTuneStepLargerSubRX");
-            this.btnChangeTuneStepLargerSubRX.Image = null;
             this.btnChangeTuneStepLargerSubRX.Name = "btnChangeTuneStepLargerSubRX";
             this.btnChangeTuneStepLargerSubRX.Click += new System.EventHandler(this.btnChangeTuneStepLargerSubRX_Click);
             // 
@@ -5735,7 +5552,6 @@ namespace PowerSDR
             // 
             this.btnTuneStepChangeSmallerSubRX.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnTuneStepChangeSmallerSubRX, "btnTuneStepChangeSmallerSubRX");
-            this.btnTuneStepChangeSmallerSubRX.Image = null;
             this.btnTuneStepChangeSmallerSubRX.Name = "btnTuneStepChangeSmallerSubRX";
             this.btnTuneStepChangeSmallerSubRX.Click += new System.EventHandler(this.btnTuneStepChangeSmallerSubRX_Click);
             // 
@@ -5772,8 +5588,8 @@ namespace PowerSDR
             this.ptbVACTXGain.SmallChange = 1;
             this.ptbVACTXGain.TabStop = false;
             this.ptbVACTXGain.Value = 0;
-            this.ptbVACTXGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVACTXGain_Wheel);
             this.ptbVACTXGain.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbVACTXGain_Scroll);
+            this.ptbVACTXGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVACTXGain_Wheel);
             // 
             // ptbVACRXGain
             // 
@@ -5787,24 +5603,21 @@ namespace PowerSDR
             this.ptbVACRXGain.SmallChange = 1;
             this.ptbVACRXGain.TabStop = false;
             this.ptbVACRXGain.Value = 0;
-            this.ptbVACRXGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVACRXGain_Wheel);
             this.ptbVACRXGain.Scroll += new PowerSDR.PrettyTrackBar.ScrollHandler(this.tbVACRXGain_Scroll);
+            this.ptbVACRXGain.OnWheel += new PowerSDR.PrettyTrackBar.WheelHandler(this.tbVACRXGain_Wheel);
             // 
             // lblTXGain
             // 
-            this.lblTXGain.Image = null;
             resources.ApplyResources(this.lblTXGain, "lblTXGain");
             this.lblTXGain.Name = "lblTXGain";
             // 
             // lblRXGain
             // 
-            this.lblRXGain.Image = null;
             resources.ApplyResources(this.lblRXGain, "lblRXGain");
             this.lblRXGain.Name = "lblRXGain";
             // 
             // lblTuneStep
             // 
-            this.lblTuneStep.Image = null;
             resources.ApplyResources(this.lblTuneStep, "lblTuneStep");
             this.lblTuneStep.Name = "lblTuneStep";
             // 
@@ -5829,12 +5642,12 @@ namespace PowerSDR
             this.picWaterfall.Cursor = System.Windows.Forms.Cursors.Cross;
             this.picWaterfall.Name = "picWaterfall";
             this.picWaterfall.TabStop = false;
+            this.picWaterfall.Paint += new System.Windows.Forms.PaintEventHandler(this.picWaterfall_Paint);
+            this.picWaterfall.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picWaterfall_MouseDown);
             this.picWaterfall.MouseLeave += new System.EventHandler(this.picWaterfall_MouseLeave);
             this.picWaterfall.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picWaterfall_MouseMove);
-            this.picWaterfall.Resize += new System.EventHandler(this.picWaterfall_Resize);
-            this.picWaterfall.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picWaterfall_MouseDown);
-            this.picWaterfall.Paint += new System.Windows.Forms.PaintEventHandler(this.picWaterfall_Paint);
             this.picWaterfall.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picWaterfall_MouseUp);
+            this.picWaterfall.Resize += new System.EventHandler(this.picWaterfall_Resize);
             // 
             // txtDisplayPeakFreq
             // 
@@ -5906,12 +5719,12 @@ namespace PowerSDR
             this.picDisplay.Cursor = System.Windows.Forms.Cursors.Cross;
             this.picDisplay.Name = "picDisplay";
             this.picDisplay.TabStop = false;
+            this.picDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.picDisplay_Paint);
+            this.picDisplay.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picDisplay_MouseDown);
             this.picDisplay.MouseLeave += new System.EventHandler(this.picDisplay_MouseLeave);
             this.picDisplay.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picDisplay_MouseMove);
-            this.picDisplay.Resize += new System.EventHandler(this.picDisplay_Resize);
-            this.picDisplay.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picDisplay_MouseDown);
-            this.picDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.picDisplay_Paint);
             this.picDisplay.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picDisplay_MouseUp);
+            this.picDisplay.Resize += new System.EventHandler(this.picDisplay_Resize);
             // 
             // grpMainRXFilter
             // 
@@ -5943,13 +5756,11 @@ namespace PowerSDR
             // 
             // lblFilterWidth
             // 
-            this.lblFilterWidth.Image = null;
             resources.ApplyResources(this.lblFilterWidth, "lblFilterWidth");
             this.lblFilterWidth.Name = "lblFilterWidth";
             // 
             // lblFilterShift
             // 
-            this.lblFilterShift.Image = null;
             resources.ApplyResources(this.lblFilterShift, "lblFilterShift");
             this.lblFilterShift.Name = "lblFilterShift";
             // 
@@ -5957,7 +5768,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter1, "radFilter1");
             this.radFilter1.FlatAppearance.BorderSize = 0;
-            this.radFilter1.Image = null;
             this.radFilter1.Name = "radFilter1";
             this.radFilter1.CheckedChanged += new System.EventHandler(this.radFilter1_CheckedChanged);
             // 
@@ -5965,7 +5775,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter2, "radFilter2");
             this.radFilter2.FlatAppearance.BorderSize = 0;
-            this.radFilter2.Image = null;
             this.radFilter2.Name = "radFilter2";
             this.radFilter2.CheckedChanged += new System.EventHandler(this.radFilter2_CheckedChanged);
             // 
@@ -5973,7 +5782,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter3, "radFilter3");
             this.radFilter3.FlatAppearance.BorderSize = 0;
-            this.radFilter3.Image = null;
             this.radFilter3.Name = "radFilter3";
             this.radFilter3.CheckedChanged += new System.EventHandler(this.radFilter3_CheckedChanged);
             // 
@@ -5981,7 +5789,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter4, "radFilter4");
             this.radFilter4.FlatAppearance.BorderSize = 0;
-            this.radFilter4.Image = null;
             this.radFilter4.Name = "radFilter4";
             this.radFilter4.CheckedChanged += new System.EventHandler(this.radFilter4_CheckedChanged);
             // 
@@ -5989,7 +5796,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter5, "radFilter5");
             this.radFilter5.FlatAppearance.BorderSize = 0;
-            this.radFilter5.Image = null;
             this.radFilter5.Name = "radFilter5";
             this.radFilter5.CheckedChanged += new System.EventHandler(this.radFilter5_CheckedChanged);
             // 
@@ -5997,7 +5803,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter6, "radFilter6");
             this.radFilter6.FlatAppearance.BorderSize = 0;
-            this.radFilter6.Image = null;
             this.radFilter6.Name = "radFilter6";
             this.radFilter6.CheckedChanged += new System.EventHandler(this.radFilter6_CheckedChanged);
             // 
@@ -6005,7 +5810,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter7, "radFilter7");
             this.radFilter7.FlatAppearance.BorderSize = 0;
-            this.radFilter7.Image = null;
             this.radFilter7.Name = "radFilter7";
             this.radFilter7.CheckedChanged += new System.EventHandler(this.radFilter7_CheckedChanged);
             // 
@@ -6013,7 +5817,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter8, "radFilter8");
             this.radFilter8.FlatAppearance.BorderSize = 0;
-            this.radFilter8.Image = null;
             this.radFilter8.Name = "radFilter8";
             this.radFilter8.CheckedChanged += new System.EventHandler(this.radFilter8_CheckedChanged);
             // 
@@ -6021,7 +5824,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter9, "radFilter9");
             this.radFilter9.FlatAppearance.BorderSize = 0;
-            this.radFilter9.Image = null;
             this.radFilter9.Name = "radFilter9";
             this.radFilter9.CheckedChanged += new System.EventHandler(this.radFilter9_CheckedChanged);
             // 
@@ -6029,7 +5831,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilter10, "radFilter10");
             this.radFilter10.FlatAppearance.BorderSize = 0;
-            this.radFilter10.Image = null;
             this.radFilter10.Name = "radFilter10";
             this.radFilter10.CheckedChanged += new System.EventHandler(this.radFilter10_CheckedChanged);
             // 
@@ -6037,7 +5838,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilterVar1, "radFilterVar1");
             this.radFilterVar1.FlatAppearance.BorderSize = 0;
-            this.radFilterVar1.Image = null;
             this.radFilterVar1.Name = "radFilterVar1";
             this.radFilterVar1.CheckedChanged += new System.EventHandler(this.radFilterVar1_CheckedChanged);
             // 
@@ -6045,25 +5845,21 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radFilterVar2, "radFilterVar2");
             this.radFilterVar2.FlatAppearance.BorderSize = 0;
-            this.radFilterVar2.Image = null;
             this.radFilterVar2.Name = "radFilterVar2";
             this.radFilterVar2.CheckedChanged += new System.EventHandler(this.radFilterVar2_CheckedChanged);
             // 
             // lblFilterLow
             // 
-            this.lblFilterLow.Image = null;
             resources.ApplyResources(this.lblFilterLow, "lblFilterLow");
             this.lblFilterLow.Name = "lblFilterLow";
             // 
             // lblFilterHigh
             // 
-            this.lblFilterHigh.Image = null;
             resources.ApplyResources(this.lblFilterHigh, "lblFilterHigh");
             this.lblFilterHigh.Name = "lblFilterHigh";
             // 
             // lblCPUMeter
             // 
-            this.lblCPUMeter.Image = null;
             resources.ApplyResources(this.lblCPUMeter, "lblCPUMeter");
             this.lblCPUMeter.Name = "lblCPUMeter";
             // 
@@ -6101,7 +5897,6 @@ namespace PowerSDR
             // 
             // lblMultiSMeter
             // 
-            this.lblMultiSMeter.Image = null;
             resources.ApplyResources(this.lblMultiSMeter, "lblMultiSMeter");
             this.lblMultiSMeter.Name = "lblMultiSMeter";
             // 
@@ -6164,27 +5959,23 @@ namespace PowerSDR
             // labelTS6
             // 
             resources.ApplyResources(this.labelTS6, "labelTS6");
-            this.labelTS6.Image = null;
             this.labelTS6.Name = "labelTS6";
             // 
             // labelTS5
             // 
             resources.ApplyResources(this.labelTS5, "labelTS5");
-            this.labelTS5.Image = null;
             this.labelTS5.Name = "labelTS5";
             // 
             // lblNotchLow
             // 
             resources.ApplyResources(this.lblNotchLow, "lblNotchLow");
             this.lblNotchLow.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotchLow.Image = null;
             this.lblNotchLow.Name = "lblNotchLow";
             // 
             // lblNotchHigh
             // 
             resources.ApplyResources(this.lblNotchHigh, "lblNotchHigh");
             this.lblNotchHigh.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotchHigh.Image = null;
             this.lblNotchHigh.Name = "lblNotchHigh";
             // 
             // picSmallAGauge
@@ -6225,13 +6016,11 @@ namespace PowerSDR
             // 
             // labelTS1
             // 
-            this.labelTS1.Image = null;
             resources.ApplyResources(this.labelTS1, "labelTS1");
             this.labelTS1.Name = "labelTS1";
             // 
             // labelTS2
             // 
-            this.labelTS2.Image = null;
             resources.ApplyResources(this.labelTS2, "labelTS2");
             this.labelTS2.Name = "labelTS2";
             // 
@@ -6240,7 +6029,6 @@ namespace PowerSDR
             resources.ApplyResources(this.radSubRXFilter1, "radSubRXFilter1");
             this.radSubRXFilter1.Checked = true;
             this.radSubRXFilter1.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter1.Image = null;
             this.radSubRXFilter1.Name = "radSubRXFilter1";
             this.radSubRXFilter1.TabStop = true;
             this.radSubRXFilter1.CheckedChanged += new System.EventHandler(this.radSubRXFilter1_CheckedChanged);
@@ -6249,7 +6037,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter2, "radSubRXFilter2");
             this.radSubRXFilter2.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter2.Image = null;
             this.radSubRXFilter2.Name = "radSubRXFilter2";
             this.radSubRXFilter2.CheckedChanged += new System.EventHandler(this.radSubRXFilter2_CheckedChanged);
             // 
@@ -6257,7 +6044,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter3, "radSubRXFilter3");
             this.radSubRXFilter3.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter3.Image = null;
             this.radSubRXFilter3.Name = "radSubRXFilter3";
             this.radSubRXFilter3.CheckedChanged += new System.EventHandler(this.radSubRXFilter3_CheckedChanged);
             // 
@@ -6265,7 +6051,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter4, "radSubRXFilter4");
             this.radSubRXFilter4.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter4.Image = null;
             this.radSubRXFilter4.Name = "radSubRXFilter4";
             this.radSubRXFilter4.CheckedChanged += new System.EventHandler(this.radSubRXFilter4_CheckedChanged);
             // 
@@ -6273,7 +6058,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter5, "radSubRXFilter5");
             this.radSubRXFilter5.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter5.Image = null;
             this.radSubRXFilter5.Name = "radSubRXFilter5";
             this.radSubRXFilter5.CheckedChanged += new System.EventHandler(this.radSubRXFilter5_CheckedChanged);
             // 
@@ -6281,7 +6065,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter6, "radSubRXFilter6");
             this.radSubRXFilter6.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter6.Image = null;
             this.radSubRXFilter6.Name = "radSubRXFilter6";
             this.radSubRXFilter6.CheckedChanged += new System.EventHandler(this.radSubRXFilter6_CheckedChanged);
             // 
@@ -6289,7 +6072,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter7, "radSubRXFilter7");
             this.radSubRXFilter7.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter7.Image = null;
             this.radSubRXFilter7.Name = "radSubRXFilter7";
             this.radSubRXFilter7.CheckedChanged += new System.EventHandler(this.radSubRXFilter7_CheckedChanged);
             // 
@@ -6297,7 +6079,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter8, "radSubRXFilter8");
             this.radSubRXFilter8.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter8.Image = null;
             this.radSubRXFilter8.Name = "radSubRXFilter8";
             this.radSubRXFilter8.CheckedChanged += new System.EventHandler(this.radSubRXFilter8_CheckedChanged);
             // 
@@ -6305,7 +6086,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter9, "radSubRXFilter9");
             this.radSubRXFilter9.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter9.Image = null;
             this.radSubRXFilter9.Name = "radSubRXFilter9";
             this.radSubRXFilter9.CheckedChanged += new System.EventHandler(this.radSubRXFilter9_CheckedChanged);
             // 
@@ -6313,7 +6093,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilter10, "radSubRXFilter10");
             this.radSubRXFilter10.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilter10.Image = null;
             this.radSubRXFilter10.Name = "radSubRXFilter10";
             this.radSubRXFilter10.CheckedChanged += new System.EventHandler(this.radSubRXFilter10_CheckedChanged);
             // 
@@ -6321,7 +6100,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilterVar1, "radSubRXFilterVar1");
             this.radSubRXFilterVar1.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilterVar1.Image = null;
             this.radSubRXFilterVar1.Name = "radSubRXFilterVar1";
             this.radSubRXFilterVar1.CheckedChanged += new System.EventHandler(this.radSubRXFilterVar1_CheckedChanged);
             // 
@@ -6329,19 +6107,16 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radSubRXFilterVar2, "radSubRXFilterVar2");
             this.radSubRXFilterVar2.FlatAppearance.BorderSize = 0;
-            this.radSubRXFilterVar2.Image = null;
             this.radSubRXFilterVar2.Name = "radSubRXFilterVar2";
             this.radSubRXFilterVar2.CheckedChanged += new System.EventHandler(this.radSubRXFilterVar2_CheckedChanged);
             // 
             // labelTS3
             // 
-            this.labelTS3.Image = null;
             resources.ApplyResources(this.labelTS3, "labelTS3");
             this.labelTS3.Name = "labelTS3";
             // 
             // labelTS4
             // 
-            this.labelTS4.Image = null;
             resources.ApplyResources(this.labelTS4, "labelTS4");
             this.labelTS4.Name = "labelTS4";
             // 
@@ -6373,19 +6148,16 @@ namespace PowerSDR
             // 
             // lblRF1
             // 
-            this.lblRF1.Image = null;
             resources.ApplyResources(this.lblRF1, "lblRF1");
             this.lblRF1.Name = "lblRF1";
             // 
             // lblPWR1
             // 
-            this.lblPWR1.Image = null;
             resources.ApplyResources(this.lblPWR1, "lblPWR1");
             this.lblPWR1.Name = "lblPWR1";
             // 
             // lblAF1
             // 
-            this.lblAF1.Image = null;
             resources.ApplyResources(this.lblAF1, "lblAF1");
             this.lblAF1.Name = "lblAF1";
             // 
@@ -6459,109 +6231,97 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.radBandX12, "radBandX12");
             this.radBandX12.FlatAppearance.BorderSize = 0;
-            this.radBandX12.Image = null;
             this.radBandX12.Name = "radBandX12";
-            this.radBandX12.Click += new System.EventHandler(this.radBandX12_Click);
             this.radBandX12.CheckedChanged += new System.EventHandler(this.radBandX12_CheckedChanged);
+            this.radBandX12.Click += new System.EventHandler(this.radBandX12_Click);
             // 
             // radBandX11
             // 
             resources.ApplyResources(this.radBandX11, "radBandX11");
             this.radBandX11.FlatAppearance.BorderSize = 0;
-            this.radBandX11.Image = null;
             this.radBandX11.Name = "radBandX11";
-            this.radBandX11.Click += new System.EventHandler(this.radBandX11_Click);
             this.radBandX11.CheckedChanged += new System.EventHandler(this.radBandX11_CheckedChanged);
+            this.radBandX11.Click += new System.EventHandler(this.radBandX11_Click);
             // 
             // radBandX10
             // 
             resources.ApplyResources(this.radBandX10, "radBandX10");
             this.radBandX10.FlatAppearance.BorderSize = 0;
-            this.radBandX10.Image = null;
             this.radBandX10.Name = "radBandX10";
-            this.radBandX10.Click += new System.EventHandler(this.radBandX10_Click);
             this.radBandX10.CheckedChanged += new System.EventHandler(this.radBandX10_CheckedChanged);
+            this.radBandX10.Click += new System.EventHandler(this.radBandX10_Click);
             // 
             // radBandX9
             // 
             resources.ApplyResources(this.radBandX9, "radBandX9");
             this.radBandX9.FlatAppearance.BorderSize = 0;
-            this.radBandX9.Image = null;
             this.radBandX9.Name = "radBandX9";
-            this.radBandX9.Click += new System.EventHandler(this.radBandX9_Click);
             this.radBandX9.CheckedChanged += new System.EventHandler(this.radBandX9_CheckedChanged);
+            this.radBandX9.Click += new System.EventHandler(this.radBandX9_Click);
             // 
             // radBandX8
             // 
             resources.ApplyResources(this.radBandX8, "radBandX8");
             this.radBandX8.FlatAppearance.BorderSize = 0;
-            this.radBandX8.Image = null;
             this.radBandX8.Name = "radBandX8";
-            this.radBandX8.Click += new System.EventHandler(this.radBandX8_Click);
             this.radBandX8.CheckedChanged += new System.EventHandler(this.radBandX8_CheckedChanged);
+            this.radBandX8.Click += new System.EventHandler(this.radBandX8_Click);
             // 
             // radBandX7
             // 
             resources.ApplyResources(this.radBandX7, "radBandX7");
             this.radBandX7.FlatAppearance.BorderSize = 0;
-            this.radBandX7.Image = null;
             this.radBandX7.Name = "radBandX7";
-            this.radBandX7.Click += new System.EventHandler(this.radBandX7_Click);
             this.radBandX7.CheckedChanged += new System.EventHandler(this.radBandX7_CheckedChanged);
+            this.radBandX7.Click += new System.EventHandler(this.radBandX7_Click);
             // 
             // radBandX6
             // 
             resources.ApplyResources(this.radBandX6, "radBandX6");
             this.radBandX6.FlatAppearance.BorderSize = 0;
-            this.radBandX6.Image = null;
             this.radBandX6.Name = "radBandX6";
-            this.radBandX6.Click += new System.EventHandler(this.radBandX6_Click);
             this.radBandX6.CheckedChanged += new System.EventHandler(this.radBandX6_CheckedChanged);
+            this.radBandX6.Click += new System.EventHandler(this.radBandX6_Click);
             // 
             // radBandX5
             // 
             resources.ApplyResources(this.radBandX5, "radBandX5");
             this.radBandX5.FlatAppearance.BorderSize = 0;
-            this.radBandX5.Image = null;
             this.radBandX5.Name = "radBandX5";
-            this.radBandX5.Click += new System.EventHandler(this.radBandX5_Click);
             this.radBandX5.CheckedChanged += new System.EventHandler(this.radBandX5_CheckedChanged);
+            this.radBandX5.Click += new System.EventHandler(this.radBandX5_Click);
             // 
             // radBandX4
             // 
             resources.ApplyResources(this.radBandX4, "radBandX4");
             this.radBandX4.FlatAppearance.BorderSize = 0;
-            this.radBandX4.Image = null;
             this.radBandX4.Name = "radBandX4";
-            this.radBandX4.Click += new System.EventHandler(this.radBandX4_Click);
             this.radBandX4.CheckedChanged += new System.EventHandler(this.radBandX4_CheckedChanged);
+            this.radBandX4.Click += new System.EventHandler(this.radBandX4_Click);
             // 
             // radBandX3
             // 
             resources.ApplyResources(this.radBandX3, "radBandX3");
             this.radBandX3.FlatAppearance.BorderSize = 0;
-            this.radBandX3.Image = null;
             this.radBandX3.Name = "radBandX3";
-            this.radBandX3.Click += new System.EventHandler(this.radBandX3_Click);
             this.radBandX3.CheckedChanged += new System.EventHandler(this.radBandX3_CheckedChanged);
+            this.radBandX3.Click += new System.EventHandler(this.radBandX3_Click);
             // 
             // radBandX2
             // 
             resources.ApplyResources(this.radBandX2, "radBandX2");
             this.radBandX2.FlatAppearance.BorderSize = 0;
-            this.radBandX2.Image = null;
             this.radBandX2.Name = "radBandX2";
-            this.radBandX2.Click += new System.EventHandler(this.radBandX2_Click);
             this.radBandX2.CheckedChanged += new System.EventHandler(this.radBandX2_CheckedChanged);
+            this.radBandX2.Click += new System.EventHandler(this.radBandX2_Click);
             // 
             // radBandX1
             // 
             resources.ApplyResources(this.radBandX1, "radBandX1");
             this.radBandX1.FlatAppearance.BorderSize = 0;
-            this.radBandX1.Image = null;
             this.radBandX1.Name = "radBandX1";
-            this.radBandX1.Click += new System.EventHandler(this.radBandX1_Click);
             this.radBandX1.CheckedChanged += new System.EventHandler(this.radBandX1_CheckedChanged);
+            this.radBandX1.Click += new System.EventHandler(this.radBandX1_Click);
             // 
             // grpModeSpecificFM
             // 
@@ -6588,7 +6348,6 @@ namespace PowerSDR
             // labelTS7
             // 
             resources.ApplyResources(this.labelTS7, "labelTS7");
-            this.labelTS7.Image = null;
             this.labelTS7.Name = "labelTS7";
             // 
             // grpFMVoiceMsg
@@ -6607,7 +6366,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkFMMsg6, "chkFMMsg6");
             this.chkFMMsg6.FlatAppearance.BorderSize = 0;
-            this.chkFMMsg6.Image = null;
             this.chkFMMsg6.Name = "chkFMMsg6";
             this.chkFMMsg6.UseVisualStyleBackColor = true;
             this.chkFMMsg6.CheckedChanged += new System.EventHandler(this.chkFMMsg6_CheckedChanged);
@@ -6617,7 +6375,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkFMMsg5, "chkFMMsg5");
             this.chkFMMsg5.FlatAppearance.BorderSize = 0;
-            this.chkFMMsg5.Image = null;
             this.chkFMMsg5.Name = "chkFMMsg5";
             this.chkFMMsg5.UseVisualStyleBackColor = true;
             this.chkFMMsg5.CheckedChanged += new System.EventHandler(this.chkFMMsg5_CheckedChanged);
@@ -6627,7 +6384,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkFMMsg4, "chkFMMsg4");
             this.chkFMMsg4.FlatAppearance.BorderSize = 0;
-            this.chkFMMsg4.Image = null;
             this.chkFMMsg4.Name = "chkFMMsg4";
             this.chkFMMsg4.UseVisualStyleBackColor = true;
             this.chkFMMsg4.CheckedChanged += new System.EventHandler(this.chkFMMsg4_CheckedChanged);
@@ -6637,7 +6393,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkFMMsg3, "chkFMMsg3");
             this.chkFMMsg3.FlatAppearance.BorderSize = 0;
-            this.chkFMMsg3.Image = null;
             this.chkFMMsg3.Name = "chkFMMsg3";
             this.chkFMMsg3.UseVisualStyleBackColor = true;
             this.chkFMMsg3.CheckedChanged += new System.EventHandler(this.chkFMMsg3_CheckedChanged);
@@ -6647,7 +6402,6 @@ namespace PowerSDR
             // 
             resources.ApplyResources(this.chkFMMsg2, "chkFMMsg2");
             this.chkFMMsg2.FlatAppearance.BorderSize = 0;
-            this.chkFMMsg2.Image = null;
             this.chkFMMsg2.Name = "chkFMMsg2";
             this.chkFMMsg2.UseVisualStyleBackColor = true;
             this.chkFMMsg2.CheckedChanged += new System.EventHandler(this.chkFMMsg2_CheckedChanged);
@@ -6658,7 +6412,6 @@ namespace PowerSDR
             resources.ApplyResources(this.chkFMMsg1, "chkFMMsg1");
             this.chkFMMsg1.FlatAppearance.BorderSize = 0;
             this.chkFMMsg1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.chkFMMsg1.Image = null;
             this.chkFMMsg1.Name = "chkFMMsg1";
             this.chkFMMsg1.UseVisualStyleBackColor = false;
             this.chkFMMsg1.CheckedChanged += new System.EventHandler(this.chkFMMsg1_CheckedChanged);
@@ -6666,7 +6419,6 @@ namespace PowerSDR
             // 
             // labelTS8
             // 
-            this.labelTS8.Image = null;
             resources.ApplyResources(this.labelTS8, "labelTS8");
             this.labelTS8.Name = "labelTS8";
             // 
@@ -6691,6 +6443,7 @@ namespace PowerSDR
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.grpVFOnew);
             this.Controls.Add(this.grpG11);
             this.Controls.Add(this.grpModeSpecificPhone);
             this.Controls.Add(this.grpG6);
@@ -6699,7 +6452,6 @@ namespace PowerSDR
             this.Controls.Add(this.grpModeSpecificDigital);
             this.Controls.Add(this.grpMainRXMode);
             this.Controls.Add(this.grpSubRXMode);
-            this.Controls.Add(this.grpVFOnew);
             this.Controls.Add(this.grpSoundControls);
             this.Controls.Add(this.grpSoundControls1);
             this.Controls.Add(this.grpVFOB);
@@ -6737,11 +6489,11 @@ namespace PowerSDR
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Console";
-            this.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.Console_MouseWheel);
             this.SizeChanged += new System.EventHandler(this.Console_Resize);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Console_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Console_KeyPress);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Console_KeyUp);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Console_KeyDown);
+            this.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.Console_MouseWheel);
             ((System.ComponentModel.ISupportInitialize)(this.ptbPWR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbRF)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAF)).EndInit();
@@ -9830,8 +9582,9 @@ namespace PowerSDR
             }
             catch (Exception ex)
             {
+                Debug.Write(ex.ToString());
                 //MessageBox.Show("Error starting Network watcher!\nCheck you network settings!\n" +
-                    //ex.ToString());
+                //ex.ToString());
             }
 
             if (current_model == Model.GENESIS_G59NET)
@@ -10255,7 +10008,6 @@ namespace PowerSDR
 
                     string name = vals[0];
                     string val = vals[1];
-                    int num = 0;
 
                     if (name.StartsWith("filter_presets["))
                     {
@@ -14419,6 +14171,16 @@ namespace PowerSDR
             }
         }
 
+        private bool g59PreampDisable = false;
+        public bool G59PreampDisable
+        {
+            get { return g59PreampDisable; }
+            set
+            {
+                g59PreampDisable = value;
+            }
+        }
+
         private short extPA_PTT_delay_on = 100;
         public short ExtPA_PTT_Delay_ON
         {
@@ -17534,9 +17296,9 @@ namespace PowerSDR
                             num *= (float)((double)ptbPWR.Value * 0.01);
                             return num.ToString("f2") + " W";
                         }
-                        else return "0" + separator + "00 W";
+                        else
+                            return "0" + separator + "00 W";
                     }
-                    break;
 
                 case Model.GENESIS_G11:
                     if (vfoAFreq < max_freq)
@@ -17557,7 +17319,6 @@ namespace PowerSDR
                         }
                         else return "0" + separator + "00 W";
                     }
-                    break;
             }
 
             return "0.0W";
@@ -20172,7 +19933,6 @@ namespace PowerSDR
                 // update peak value
                 float x = 0;
                 float y = 0;
-                float y_peek_power = 0;
                 switch (current_display_engine)
                 {
                     case DisplayEngine.GDI_PLUS:
@@ -26685,6 +26445,8 @@ namespace PowerSDR
         }
 
         private int saved_spectrum_grid_max = 0;
+        private static bool AFPreampStateSave = false;
+        private static bool RFPreampStateSave = false;
         private void chkMOX_CheckedChanged(object sender, System.EventArgs e)  // changes yt7pwr
         {
             double freq = 0.0;
@@ -26827,7 +26589,6 @@ namespace PowerSDR
                         case DSPMode.DRM:
                             chkMOX.Checked = false;
                             return;
-                            break;
                         default:  // for Phone modes save Zoom and Pan
                             {
                                 cw_key_mode = false;
@@ -26995,6 +26756,14 @@ namespace PowerSDR
                         {
                             Thread.Sleep(1);
 
+                            AFPreampStateSave = chkG59AFbtn.Checked;
+                            RFPreampStateSave = chkG59RFbtn.Checked;
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = false;
+                                chkG59RFbtn.Checked = false;
+                            }
+
                             if (chkVFOSplit.Checked)
                             {
                                 if (line_mic_shared && current_dsp_mode_subRX != DSPMode.CWU &&
@@ -27017,6 +26786,14 @@ namespace PowerSDR
                         break;
                     case Model.GENESIS_G59NET:
                         {
+                            AFPreampStateSave = chkG59AFbtn.Checked;
+                            RFPreampStateSave = chkG59RFbtn.Checked;
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = false;
+                                chkG59RFbtn.Checked = false;
+                            }
+
                             if (chkVFOSplit.Checked)
                             {
                                 if (line_mic_shared && current_dsp_mode_subRX != DSPMode.CWU &&
@@ -27111,6 +26888,11 @@ namespace PowerSDR
                             g59.WriteToDevice(24, 0);                               //  CW monitor off
                             Thread.Sleep(1);
                             g59.WriteToDevice(14, 0);                               // transmiter OFF
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = AFPreampStateSave;
+                                chkG59RFbtn.Checked = RFPreampStateSave;
+                            }
                         }
                         break;
                     case Model.GENESIS_G59NET:
@@ -29297,8 +29079,6 @@ namespace PowerSDR
                                                         }
                                                     }
                                                     break;
-
-                                                    vfoa_lock = false;
                                             }
 
                                             Display_GDI.LOSC = (long)(freq * 1e6);
@@ -34524,7 +34304,7 @@ namespace PowerSDR
                         lblVFOBTX.BackColor = console_color;
                         lblVFOBTX.ForeColor = console_color;
                         lblVFOATX.BackColor = Color.Red;
-                        lblVFOATX.ForeColor = Color.White;
+                        lblVFOATX.ForeColor = Color.Olive;
                     }
 
                     lblVFOBTX.Visible = false;
@@ -36931,7 +36711,7 @@ namespace PowerSDR
                 lblVFOATX.Visible = true;
                 lblVFOBTX.Visible = false;
                 lblVFOATX.BackColor = Color.Red;
-                lblVFOATX.ForeColor = Color.White;
+                lblVFOATX.ForeColor = Color.Olive;
             }
         }
         #endregion
@@ -39898,7 +39678,6 @@ namespace PowerSDR
                         case WBIR_State.FastAdapt:
                             if (MOX)
                             {
-                                float real, imag;
                                 //DttSP.SetCorrectIQMu(0, 0, 0.0);
                                 //DttSP.SetCorrectIQMu(0, 1, 0.0);
                                 WBIR_state = WBIR_State.MOXAdapt;
@@ -39935,7 +39714,6 @@ namespace PowerSDR
                         case WBIR_State.SlowAdapt:
                             if (MOX)
                             {
-                                float real, imag;
                                 //DttSP.SetCorrectIQMu(0, 0, 0.0);    // reset wbir
                                 //DttSP.SetCorrectIQMu(0, 1, 0.0);
                                 WBIR_state = WBIR_State.MOXAdapt;

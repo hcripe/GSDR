@@ -54,7 +54,7 @@ namespace PowerSDR
 
         public Thread Keyer, CWTone, Monitor;
         private bool primary_comm_port_clossing = true;
-        private bool secondary_comm_port_clossing = true;
+//        private bool secondary_comm_port_clossing;
         private bool CW_monitor_off = false;
         private bool CW_monitor_on = false;
         private int keyermode = 0;
@@ -301,13 +301,13 @@ namespace PowerSDR
                     switch (secondary_conn_port)
                     {
                         case "None":
-                            secondary_comm_port_clossing = true;
+//                            secondary_comm_port_clossing = true;
                             Thread.Sleep(10);
                             if (sp2.IsOpen) sp2.Close();
                             enabled_secondary_keyer = false;
                             break;
                         default: // COMx
-                            secondary_comm_port_clossing = true;
+//                            secondary_comm_port_clossing = true;
                             Thread.Sleep(10);
                             if (sp2.IsOpen) sp2.Close();
                             sp2.PortName = secondary_conn_port;
@@ -319,12 +319,12 @@ namespace PowerSDR
                                 sp2.RtsEnable = true;
                                 if (sp2.IsOpen)
                                 {
-                                    secondary_comm_port_clossing = false;
+//                                    secondary_comm_port_clossing = false;
                                     enabled_secondary_keyer = true;
                                 }
                                 else
                                 {
-                                    secondary_comm_port_clossing = true;
+//                                    secondary_comm_port_clossing = true;
                                     enabled_secondary_keyer = false;
                                 }
                             }
