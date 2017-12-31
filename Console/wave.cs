@@ -397,7 +397,7 @@ namespace PowerSDR
             // WaveControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(416, 302);
+            this.ClientSize = new System.Drawing.Size(408, 318);
             this.Controls.Add(this.groupBoxTS1);
             this.Controls.Add(this.grpPlaylist);
             this.Controls.Add(this.groupBox2);

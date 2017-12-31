@@ -50,6 +50,7 @@ namespace PowerSDR
             this.Font = new_font;
             this.PerformAutoScale();
             this.PerformLayout();
+            lblRevisionNumber.Text = "Version: " + Console.gsdrVersion;  //wd0dxd
         }
 
         private void buttonOK_Click(object sender, EventArgs e)
@@ -171,6 +172,36 @@ namespace PowerSDR
                     break;
 
             }
+        }
+
+        private void lblRadioModel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGenesis_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblModel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblBoot_version_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GSDR_revision_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -285,7 +285,7 @@ namespace PowerSDR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 190);
+            this.ClientSize = new System.Drawing.Size(557, 189);
             this.Controls.Add(this.btnRecMsg6);
             this.Controls.Add(this.btnRecMsg5);
             this.Controls.Add(this.btnRecMsg4);
@@ -313,8 +313,8 @@ namespace PowerSDR
             this.MinimumSize = new System.Drawing.Size(573, 228);
             this.Name = "VoiceMessages";
             this.Text = "VoiceMessages";
-            this.Load += new System.EventHandler(this.VoiceMessages_Load);
             this.Closing += new System.ComponentModel.CancelEventHandler(this.FormClosing);
+            this.Load += new System.EventHandler(this.VoiceMessages_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -2908,7 +2908,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 431);
+            this.ClientSize = new System.Drawing.Size(634, 430);
             this.Controls.Add(this.btnApply);
             this.Controls.Add(this.groupBoxTS1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

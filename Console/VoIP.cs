@@ -2358,7 +2358,7 @@ namespace PowerSDR
             this.m_pStatusBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.statusLabel_Text,
             this.statusLabel_Duration});
-            this.m_pStatusBar.Location = new System.Drawing.Point(0, 112);
+            this.m_pStatusBar.Location = new System.Drawing.Point(0, 111);
             this.m_pStatusBar.Name = "m_pStatusBar";
             this.m_pStatusBar.Size = new System.Drawing.Size(305, 22);
             this.m_pStatusBar.TabIndex = 3;
@@ -2366,9 +2366,9 @@ namespace PowerSDR
             // 
             // statusLabel_Text
             // 
-            this.statusLabel_Text.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.statusLabel_Text.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.statusLabel_Text.Name = "statusLabel_Text";
             this.statusLabel_Text.Size = new System.Drawing.Size(230, 17);
             this.statusLabel_Text.Spring = true;
@@ -2377,9 +2377,9 @@ namespace PowerSDR
             // statusLabel_Duration
             // 
             this.statusLabel_Duration.AutoSize = false;
-            this.statusLabel_Duration.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
-                        | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
+            this.statusLabel_Duration.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.statusLabel_Duration.Name = "statusLabel_Duration";
             this.statusLabel_Duration.Size = new System.Drawing.Size(60, 17);
             // 
@@ -2449,7 +2449,7 @@ namespace PowerSDR
             // 
             // VoIP
             // 
-            this.ClientSize = new System.Drawing.Size(305, 134);
+            this.ClientSize = new System.Drawing.Size(305, 133);
             this.Controls.Add(this.m_pRemoteIP);
             this.Controls.Add(this.m_pLocalIP);
             this.Controls.Add(this.m_pConnect);

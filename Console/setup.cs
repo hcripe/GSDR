@@ -3317,7 +3317,7 @@ namespace PowerSDR
             this.chkOptEnableKBShortcuts.TabIndex = 1;
             this.chkOptEnableKBShortcuts.Text = "Enable Shortcuts";
             this.toolTip1.SetToolTip(this.chkOptEnableKBShortcuts, "Enable keyboard shortcuts.  If this box is not checked, none of the keyboard shor" +
-                    "tcuts other than those that are built into windows will function.");
+        "tcuts other than those that are built into windows will function.");
             this.chkOptEnableKBShortcuts.CheckedChanged += new System.EventHandler(this.chkOptEnableKBShortcuts_CheckedChanged);
             // 
             // chkOptQuickQSY
@@ -3331,7 +3331,7 @@ namespace PowerSDR
             this.chkOptQuickQSY.TabIndex = 0;
             this.chkOptQuickQSY.Text = "Quick QSY";
             this.toolTip1.SetToolTip(this.chkOptQuickQSY, "Enabled the Quick QSY feature -- directly enter the frequency in MHz while the ma" +
-                    "in form has the focus and hit enter.");
+        "in form has the focus and hit enter.");
             this.chkOptQuickQSY.CheckedChanged += new System.EventHandler(this.chkOptQuickQSY_CheckedChanged);
             // 
             // chkGeneralDisablePTT
@@ -3442,7 +3442,7 @@ namespace PowerSDR
             this.btnGeneralCalLevelStart.TabIndex = 4;
             this.btnGeneralCalLevelStart.Text = "Start";
             this.toolTip1.SetToolTip(this.btnGeneralCalLevelStart, "Click to start the level calibration using the frequency and level references abo" +
-                    "ve.");
+        "ve.");
             this.btnGeneralCalLevelStart.Click += new System.EventHandler(this.btnGeneralCalLevelStart_Click);
             // 
             // udFilterDefaultLowCut
@@ -3498,7 +3498,7 @@ namespace PowerSDR
             this.udOptMaxFilterShift.TabIndex = 13;
             this.udOptMaxFilterShift.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.toolTip1.SetToolTip(this.udOptMaxFilterShift, "Sets the maximum amount for the Shift control.  Set lower for finer resolution co" +
-                    "ntrol");
+        "ntrol");
             this.udOptMaxFilterShift.Value = new decimal(new int[] {
             9999,
             0,
@@ -3562,7 +3562,7 @@ namespace PowerSDR
             this.chkOptFilterSaveChanges.TabIndex = 15;
             this.chkOptFilterSaveChanges.Text = "Save Slider/Display Changes";
             this.toolTip1.SetToolTip(this.chkOptFilterSaveChanges, "If checked, changes made to the filters via the display or sliders will be saved " +
-                    "in the Variable filter.");
+        "in the Variable filter.");
             this.chkOptFilterSaveChanges.CheckedChanged += new System.EventHandler(this.chkOptFilterSaveChanges_CheckedChanged);
             // 
             // lblG59_DASH_DOT_ratio
@@ -3842,7 +3842,7 @@ namespace PowerSDR
             this.chkVACPrimaryAudioDevice.TabIndex = 46;
             this.chkVACPrimaryAudioDevice.Text = "Enable VAC as Mic/Speaker device";
             this.toolTip1.SetToolTip(this.chkVACPrimaryAudioDevice, "Enables Dual soundcard support. Primary device is dedicated to I/Q processing, Se" +
-                    "condary (VAC) device is dedicated to Audio processing.  ");
+        "condary (VAC) device is dedicated to Audio processing.  ");
             this.chkVACPrimaryAudioDevice.CheckedChanged += new System.EventHandler(this.chkVACPrimaryAudioDevice_CheckedChanged);
             // 
             // comboAudioChannels1
@@ -3929,7 +3929,7 @@ namespace PowerSDR
             this.btnAudioVoltTest1.TabIndex = 2;
             this.btnAudioVoltTest1.Text = "Test";
             this.toolTip1.SetToolTip(this.btnAudioVoltTest1, "Outputs a full scale sinewave at the CW pitch for determining the RMS Voltage of " +
-                    "the sound card.");
+        "the sound card.");
             this.btnAudioVoltTest1.Click += new System.EventHandler(this.btnAudioVoltTest1_Click);
             // 
             // udAudioVoltage1
@@ -4067,8 +4067,8 @@ namespace PowerSDR
             this.udAudioLatency1.TabIndex = 0;
             this.udAudioLatency1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolTip1.SetToolTip(this.udAudioLatency1, "Adds latency/stability to the audio subsystem.  Not needed when using ASIO driver" +
-                    ".  Mainly for compatibility.  The Manual setting should only be used for unsuppo" +
-                    "rted cards.");
+        ".  Mainly for compatibility.  The Manual setting should only be used for unsuppo" +
+        "rted cards.");
             this.udAudioLatency1.Value = new decimal(new int[] {
             50,
             0,
@@ -4085,6 +4085,7 @@ namespace PowerSDR
             "M-Audio Delta 44 (PCI)",
             "PreSonus FireBox (FireWire)",
             "Edirol FA-66 (FireWire)",
+            "E-mu 0202 USB)",
             "SB Audigy (PCI)",
             "SB Audigy 2 (PCI)",
             "SB Audigy 2 ZS (PCI)",
@@ -4102,7 +4103,7 @@ namespace PowerSDR
             this.comboAudioSoundCard.Size = new System.Drawing.Size(140, 21);
             this.comboAudioSoundCard.TabIndex = 0;
             this.toolTip1.SetToolTip(this.comboAudioSoundCard, "Sound Card Selection (use Unsupported Card if your card isn\'t in the list -- this" +
-                    " will require manual setup of the below controls).");
+        " will require manual setup of the below controls).");
             this.comboAudioSoundCard.SelectedIndexChanged += new System.EventHandler(this.comboAudioSoundCard_SelectedIndexChanged);
             // 
             // comboAudioBuffer1
@@ -4144,7 +4145,7 @@ namespace PowerSDR
             this.chkAudioVACAutoEnable.TabIndex = 0;
             this.chkAudioVACAutoEnable.Text = "Enable for Digital modes, Disable for all others";
             this.toolTip1.SetToolTip(this.chkAudioVACAutoEnable, "Click this button to automatically enable VAC when in Digital modes (DIGL, DIGU, " +
-                    "DRM)");
+        "DRM)");
             this.chkAudioVACAutoEnable.CheckedChanged += new System.EventHandler(this.chkAudioVACAutoEnable_CheckedChanged);
             // 
             // udAudioVACGainTX
@@ -4201,7 +4202,7 @@ namespace PowerSDR
             this.udAudioVACGainRX.TabIndex = 36;
             this.udAudioVACGainRX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.toolTip1.SetToolTip(this.udAudioVACGainRX, "Controls the gain applied to the RX audio before it is sent to the third party ap" +
-                    "plication.");
+        "plication.");
             this.udAudioVACGainRX.Value = new decimal(new int[] {
             0,
             0,
@@ -4318,7 +4319,7 @@ namespace PowerSDR
             this.chkSpectrumPolyphase.TabIndex = 39;
             this.chkSpectrumPolyphase.Text = "Enable";
             this.toolTip1.SetToolTip(this.chkSpectrumPolyphase, "Check to enable polyphase spectrum display mode.  While adding latency, this adds" +
-                    " resolution to the display.");
+        " resolution to the display.");
             this.chkSpectrumPolyphase.CheckedChanged += new System.EventHandler(this.chkSpectrumPolyphase_CheckedChanged);
             // 
             // udDisplayScopeTime
@@ -4404,7 +4405,7 @@ namespace PowerSDR
             this.udDisplayMultiTextHoldTime.Size = new System.Drawing.Size(56, 20);
             this.udDisplayMultiTextHoldTime.TabIndex = 4;
             this.toolTip1.SetToolTip(this.udDisplayMultiTextHoldTime, "Controls how long the meter will hold the digital peak value when in the Peak Pow" +
-                    "er mode.");
+        "er mode.");
             this.udDisplayMultiTextHoldTime.Value = new decimal(new int[] {
             500,
             0,
@@ -4510,7 +4511,7 @@ namespace PowerSDR
             this.clrbtnWaterfallMid.Size = new System.Drawing.Size(40, 23);
             this.clrbtnWaterfallMid.TabIndex = 70;
             this.toolTip1.SetToolTip(this.clrbtnWaterfallMid, "The mid color used when the signal level is exactly between the low and high leve" +
-                    "ls shown above.  A gradient is used if it is not eactly in the middle.");
+        "ls shown above.  A gradient is used if it is not eactly in the middle.");
             this.clrbtnWaterfallMid.Changed += new System.EventHandler(this.clrbtnWaterfallMid_Changed);
             // 
             // clrbtnWaterfallHigh
@@ -4524,7 +4525,7 @@ namespace PowerSDR
             this.clrbtnWaterfallHigh.Size = new System.Drawing.Size(40, 23);
             this.clrbtnWaterfallHigh.TabIndex = 69;
             this.toolTip1.SetToolTip(this.clrbtnWaterfallHigh, "The color to display when the signal level is at or above the high level shown ab" +
-                    "ove.");
+        "ove.");
             this.clrbtnWaterfallHigh.Changed += new System.EventHandler(this.clrbtnWaterfallHigh_Changed);
             // 
             // clrbtnWaterfallLow
@@ -5016,7 +5017,7 @@ namespace PowerSDR
             this.udLMSNRdelay.Size = new System.Drawing.Size(48, 20);
             this.udLMSNRdelay.TabIndex = 6;
             this.toolTip1.SetToolTip(this.udLMSNRdelay, "Determines how far back you look in the signal before you begin to compute a cohe" +
-                    "rent signal enhancement filter.  ");
+        "rent signal enhancement filter.  ");
             this.udLMSNRdelay.Value = new decimal(new int[] {
             50,
             0,
@@ -5107,7 +5108,7 @@ namespace PowerSDR
             this.udLMSANFdelay.Size = new System.Drawing.Size(48, 20);
             this.udLMSANFdelay.TabIndex = 2;
             this.toolTip1.SetToolTip(this.udLMSANFdelay, "Determines how far back you look in the signal before you begin to compute a canc" +
-                    "ellation filter");
+        "ellation filter");
             this.udLMSANFdelay.Value = new decimal(new int[] {
             50,
             0,
@@ -5155,7 +5156,7 @@ namespace PowerSDR
             this.comboDSPWindow.Size = new System.Drawing.Size(88, 21);
             this.comboDSPWindow.TabIndex = 0;
             this.toolTip1.SetToolTip(this.comboDSPWindow, "Selects the DSP windowing function that will be applied to the power spectrum in " +
-                    "the main display when in Spectrum, Panadapter, and Waterfall modes.   ");
+        "the main display when in Spectrum, Panadapter, and Waterfall modes.   ");
             this.comboDSPWindow.SelectedIndexChanged += new System.EventHandler(this.comboDSPWindow_SelectedIndexChanged);
             // 
             // udDSPNB2
@@ -5242,7 +5243,7 @@ namespace PowerSDR
             this.checkboxTXImagCal.TabIndex = 37;
             this.checkboxTXImagCal.Text = "Enable TX Imag Tone";
             this.toolTip1.SetToolTip(this.checkboxTXImagCal, "Check this box while in MOX on USB to calibrate the Transmit Rejection using the " +
-                    "controls above.");
+        "controls above.");
             this.checkboxTXImagCal.CheckedChanged += new System.EventHandler(this.chkTXImagCal_CheckedChanged);
             // 
             // udDSPImageGainTX
@@ -5366,7 +5367,7 @@ namespace PowerSDR
             this.comboKeyerConnSecondary.Size = new System.Drawing.Size(64, 21);
             this.comboKeyerConnSecondary.TabIndex = 53;
             this.toolTip1.SetToolTip(this.comboKeyerConnSecondary, "Sets Keyer Input COM port.  This can be an external keyer or a virtual COM port b" +
-                    "eing driven by a third party program.");
+        "eing driven by a third party program.");
             this.comboKeyerConnSecondary.ValueMember = "None";
             this.comboKeyerConnSecondary.SelectedIndexChanged += new System.EventHandler(this.comboKeyerConnSecondary_SelectedIndexChanged);
             // 
@@ -5608,7 +5609,7 @@ namespace PowerSDR
             this.udDSPLevelerThreshold.Size = new System.Drawing.Size(40, 20);
             this.udDSPLevelerThreshold.TabIndex = 6;
             this.toolTip1.SetToolTip(this.udDSPLevelerThreshold, "This provides for a “threshold” AGC.  Irrespective of how weak a signal is, no ga" +
-                    "in over this Max Gain is applied.");
+        "in over this Max Gain is applied.");
             this.udDSPLevelerThreshold.Value = new decimal(new int[] {
             15,
             0,
@@ -5639,7 +5640,7 @@ namespace PowerSDR
             this.udDSPALCThreshold.Size = new System.Drawing.Size(48, 20);
             this.udDSPALCThreshold.TabIndex = 6;
             this.toolTip1.SetToolTip(this.udDSPALCThreshold, "This provides for a “threshold” AGC.  Irrespective of how weak a signal is, no ga" +
-                    "in over this Max Gain is applied.");
+        "in over this Max Gain is applied.");
             this.udDSPALCThreshold.Value = new decimal(new int[] {
             120,
             0,
@@ -5671,7 +5672,7 @@ namespace PowerSDR
             this.udDSPAGCMaxGaindB.Size = new System.Drawing.Size(40, 20);
             this.udDSPAGCMaxGaindB.TabIndex = 6;
             this.toolTip1.SetToolTip(this.udDSPAGCMaxGaindB, "This provides for a “threshold” AGC.  Irrespective of how weak a signal is, no ga" +
-                    "in over this Max Gain is applied.");
+        "in over this Max Gain is applied.");
             this.udDSPAGCMaxGaindB.Value = new decimal(new int[] {
             90,
             0,
@@ -5702,7 +5703,7 @@ namespace PowerSDR
             this.udDSPAGCFixedGaindB.Size = new System.Drawing.Size(40, 20);
             this.udDSPAGCFixedGaindB.TabIndex = 4;
             this.toolTip1.SetToolTip(this.udDSPAGCFixedGaindB, "When you choose Fixed AGC on the front panel, this number is used to multiply the" +
-                    " signal.");
+        " signal.");
             this.udDSPAGCFixedGaindB.Value = new decimal(new int[] {
             20,
             0,
@@ -5794,7 +5795,7 @@ namespace PowerSDR
             this.udTXVOXHangTime.Size = new System.Drawing.Size(56, 20);
             this.udTXVOXHangTime.TabIndex = 51;
             this.toolTip1.SetToolTip(this.udTXVOXHangTime, "The amount of time in ms to stay in TX mode after the last signal above the thres" +
-                    "hold.");
+        "hold.");
             this.udTXVOXHangTime.Value = new decimal(new int[] {
             250,
             0,
@@ -6010,7 +6011,7 @@ namespace PowerSDR
             this.udTXFFCompression.Size = new System.Drawing.Size(48, 20);
             this.udTXFFCompression.TabIndex = 31;
             this.toolTip1.SetToolTip(this.udTXFFCompression, "Sets the compression value allowing more average power without raising the peaks." +
-                    "");
+        "");
             this.udTXFFCompression.Value = new decimal(new int[] {
             3,
             0,
@@ -6028,7 +6029,7 @@ namespace PowerSDR
             this.tbTXFFCompression.TabIndex = 21;
             this.tbTXFFCompression.TickFrequency = 2;
             this.toolTip1.SetToolTip(this.tbTXFFCompression, "Sets the compression value allowing more average power without raising the peaks." +
-                    "");
+        "");
             this.tbTXFFCompression.Value = 3;
             this.tbTXFFCompression.Scroll += new System.EventHandler(this.tbTXFFCompression_Scroll);
             // 
@@ -6101,7 +6102,7 @@ namespace PowerSDR
             this.chkDCBlock.TabIndex = 48;
             this.chkDCBlock.Text = "DC Block";
             this.toolTip1.SetToolTip(this.chkDCBlock, "Enable this to engage a digital LPF to help eliminate DC garbage caused by some s" +
-                    "ound cards.");
+        "ound cards.");
             this.chkDCBlock.CheckedChanged += new System.EventHandler(this.chkDCBlock_CheckedChanged);
             // 
             // btnPAGainReset
@@ -6842,7 +6843,7 @@ namespace PowerSDR
             this.btnTestGenSweep.TabIndex = 0;
             this.btnTestGenSweep.Text = "Sweep";
             this.toolTip1.SetToolTip(this.btnTestGenSweep, "Click this button to sweep from the Low setting to the High setting using the Hz/" +
-                    "Sec setting.");
+        "Sec setting.");
             this.btnTestGenSweep.Click += new System.EventHandler(this.buttonTestGenSweep_Click);
             // 
             // btnApply
@@ -6932,7 +6933,7 @@ namespace PowerSDR
             this.buttonTS1.TabIndex = 7;
             this.buttonTS1.Text = "Start";
             this.toolTip1.SetToolTip(this.buttonTS1, "Click to start the RX Image rejection calibration using the above frequency refer" +
-                    "ence.");
+        "ence.");
             // 
             // numericUpDownTS2
             // 
@@ -7000,7 +7001,7 @@ namespace PowerSDR
             this.buttonTS2.TabIndex = 4;
             this.buttonTS2.Text = "Start";
             this.toolTip1.SetToolTip(this.buttonTS2, "Click to start the level calibration using the frequency and level references abo" +
-                    "ve.");
+        "ve.");
             // 
             // buttonTS3
             // 
@@ -8134,7 +8135,7 @@ namespace PowerSDR
             this.comboDSPBufSizeCW.Size = new System.Drawing.Size(64, 21);
             this.comboDSPBufSizeCW.TabIndex = 19;
             this.toolTip1.SetToolTip(this.comboDSPBufSizeCW, "Sets DSP internal Buffer Size for CW mode -- larger yields sharper filters, more " +
-                    "latency");
+        "latency");
             this.comboDSPBufSizeCW.ValueMember = "1024";
             this.comboDSPBufSizeCW.SelectedIndexChanged += new System.EventHandler(this.comboDSPBufSizeCW_SelectedIndexChanged);
             // 
@@ -8154,7 +8155,7 @@ namespace PowerSDR
             this.comboDSPBufSizeDigital.Size = new System.Drawing.Size(64, 21);
             this.comboDSPBufSizeDigital.TabIndex = 18;
             this.toolTip1.SetToolTip(this.comboDSPBufSizeDigital, "Sets DSP internal Buffer Size for Digital modes -- larger yields sharper filters," +
-                    " more latency");
+        " more latency");
             this.comboDSPBufSizeDigital.ValueMember = "1024";
             this.comboDSPBufSizeDigital.SelectedIndexChanged += new System.EventHandler(this.comboDSPBufSizeDigital_SelectedIndexChanged);
             // 
@@ -10179,7 +10180,7 @@ namespace PowerSDR
             this.lblTestSigGenFreqCallout.Size = new System.Drawing.Size(336, 16);
             this.lblTestSigGenFreqCallout.TabIndex = 90;
             this.lblTestSigGenFreqCallout.Text = "0                                                 96k                            " +
-                "              192k";
+    "              192k";
             // 
             // lblTestGenHzSec
             // 
@@ -11002,8 +11003,8 @@ namespace PowerSDR
             this.tbSubRXAlpha.TabIndex = 86;
             this.tbSubRXAlpha.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbSubRXAlpha.Value = 127;
-            this.tbSubRXAlpha.ValueChanged += new System.EventHandler(this.tbSubRXAlpha_ValueChanged);
             this.tbSubRXAlpha.Scroll += new System.EventHandler(this.tbSubRXAlpha_Scroll);
+            this.tbSubRXAlpha.ValueChanged += new System.EventHandler(this.tbSubRXAlpha_ValueChanged);
             // 
             // lblSubRXZeroLine
             // 
@@ -11102,8 +11103,8 @@ namespace PowerSDR
             this.tbMainRXAlpha.TabIndex = 84;
             this.tbMainRXAlpha.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbMainRXAlpha.Value = 127;
-            this.tbMainRXAlpha.ValueChanged += new System.EventHandler(this.tbMainRXAlpha_ValueChanged);
             this.tbMainRXAlpha.Scroll += new System.EventHandler(this.tbMainRXAlpha_Scroll);
+            this.tbMainRXAlpha.ValueChanged += new System.EventHandler(this.tbMainRXAlpha_ValueChanged);
             // 
             // lblMainRXAlpha
             // 
@@ -11170,8 +11171,8 @@ namespace PowerSDR
             this.tbGridLineAlpha.TabIndex = 94;
             this.tbGridLineAlpha.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbGridLineAlpha.Value = 127;
-            this.tbGridLineAlpha.ValueChanged += new System.EventHandler(this.tbGridLineAlpha_ValueChanged);
             this.tbGridLineAlpha.Scroll += new System.EventHandler(this.tbGridLineAlpha_Scroll);
+            this.tbGridLineAlpha.ValueChanged += new System.EventHandler(this.tbGridLineAlpha_ValueChanged);
             // 
             // chkSmoothLine
             // 
@@ -11225,8 +11226,8 @@ namespace PowerSDR
             this.tbDataLineAlpha.TabIndex = 90;
             this.tbDataLineAlpha.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbDataLineAlpha.Value = 127;
-            this.tbDataLineAlpha.ValueChanged += new System.EventHandler(this.tbDataLineAlpha_ValueChanged);
             this.tbDataLineAlpha.Scroll += new System.EventHandler(this.tbDataLineAlpha_Scroll);
+            this.tbDataLineAlpha.ValueChanged += new System.EventHandler(this.tbDataLineAlpha_ValueChanged);
             // 
             // lblDisplayTxtAlpha
             // 
@@ -11289,8 +11290,8 @@ namespace PowerSDR
             this.tbDisplayTxtAlpha.TabIndex = 88;
             this.tbDisplayTxtAlpha.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbDisplayTxtAlpha.Value = 127;
-            this.tbDisplayTxtAlpha.ValueChanged += new System.EventHandler(this.tbDisplayTxtAlpha_ValueChanged);
             this.tbDisplayTxtAlpha.Scroll += new System.EventHandler(this.tbDisplayTxtAlpha_Scroll);
+            this.tbDisplayTxtAlpha.ValueChanged += new System.EventHandler(this.tbDisplayTxtAlpha_ValueChanged);
             // 
             // labelTS6
             // 
@@ -19691,7 +19692,7 @@ namespace PowerSDR
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(624, 418);
+            this.ClientSize = new System.Drawing.Size(614, 412);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tcSetup);
             this.Controls.Add(this.btnApply);
@@ -25031,6 +25032,9 @@ namespace PowerSDR
                         case "Edirol FA-66 (FireWire)":
                             card = SoundCard.EDIROL_FA_66;
                             break;
+                        case "E-mu 0202 (USB)":         //added wd0dxd
+                            card = SoundCard.EMU_0202;
+                            break;
                         case "SB Audigy (PCI)":
                             card = SoundCard.AUDIGY;
                             break;
@@ -26135,6 +26139,72 @@ namespace PowerSDR
                                 chkAudioEnableVAC.Enabled = true;
                                 console.PowerEnabled = true;
                                 comboAudioChannels1.Text = "4";
+                                comboAudioChannels1.Enabled = false;
+                            }
+                            break;
+                        case SoundCard.EMU_0202:
+                            udAudioVoltage1.Value = 1.68M;
+                            if (!comboAudioSampleRate1.Items.Contains(96000))
+                                comboAudioSampleRate1.Items.Add(96000);
+                            if (comboAudioSampleRate1.Items.Contains(192000))
+                                comboAudioSampleRate1.Items.Remove(192000);
+                            comboAudioSampleRate1.Text = "48000";
+                            foreach (PADeviceInfo p in comboAudioDriver1.Items)
+                            {
+                                if (p.Name == "ASIO")
+                                {
+                                    comboAudioDriver1.SelectedItem = p;
+                                    break;
+                                }
+                            }
+
+                            foreach (PADeviceInfo dev in comboAudioInput1.Items)
+                            {
+                                if (dev.Name == "ASIO E-MU AUDIO")
+                                {
+                                    comboAudioInput1.Text = "ASIO E-MU AUDIO";
+                                    comboAudioOutput1.Text = "ASIO E-MU AUDIO";
+                                }
+                            }
+                            if (comboAudioInput1.Text != "ASIO E-MU AUDIO")
+                            {
+                                foreach (PADeviceInfo dev in comboAudioInput1.Items)
+                                {
+                                    if (dev.Name == "ASIO4ALL v2")
+                                    {
+                                        comboAudioInput1.Text = "ASIO4ALL v2";
+                                        comboAudioOutput1.Text = "ASIO4ALL v2";
+                                    }
+                                }
+                            }
+
+                            comboAudioMixer1.Text = "None";
+
+                            comboAudioReceive1.Text = "Line In";
+
+                            if (!console.LineMicShared)
+                                comboAudioTransmit1.Text = "Microphone";
+                            else
+                                comboAudioTransmit1.Text = "Line In";
+                                                     
+                            if (comboAudioInput1.Text != "ASIO4ALL v2" &&
+                                comboAudioInput1.Text != "ASIO E-MU AUDIO")
+                            {
+                                MessageBox.Show("ASIO4ALL driver not found.  Please visit " +
+                                    "www.asio4all.com, download and install the driver, " +
+                                    "and try again.  Alternatively, you can use the Unsupported " +
+                                    "Card selection and setup the sound interface manually.  For " +
+                                    "more support, email support@flex-radio.com.",
+                                    "ASIO4ALL Not Found",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Exclamation);
+                                console.PowerEnabled = false;
+                            }
+                            else
+                            {
+                                udAudioLineIn1.Value = 20;
+                                console.PowerEnabled = true;
+                                comboAudioChannels1.Text = "2";
                                 comboAudioChannels1.Enabled = false;
                             }
                             break;

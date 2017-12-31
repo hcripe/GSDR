@@ -1481,9 +1481,9 @@ namespace PowerSDR
             this.keyboardButton.TabIndex = 45;
             this.keyboardButton.Text = "Keyboard";
             this.toolTip1.SetToolTip(this.keyboardButton, " Enable keyboard.  This must be selected for keyboard to work.");
-            this.keyboardButton.Leave += new System.EventHandler(this.keyboardButton_Leave);
-            this.keyboardButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardButton_KeyPress);
             this.keyboardButton.Enter += new System.EventHandler(this.keyboardButton_Enter);
+            this.keyboardButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardButton_KeyPress);
+            this.keyboardButton.Leave += new System.EventHandler(this.keyboardButton_Leave);
             // 
             // pttLed
             // 
@@ -1632,7 +1632,7 @@ namespace PowerSDR
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(698, 276);
+            this.ClientSize = new System.Drawing.Size(688, 265);
             this.Controls.Add(this.chkAlwaysOnTop);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblQRSS);
@@ -1687,9 +1687,9 @@ namespace PowerSDR
             this.Name = "CWX";
             this.Text = "   CW Memories and Keyboard";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.CWX_Closing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CWX_KeyDown_1);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.CWX_KeyUp_1);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CWX_MouseMove);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CWX_KeyDown_1);
             ((System.ComponentModel.ISupportInitialize)(this.udDelay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.udDrop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.udPtt)).EndInit();

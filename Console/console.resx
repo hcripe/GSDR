@@ -164,6 +164,9 @@
   <data name="chkNoiseGate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkNoiseGate.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkNoiseGate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -204,6 +207,9 @@
   <data name="chkVOX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkVOX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkVOX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -243,6 +249,9 @@
   <data name="chkDSPComp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkDSPComp.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkDSPComp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -281,6 +290,9 @@
   </data>
   <data name="chkDSPCompander.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkDSPCompander.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkDSPCompander.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -350,6 +362,9 @@
   </data>
   <data name="chkShowTXFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkShowTXFilter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkShowTXFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -471,6 +486,9 @@
   <data name="&gt;&gt;ptbAF.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="btnNetwork.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnNetwork.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -513,6 +531,9 @@
   <data name="chkShowTXCWFreq.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkShowTXCWFreq.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkShowTXCWFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -548,6 +569,9 @@
   </data>
   <data name="chkCWVAC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkCWVAC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkCWVAC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -615,6 +639,9 @@
   <data name="chkCWIambic.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="chkCWIambic.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkCWIambic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -650,6 +677,9 @@
   </data>
   <data name="chkBreakIn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkBreakIn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkBreakIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -714,6 +744,9 @@
   <data name="btnG160_X2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG160_X2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG160_X2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -752,6 +785,9 @@
   </data>
   <data name="btnG160_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG160_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG160_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -792,6 +828,9 @@
   <data name="chkG59ATTbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkG59ATTbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkG59ATTbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -830,6 +869,9 @@
   </data>
   <data name="chkG59AFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG59AFbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG59AFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -870,6 +912,9 @@
   <data name="chkG59RFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkG59RFbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkG59RFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -902,6 +947,9 @@
   </data>
   <data name="&gt;&gt;chkG59RFbtn.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="btnUSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnUSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -977,6 +1025,9 @@
   </data>
   <data name="chkEnableSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkEnableSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkEnableSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -1113,6 +1164,9 @@
   <data name="radBandGEN.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandGEN.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandGEN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1157,6 +1211,9 @@
   </data>
   <data name="radBandWWV.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandWWV.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandWWV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1203,6 +1260,9 @@
   <data name="radMoreBands.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radMoreBands.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radMoreBands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1247,6 +1307,9 @@
   </data>
   <data name="radBand2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1293,6 +1356,9 @@
   <data name="radBand6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1337,6 +1403,9 @@
   </data>
   <data name="radBand10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand10.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1383,6 +1452,9 @@
   <data name="radBand12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand12.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1427,6 +1499,9 @@
   </data>
   <data name="radBand15.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand15.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1473,6 +1548,9 @@
   <data name="radBand17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand17.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1517,6 +1595,9 @@
   </data>
   <data name="radBand20.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand20.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1563,6 +1644,9 @@
   <data name="radBand30.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand30.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1607,6 +1691,9 @@
   </data>
   <data name="radBand40.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand40.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1653,6 +1740,9 @@
   <data name="radBand60.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand60.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand60.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1697,6 +1787,9 @@
   </data>
   <data name="radBand80.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand80.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1743,6 +1836,9 @@
   <data name="radBand160.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand160.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand160.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1782,6 +1878,9 @@
   <data name="btnZAP.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnZAP.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnZAP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -1820,6 +1919,9 @@
   </data>
   <data name="btnVFOA.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnVFOA.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnVFOA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -1863,6 +1965,9 @@
   <data name="chkVFOsinc.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkVFOsinc.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkVFOsinc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -1898,6 +2003,9 @@
   </data>
   <data name="btnEraseMemory.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnEraseMemory.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnEraseMemory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -1938,6 +2046,9 @@
   <data name="chkVFOLock.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkVFOLock.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkVFOLock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -1974,6 +2085,9 @@
   <data name="btnMemoryQuickRecall.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnMemoryQuickRecall.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnMemoryQuickRecall.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2006,6 +2120,9 @@
   </data>
   <data name="btnMemoryQuickSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnMemoryQuickSave.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnMemoryQuickSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -2042,6 +2159,9 @@
   </data>
   <data name="chkDisplayPeak.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkDisplayPeak.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkDisplayPeak.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -2112,6 +2232,9 @@
   <data name="chkDisplayAVG.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkDisplayAVG.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkDisplayAVG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2150,6 +2273,9 @@
   </data>
   <data name="chkRecordWav.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkRecordWav.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkRecordWav.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2223,6 +2349,9 @@
   <data name="chkMUT.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkMUT.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkMUT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2261,6 +2390,9 @@
   </data>
   <data name="chkMON.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkMON.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkMON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -2304,6 +2436,9 @@
   <data name="chkTUN.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkTUN.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkTUN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2346,6 +2481,9 @@
   <data name="chkMOX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkMOX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkMOX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2384,6 +2522,9 @@
   </data>
   <data name="chkPlayWav.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkPlayWav.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkPlayWav.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2595,6 +2736,9 @@
   <data name="btnFilterShiftReset.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="btnFilterShiftReset.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnFilterShiftReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2661,6 +2805,9 @@
   <data name="chkPower.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkPower.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkPower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2696,6 +2843,9 @@
   </data>
   <data name="chkDSPNB2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkDSPNB2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkDSPNB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2736,6 +2886,9 @@
   <data name="chkNB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkNB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkNB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2774,6 +2927,9 @@
   </data>
   <data name="chkANF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkANF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkANF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2814,6 +2970,9 @@
   <data name="chkNR.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkNR.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkNR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2852,6 +3011,9 @@
   </data>
   <data name="chkBIN.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkBIN.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkBIN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -2946,6 +3108,9 @@
   <data name="chkXIT.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkXIT.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkXIT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -2984,6 +3149,9 @@
   </data>
   <data name="chkRIT.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkRIT.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkRIT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3078,6 +3246,9 @@
   <data name="btnRITReset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnRITReset.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnRITReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -3110,6 +3281,9 @@
   </data>
   <data name="btnXITReset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnXITReset.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnXITReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3146,6 +3320,9 @@
   </data>
   <data name="btnVFOSwap.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnVFOSwap.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnVFOSwap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3186,6 +3363,9 @@
   <data name="btnVFOBtoA.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnVFOBtoA.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnVFOBtoA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -3225,6 +3405,9 @@
   <data name="btnVFOAtoB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnVFOAtoB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnVFOAtoB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -3263,6 +3446,9 @@
   </data>
   <data name="chkVFOSplit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkVFOSplit.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkVFOSplit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3305,6 +3491,9 @@
   </data>
   <data name="chkSQLMainRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkSQLMainRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkSQLMainRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3392,6 +3581,9 @@
   </data>
   <data name="chkVACEnabled.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkVACEnabled.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkVACEnabled.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3516,6 +3708,9 @@
   <data name="btnSubRXFilterShiftReset.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="btnSubRXFilterShiftReset.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnSubRXFilterShiftReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -3582,6 +3777,9 @@
   <data name="chkNB2SubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkNB2SubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkNB2SubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3620,6 +3818,9 @@
   </data>
   <data name="chkNBSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkNBSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkNBSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3660,6 +3861,9 @@
   <data name="chkANFSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkANFSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkANFSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3699,6 +3903,9 @@
   <data name="chkNRSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkNRSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkNRSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3737,6 +3944,9 @@
   </data>
   <data name="chkBINSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkBINSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkBINSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -3896,6 +4106,9 @@
   </data>
   <data name="chkSQLSubRX.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkSQLSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkSQLSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -4197,6 +4410,9 @@
   <data name="lblRX2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblRX2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblRX2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -4296,6 +4512,9 @@
   <data name="btnNotchReset.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="btnNotchReset.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnNotchReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -4331,6 +4550,9 @@
   </data>
   <data name="radSUBRxModeAM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeAM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4371,6 +4593,9 @@
   <data name="radSUBRxModeSAM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeSAM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeSAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4409,6 +4634,9 @@
   </data>
   <data name="radSUBRxModeDSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeDSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeDSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4449,6 +4677,9 @@
   <data name="radSUBRxModeCWU.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeCWU.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeCWU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4487,6 +4718,9 @@
   </data>
   <data name="radSUBRxModeDIGU.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeDIGU.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeDIGU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4527,6 +4761,9 @@
   <data name="radSUBRxModeDIGL.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeDIGL.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeDIGL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4565,6 +4802,9 @@
   </data>
   <data name="radSUBRxModeLSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeLSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeLSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4605,6 +4845,9 @@
   <data name="radSUBRxModeSPEC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeSPEC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeSPEC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4643,6 +4886,9 @@
   </data>
   <data name="radSUBRxModeDRM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeDRM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeDRM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4683,6 +4929,9 @@
   <data name="radSUBRxModeFMN.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeFMN.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeFMN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4722,6 +4971,9 @@
   <data name="radSUBRxModeUSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSUBRxModeUSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSUBRxModeUSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4760,6 +5012,9 @@
   </data>
   <data name="radSUBRxModeCWL.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSUBRxModeCWL.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSUBRxModeCWL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4803,6 +5058,9 @@
   <data name="radModeAM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeAM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4844,6 +5102,9 @@
   </data>
   <data name="radModeSAM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radModeSAM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radModeSAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4887,6 +5148,9 @@
   <data name="radModeDSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeDSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeDSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4928,6 +5192,9 @@
   </data>
   <data name="radModeCWU.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radModeCWU.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radModeCWU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4971,6 +5238,9 @@
   <data name="radModeDIGU.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeDIGU.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeDIGU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5012,6 +5282,9 @@
   </data>
   <data name="radModeDIGL.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radModeDIGL.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radModeDIGL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5055,6 +5328,9 @@
   <data name="radModeLSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeLSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeLSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5096,6 +5372,9 @@
   </data>
   <data name="radModeSPEC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radModeSPEC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radModeSPEC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5139,6 +5418,9 @@
   <data name="radModeDRM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeDRM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeDRM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5180,6 +5462,9 @@
   </data>
   <data name="radModeFMN.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radModeFMN.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radModeFMN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5223,6 +5508,9 @@
   <data name="radModeUSB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeUSB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeUSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5265,6 +5553,9 @@
   <data name="radModeWFM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radModeWFM.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radModeWFM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5304,6 +5595,9 @@
   <data name="chkManualNotchFilter.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkManualNotchFilter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkManualNotchFilter.Location" type="System.Drawing.Point, System.Drawing">
     <value>38, 19</value>
   </data>
@@ -5339,6 +5633,9 @@
   </data>
   <data name="chkG11ATTbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG11ATTbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG11ATTbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -5379,6 +5676,9 @@
   <data name="chkG11AFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkG11AFbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkG11AFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -5417,6 +5717,9 @@
   </data>
   <data name="chkG11RFbtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG11RFbtn.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG11RFbtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -5463,6 +5766,9 @@
   <data name="radBandHF.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandHF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandHF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5507,6 +5813,9 @@
   </data>
   <data name="radBand600.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBand600.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBand600.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5553,6 +5862,9 @@
   <data name="radBand2190.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBand2190.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBand2190.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5589,6 +5901,9 @@
   <data name="btnFMMC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnFMMC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnFMMC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -5622,6 +5937,9 @@
   <data name="btnFMMR.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnFMMR.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnFMMR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -5654,6 +5972,9 @@
   </data>
   <data name="btnFMMS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnFMMS.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnFMMS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -5709,6 +6030,9 @@
   <data name="lblMemoryNumber.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
+  <data name="lblMemoryNumber.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblMemoryNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -5716,7 +6040,7 @@
     <value>18, 82</value>
   </data>
   <data name="lblMemoryNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 24</value>
+    <value>20, 24</value>
   </data>
   <data name="lblMemoryNumber.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -5766,6 +6090,9 @@
   <data name="lblFMMemory.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
+  <data name="lblFMMemory.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblFMMemory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -5773,7 +6100,7 @@
     <value>44, 99</value>
   </data>
   <data name="lblFMMemory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 24</value>
+    <value>20, 24</value>
   </data>
   <data name="lblFMMemory.TabIndex" type="System.Int32, mscorlib">
     <value>88</value>
@@ -5832,6 +6159,9 @@
   <data name="radFMModeHigh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFMModeHigh.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFMModeHigh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5874,6 +6204,9 @@
   <data name="radFMModeSimplex.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFMModeSimplex.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFMModeSimplex.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5913,6 +6246,9 @@
   <data name="radFMModeLow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFMModeLow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFMModeLow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5951,6 +6287,9 @@
   </data>
   <data name="chkCTCSS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkCTCSS.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkCTCSS.Location" type="System.Drawing.Point, System.Drawing">
     <value>187, 19</value>
@@ -6162,6 +6501,9 @@
   <data name="chkVACMute.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkVACMute.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkVACMute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6200,6 +6542,9 @@
   </data>
   <data name="chkG6ATT_6dB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG6ATT_6dB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG6ATT_6dB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6240,6 +6585,9 @@
   <data name="chkG6AF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkG6AF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkG6AF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6279,6 +6627,9 @@
   <data name="chkG6RF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkG6RF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkG6RF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6315,6 +6666,9 @@
   <data name="chkWFMstereo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkWFMstereo.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkWFMstereo.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 51</value>
   </data>
@@ -6347,6 +6701,9 @@
   </data>
   <data name="chkG6ATT_12dB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG6ATT_12dB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG6ATT_12dB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6386,6 +6743,9 @@
   </data>
   <data name="chkG6ATT_18dB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkG6ATT_18dB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkG6ATT_18dB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6510,9 +6870,6 @@
   <data name="debugToolStripMenuItem.Text" xml:space="preserve">
     <value>Debug</value>
   </data>
-  <data name="omniRIGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 20</value>
-  </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 20</value>
   </data>
@@ -6585,6 +6942,9 @@
   <data name="btnG500_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG500_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG500_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6645,6 +7005,9 @@
   <data name="btnG137_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG137_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG137_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6704,6 +7067,9 @@
   </data>
   <data name="btnG40_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG40_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG40_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6768,6 +7134,9 @@
   <data name="btnMsg6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnMsg6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnMsg6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6803,6 +7172,9 @@
   </data>
   <data name="btnMsg5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnMsg5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnMsg5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6840,6 +7212,9 @@
   <data name="btnMsg4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnMsg4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnMsg4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6875,6 +7250,9 @@
   </data>
   <data name="btnMsg3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnMsg3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnMsg3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -6912,6 +7290,9 @@
   <data name="btnMsg2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnMsg2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnMsg2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -6947,6 +7328,9 @@
   </data>
   <data name="btnMsg1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnMsg1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnMsg1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -7290,6 +7674,9 @@
   <data name="&gt;&gt;udMIC.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="lblMIC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblMIC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7319,6 +7706,9 @@
   </data>
   <data name="&gt;&gt;lblMIC.ZOrder" xml:space="preserve">
     <value>15</value>
+  </data>
+  <data name="lblTransmitProfile.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblTransmitProfile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -7530,6 +7920,9 @@
   <data name="&gt;&gt;txtVFOAFreq.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="btnHidden.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnHidden.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7620,6 +8013,9 @@
   <data name="lblATTNewVFO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblATTNewVFO.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblATTNewVFO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7656,6 +8052,9 @@
   <data name="lblRFNewVFO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblRFNewVFO.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblRFNewVFO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7691,6 +8090,9 @@
   </data>
   <data name="lblAFNewVFO.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblAFNewVFO.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblAFNewVFO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -7761,6 +8163,9 @@
   <data name="lblVFOBTX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblVFOBTX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblVFOBTX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7796,6 +8201,9 @@
   </data>
   <data name="lblVFOATX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVFOATX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblVFOATX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -7833,6 +8241,9 @@
   <data name="lblLOSC.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblLOSC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblLOSC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7866,6 +8277,9 @@
   <data name="lblVFOB.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="lblVFOB.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblVFOB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -7898,6 +8312,9 @@
   </data>
   <data name="lblVFOA.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblVFOA.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblVFOA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8115,6 +8532,12 @@
   <data name="sMeterDigital1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="sMeterDigital1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 133</value>
+  </data>
+  <data name="sMeterDigital1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 133</value>
+  </data>
   <data name="sMeterDigital1.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 133</value>
   </data>
@@ -8141,6 +8564,12 @@
   </data>
   <data name="sMeterDigital2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="sMeterDigital2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 133</value>
+  </data>
+  <data name="sMeterDigital2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 133</value>
   </data>
   <data name="sMeterDigital2.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 133</value>
@@ -8187,6 +8616,9 @@
   <data name="lblNotchShift.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblNotchShift.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblNotchShift.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8219,6 +8651,9 @@
   </data>
   <data name="lblWidth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblWidth.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8256,6 +8691,9 @@
   <data name="lblAF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblAF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblAF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8292,6 +8730,9 @@
   <data name="lblPWRValue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="lblPWRValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblPWRValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8327,6 +8768,9 @@
   </data>
   <data name="lblRFValue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblRFValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblRFValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8385,6 +8829,9 @@
   <data name="lblRF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblRF.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblRF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8418,6 +8865,9 @@
   <data name="lblPWR.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblPWR.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblPWR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8447,6 +8897,9 @@
   </data>
   <data name="&gt;&gt;lblPWR.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="lblAGC.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblAGC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -8483,6 +8936,9 @@
   </data>
   <data name="lblAFValue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblAFValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblAFValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8568,6 +9024,9 @@
   <data name="btnCWX4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnCWX4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnCWX4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8603,6 +9062,9 @@
   </data>
   <data name="btnCWX5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnCWX5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnCWX5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8640,6 +9102,9 @@
   <data name="btnCWX1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnCWX1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnCWX1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8675,6 +9140,9 @@
   </data>
   <data name="btnCWX6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnCWX6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnCWX6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8712,6 +9180,9 @@
   <data name="btnCWX2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnCWX2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnCWX2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -8747,6 +9218,9 @@
   </data>
   <data name="btnCWX3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnCWX3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnCWX3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8801,6 +9275,9 @@
   </data>
   <data name="&gt;&gt;grpCWX.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="lblCWPitchFreq.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblCWPitchFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -8879,6 +9356,9 @@
   </data>
   <data name="&gt;&gt;ptbCWSpeed.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="lblCWSpeed.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblCWSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9023,6 +9503,9 @@
   </data>
   <data name="lblVFOBLSD.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="lblVFOBLSD.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblVFOBLSD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
@@ -9327,6 +9810,9 @@
   <data name="btnG3020_X4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG3020_X4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG3020_X4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9362,6 +9848,9 @@
   </data>
   <data name="btnG3020_X3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG3020_X3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG3020_X3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9399,6 +9888,9 @@
   <data name="btnG3020_X2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG3020_X2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG3020_X2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9434,6 +9926,9 @@
   </data>
   <data name="btnG3020_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG3020_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG3020_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9495,6 +9990,9 @@
   <data name="btnG80_X4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG80_X4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG80_X4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9530,6 +10028,9 @@
   </data>
   <data name="btnG80_X3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG80_X3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG80_X3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9567,6 +10068,9 @@
   <data name="btnG80_X2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnG80_X2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnG80_X2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9602,6 +10106,9 @@
   </data>
   <data name="btnG80_X1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnG80_X1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnG80_X1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9687,6 +10194,9 @@
   <data name="grpZoom.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="label2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9768,6 +10278,9 @@
   <data name="&gt;&gt;ptbDisplayPan.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="label1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9800,6 +10313,9 @@
   </data>
   <data name="radDisplayZoom32x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radDisplayZoom32x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radDisplayZoom32x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9837,6 +10353,9 @@
   <data name="radDisplayZoom1x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radDisplayZoom1x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radDisplayZoom1x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9872,6 +10391,9 @@
   </data>
   <data name="radDisplayZoom2x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radDisplayZoom2x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radDisplayZoom2x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -9909,6 +10431,9 @@
   <data name="radDisplayZoom16x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radDisplayZoom16x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radDisplayZoom16x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9945,6 +10470,9 @@
   <data name="radDisplayZoom4x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radDisplayZoom4x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radDisplayZoom4x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -9980,6 +10508,9 @@
   </data>
   <data name="radDisplayZoom8x.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radDisplayZoom8x.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radDisplayZoom8x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10197,6 +10728,9 @@
   <data name="btnChangeTuneStepLarger.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
+  <data name="btnChangeTuneStepLarger.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnChangeTuneStepLarger.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -10229,6 +10763,9 @@
   </data>
   <data name="btnTuneStepChangeSmaller.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnTuneStepChangeSmaller.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnTuneStepChangeSmaller.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10263,6 +10800,9 @@
   <data name="btnChangeTuneStepLargerSubRX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
+  <data name="btnChangeTuneStepLargerSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="btnChangeTuneStepLargerSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -10295,6 +10835,9 @@
   </data>
   <data name="btnTuneStepChangeSmallerSubRX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnTuneStepChangeSmallerSubRX.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="btnTuneStepChangeSmallerSubRX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10407,6 +10950,9 @@
   <data name="&gt;&gt;ptbVACRXGain.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="lblTXGain.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblTXGain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -10433,6 +10979,9 @@
   </data>
   <data name="&gt;&gt;lblTXGain.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="lblRXGain.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblRXGain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10484,6 +11033,9 @@
   </data>
   <data name="&gt;&gt;grpModeSpecificDigital.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="lblTuneStep.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblTuneStep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10764,6 +11316,9 @@
   <data name="grpMainRXFilter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="lblFilterWidth.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblFilterWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -10790,6 +11345,9 @@
   </data>
   <data name="&gt;&gt;lblFilterWidth.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="lblFilterShift.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblFilterShift.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -10823,6 +11381,9 @@
   </data>
   <data name="radFilter1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilter1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -10860,6 +11421,9 @@
   <data name="radFilter2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilter2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -10895,6 +11459,9 @@
   </data>
   <data name="radFilter3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilter3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilter3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -10932,6 +11499,9 @@
   <data name="radFilter4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilter4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilter4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -10967,6 +11537,9 @@
   </data>
   <data name="radFilter5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilter5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilter5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11004,6 +11577,9 @@
   <data name="radFilter6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilter6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilter6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11039,6 +11615,9 @@
   </data>
   <data name="radFilter7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilter7.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilter7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11076,6 +11655,9 @@
   <data name="radFilter8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilter8.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilter8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11111,6 +11693,9 @@
   </data>
   <data name="radFilter9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilter9.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilter9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11148,6 +11733,9 @@
   <data name="radFilter10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilter10.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilter10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11183,6 +11771,9 @@
   </data>
   <data name="radFilterVar1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radFilterVar1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radFilterVar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11220,6 +11811,9 @@
   <data name="radFilterVar2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radFilterVar2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radFilterVar2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11250,6 +11844,9 @@
   <data name="&gt;&gt;radFilterVar2.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="lblFilterLow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblFilterLow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11279,6 +11876,9 @@
   </data>
   <data name="&gt;&gt;lblFilterLow.ZOrder" xml:space="preserve">
     <value>19</value>
+  </data>
+  <data name="lblFilterHigh.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblFilterHigh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11333,6 +11933,9 @@
   </data>
   <data name="&gt;&gt;grpMainRXFilter.ZOrder" xml:space="preserve">
     <value>39</value>
+  </data>
+  <data name="lblCPUMeter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblCPUMeter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11417,6 +12020,9 @@
   </data>
   <data name="&gt;&gt;picMultiMeterDigital.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="lblMultiSMeter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblMultiSMeter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -11550,6 +12156,9 @@
   <data name="labelTS6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelTS6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="labelTS6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -11580,6 +12189,9 @@
   <data name="labelTS5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelTS5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="labelTS5.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 49</value>
   </data>
@@ -11606,6 +12218,9 @@
   </data>
   <data name="lblNotchLow.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblNotchLow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblNotchLow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -11636,6 +12251,9 @@
   </data>
   <data name="lblNotchHigh.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblNotchHigh.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblNotchHigh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -11721,6 +12339,9 @@
   <data name="grpSubRXFilter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="labelTS1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="labelTS1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -11747,6 +12368,9 @@
   </data>
   <data name="&gt;&gt;labelTS1.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="labelTS2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="labelTS2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -11780,6 +12404,9 @@
   </data>
   <data name="radSubRXFilter1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilter1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11817,6 +12444,9 @@
   <data name="radSubRXFilter2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilter2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11852,6 +12482,9 @@
   </data>
   <data name="radSubRXFilter3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilter3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilter3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11889,6 +12522,9 @@
   <data name="radSubRXFilter4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilter4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilter4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11924,6 +12560,9 @@
   </data>
   <data name="radSubRXFilter5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilter5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilter5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -11961,6 +12600,9 @@
   <data name="radSubRXFilter6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilter6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilter6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -11996,6 +12638,9 @@
   </data>
   <data name="radSubRXFilter7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilter7.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilter7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12033,6 +12678,9 @@
   <data name="radSubRXFilter8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilter8.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilter8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12068,6 +12716,9 @@
   </data>
   <data name="radSubRXFilter9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilter9.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilter9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12105,6 +12756,9 @@
   <data name="radSubRXFilter10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilter10.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilter10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12140,6 +12794,9 @@
   </data>
   <data name="radSubRXFilterVar1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="radSubRXFilterVar1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radSubRXFilterVar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12177,6 +12834,9 @@
   <data name="radSubRXFilterVar2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="radSubRXFilterVar2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radSubRXFilterVar2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12207,6 +12867,9 @@
   <data name="&gt;&gt;radSubRXFilterVar2.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="labelTS3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="labelTS3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12236,6 +12899,9 @@
   </data>
   <data name="&gt;&gt;labelTS3.ZOrder" xml:space="preserve">
     <value>19</value>
+  </data>
+  <data name="labelTS4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="labelTS4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12321,6 +12987,9 @@
   <data name="grpSoundControls1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="lblRF1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblRF1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -12351,6 +13020,9 @@
   <data name="&gt;&gt;lblRF1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="lblPWR1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="lblPWR1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -12380,6 +13052,9 @@
   </data>
   <data name="&gt;&gt;lblPWR1.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="lblAF1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblAF1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -12508,7 +13183,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpG11.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>5</value>
   </data>
   <data name="grpMoreBands.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -12524,6 +13199,9 @@
   </data>
   <data name="radBandX12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX12.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12564,6 +13242,9 @@
   <data name="radBandX11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX11.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12602,6 +13283,9 @@
   </data>
   <data name="radBandX10.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX10.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12642,6 +13326,9 @@
   <data name="radBandX9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX9.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12680,6 +13367,9 @@
   </data>
   <data name="radBandX8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX8.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12720,6 +13410,9 @@
   <data name="radBandX7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX7.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12758,6 +13451,9 @@
   </data>
   <data name="radBandX6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12798,6 +13494,9 @@
   <data name="radBandX5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12836,6 +13535,9 @@
   </data>
   <data name="radBandX4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -12876,6 +13578,9 @@
   <data name="radBandX3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12915,6 +13620,9 @@
   <data name="radBandX2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="radBandX2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="radBandX2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -12953,6 +13661,9 @@
   </data>
   <data name="radBandX1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="radBandX1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="radBandX1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -13011,6 +13722,9 @@
   <data name="labelTS7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelTS7.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="labelTS7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -13046,6 +13760,9 @@
   </data>
   <data name="chkFMMsg6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkFMMsg6.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkFMMsg6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -13083,6 +13800,9 @@
   <data name="chkFMMsg5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkFMMsg5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkFMMsg5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -13118,6 +13838,9 @@
   </data>
   <data name="chkFMMsg4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkFMMsg4.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkFMMsg4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -13155,6 +13878,9 @@
   <data name="chkFMMsg3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkFMMsg3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkFMMsg3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -13191,6 +13917,9 @@
   <data name="chkFMMsg2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="chkFMMsg2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="chkFMMsg2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
@@ -13226,6 +13955,9 @@
   </data>
   <data name="chkFMMsg1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="chkFMMsg1.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="chkFMMsg1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -13280,6 +14012,9 @@
   </data>
   <data name="&gt;&gt;grpFMVoiceMsg.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="labelTS8.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="labelTS8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -13400,61 +14135,44 @@
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAATk5AAAAAAICAAIAAAAAAAAAAAAAAgAAAAAAAAICAAA5AAAAAAAAAAAAAAAAAAIAAgAAAgAA
+        AAAAAAAABAAFAAAAAAAAAAABAAIAZy5JFhYWFhYLOE9oAAAAAAAAAAAAAQAAAgECAABWZGUNDQ0nEQ0N
+        DQ0nDR8NPC5mAgEAAgAAAAAAAAACFBkNDVMNDC4pAARhYmMNXA0ODREdAgUCAgAAAAAAImA2DRENEC4C
+        AAEAAgIAAA0NDVMRDRYAAAAAAAIABVYVDSgNIRBPAgAAAAAAAAA5DRENIQ0oIAAAAAABAAAAXQ4NDQ0N
+        XjkCAAAAAAAAAAAnEQ0NVw1fOQAAAAAAAEQNJBANDQ1bAgIAAAAAAAAAAA0NDR8YXBYCAAAAAAVDHw0N
+        Dg0NFQAAAAAAAAAAAAAADQ4NDQ0NPAAEAgAAOR0NDQ0NDQ1aAAAAAAAAAgAAAAInDQ0NDQ0WAAAEAABW
+        EA0oDQ1XDQYCBQAAAAAAAAAAWDU1DQ1ZDRYAAAAAAFQNDQ0NJyQNVQACAAAAAAEvAC1JDQ0NDQ0NNhQv
+        AAEAOA0nDSdQGA4AAAAAAAAAAFEWUiENDQ1TJycNHwxJAABJDSgNDQ0NNgACAAAEAAAASks4TD44ODhN
+        Tjg4OE8FABYNDQ0NDw1HAAAAAAAAAAAAAAAAAEgAAAAAAgECOQEAFhENDQ0kEUYABAAAAAIAAAAAAAAA
+        AAAFAAAAAAAAAABEDSQNDQ0NRS0AAAAAAAAAAAAAAAAAADkAAAUAAAIBADgRDSQODQ0RLwIAAAAAAAAA
+        AAAAAAAABAAAAAIFAgAABg0NEQ0ODShDAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAsGQ0NDQ4nEUAAAAAA
+        AAAAAAAAAAAAAC8AQUIAAAAAAAA9DSQnJw0NPgAAAAAAAAAAAAAAAAAAAAA/IAAAAAACAAgODRgNGCEW
+        AAAABQAAAAAAAAAAAAABBg0WAAACAAA5AjoNDQ0NJxE7AAACAAAAAAAAAAAAAAIVETwAAAQtAAIAMzQR
+        DTUNNjcAAAAAAgAAAAAAAAAAOA4NFgIAAAAvAAAAKRkNDSgPETAAAAACAAABAAAALzENGBEyAAAAAAIA
+        AAAAKSonEQ0NKisALAAAAAAAAC0uER8PDRYvBQIAAAAAAAACIiMkDQ0NJSYAAAAAAAUGFicNKBERIAUA
+        AAAAAAIAAAAABBcMERgNERkaGxwdHh8NDRkdICEgAAAAAAAEAAAAAAAEAAAKCwwNDg8NDRAREhMUAgAA
+        FRYAAAACAAAAAAEAAAAAAAACAgAGBwYHBgAAAAAAAAAICQABAgAAAAAAAAAAAAAAAAABAAACAAAAAAAA
+        AAIAAwQCBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -13647,12 +14365,6 @@
     <value>debugToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;debugToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;omniRIGToolStripMenuItem.Name" xml:space="preserve">
-    <value>omniRIGToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;omniRIGToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">

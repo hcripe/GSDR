@@ -1100,7 +1100,7 @@ namespace PowerSDR
             // EQForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(784, 238);
+            this.ClientSize = new System.Drawing.Size(784, 237);
             this.Controls.Add(this.grpRXEQ);
             this.Controls.Add(this.grpTXEQ);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
