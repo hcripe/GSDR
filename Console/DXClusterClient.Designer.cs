@@ -49,6 +49,7 @@ namespace PowerSDR
         /// </summary>
         private void InitializeComponent()
         {
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.ClosingForm);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DXClusterClient));
             this.btnConnect = new System.Windows.Forms.Button();
             this.btnBye = new System.Windows.Forms.Button();
@@ -229,11 +230,9 @@ namespace PowerSDR
             this.Name = "DXClusterClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "DXClusterClient";
-            this.Closing += new System.ComponentModel.CancelEventHandler(this.ClosingForm);
             this.Resize += new System.EventHandler(this.DXClusterClient_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
