@@ -50,7 +50,7 @@ namespace PowerSDR
         private Band[] BandList;
         private int LastBandIndex;
         private ASCIIEncoding AE = new ASCIIEncoding();
-        private string lastFR = "0";
+//        private string lastFR = "0";
         private string lastFT = "0";
         public delegate void CATCrossThreadCallback(string type, int parm1, int[] parm2, string parm3);  // yt7pwr
 
@@ -972,7 +972,6 @@ namespace PowerSDR
         {
             int n = 0;
             int x = 0;
-            string sign;
 
             if (s != "")
             {

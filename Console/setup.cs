@@ -888,6 +888,7 @@ namespace PowerSDR
         private LabelTS lblG59CWCorrection;
         private NumericUpDownTS udG59CWSpeedCorr;
         private CheckBoxTS chkG59MicPreamp;
+        private CheckBoxTS chkG59PreampDisable;
         private TabPage tabPage1;
         private TabPage tpMultiPSK;
         private GroupBoxTS grpMultiPSK;
@@ -1488,6 +1489,9 @@ namespace PowerSDR
             this.chkOptEnableKBShortcuts = new System.Windows.Forms.CheckBoxTS();
             this.chkOptQuickQSY = new System.Windows.Forms.CheckBoxTS();
             this.chkGeneralDisablePTT = new System.Windows.Forms.CheckBoxTS();
+            this.chkIARU = new System.Windows.Forms.CheckBoxTS();
+            this.chkVFOB_extend = new System.Windows.Forms.CheckBoxTS();
+            this.chkG59PreampDisable = new System.Windows.Forms.CheckBoxTS();
             this.comboGeneralProcessPriority = new System.Windows.Forms.ComboBoxTS();
             this.btnGeneralCalImageReset = new System.Windows.Forms.ButtonTS();
             this.udGeneralCalLevel = new System.Windows.Forms.NumericUpDownTS();
@@ -1737,7 +1741,6 @@ namespace PowerSDR
             this.txtLoopDll = new System.Windows.Forms.TextBoxTS();
             this.udWBIRTime = new System.Windows.Forms.NumericUpDownTS();
             this.btnPA10Abort = new System.Windows.Forms.ButtonTS();
-            this.chkIARU = new System.Windows.Forms.CheckBoxTS();
             this.radGenModelGenesisG137 = new System.Windows.Forms.RadioButtonTS();
             this.udG137Xtal1 = new System.Windows.Forms.NumericUpDownTS();
             this.rad3_4TXOut = new System.Windows.Forms.RadioButtonTS();
@@ -1769,7 +1772,6 @@ namespace PowerSDR
             this.rad1_2RXIn = new System.Windows.Forms.RadioButtonTS();
             this.rad3_4RXIn = new System.Windows.Forms.RadioButtonTS();
             this.chkG59_PTT_Inv = new System.Windows.Forms.CheckBoxTS();
-            this.chkVFOB_extend = new System.Windows.Forms.CheckBoxTS();
             this.radGenModelGenesisG11 = new System.Windows.Forms.RadioButtonTS();
             this.udG11XTRVLosc = new System.Windows.Forms.NumericUpDownTS();
             this.udMultimeterCalValue = new System.Windows.Forms.NumericUpDownTS();
@@ -3337,13 +3339,35 @@ namespace PowerSDR
             // chkGeneralDisablePTT
             // 
             this.chkGeneralDisablePTT.Image = null;
-            this.chkGeneralDisablePTT.Location = new System.Drawing.Point(20, 17);
+            this.chkGeneralDisablePTT.Location = new System.Drawing.Point(20, 18);
             this.chkGeneralDisablePTT.Name = "chkGeneralDisablePTT";
-            this.chkGeneralDisablePTT.Size = new System.Drawing.Size(104, 24);
+            this.chkGeneralDisablePTT.Size = new System.Drawing.Size(120, 20);
             this.chkGeneralDisablePTT.TabIndex = 4;
             this.chkGeneralDisablePTT.Text = "Disable PTT";
             this.toolTip1.SetToolTip(this.chkGeneralDisablePTT, "Disable Push To Talk detection.");
             this.chkGeneralDisablePTT.CheckedChanged += new System.EventHandler(this.chkGeneralDisablePTT_CheckedChanged);
+            // 
+            // chkIARU
+            // 
+            this.chkIARU.Image = null;
+            this.chkIARU.Location = new System.Drawing.Point(20, 38);
+            this.chkIARU.Name = "chkIARU";
+            this.chkIARU.Size = new System.Drawing.Size(120, 20);
+            this.chkIARU.TabIndex = 5;
+            this.chkIARU.Text = "Outside IARU";
+            this.toolTip1.SetToolTip(this.chkIARU, "Allow transmit outside IARU band specifications!");
+            this.chkIARU.CheckedChanged += new System.EventHandler(this.chkIARU_CheckedChanged);
+            // 
+            // chkVFOB_extend
+            // 
+            this.chkVFOB_extend.Image = null;
+            this.chkVFOB_extend.Location = new System.Drawing.Point(20, 58);
+            this.chkVFOB_extend.Name = "chkVFOB_extend";
+            this.chkVFOB_extend.Size = new System.Drawing.Size(120, 20);
+            this.chkVFOB_extend.TabIndex = 6;
+            this.chkVFOB_extend.Text = "VFOB extend";
+            this.toolTip1.SetToolTip(this.chkVFOB_extend, "VFOB extend fro SPLIT operation.");
+            this.chkVFOB_extend.CheckedChanged += new System.EventHandler(this.chkVFOB_extend_CheckedChanged);
             // 
             // comboGeneralProcessPriority
             // 
@@ -7287,9 +7311,9 @@ namespace PowerSDR
             this.radGenModelGenesisG59.Image = null;
             this.radGenModelGenesisG59.Location = new System.Drawing.Point(22, 20);
             this.radGenModelGenesisG59.Name = "radGenModelGenesisG59";
-            this.radGenModelGenesisG59.Size = new System.Drawing.Size(78, 17);
+            this.radGenModelGenesisG59.Size = new System.Drawing.Size(86, 17);
             this.radGenModelGenesisG59.TabIndex = 2;
-            this.radGenModelGenesisG59.Text = "Genesis 59";
+            this.radGenModelGenesisG59.Text = "Genesis G59";
             this.toolTip1.SetToolTip(this.radGenModelGenesisG59, "Multiband transceiver(1.8-50MHz)");
             this.radGenModelGenesisG59.UseVisualStyleBackColor = true;
             this.radGenModelGenesisG59.CheckedChanged += new System.EventHandler(this.radGenModelGenesisG59_CheckedChanged);
@@ -7877,17 +7901,6 @@ namespace PowerSDR
             this.toolTip1.SetToolTip(this.btnPA10Abort, "Abort calibration process!");
             this.btnPA10Abort.Click += new System.EventHandler(this.btnPA10Abort_Click);
             // 
-            // chkIARU
-            // 
-            this.chkIARU.Image = null;
-            this.chkIARU.Location = new System.Drawing.Point(20, 41);
-            this.chkIARU.Name = "chkIARU";
-            this.chkIARU.Size = new System.Drawing.Size(104, 32);
-            this.chkIARU.TabIndex = 5;
-            this.chkIARU.Text = "Outside IARU";
-            this.toolTip1.SetToolTip(this.chkIARU, "Allow transmit outside IARU band specifications!");
-            this.chkIARU.CheckedChanged += new System.EventHandler(this.chkIARU_CheckedChanged);
-            // 
             // radGenModelGenesisG137
             // 
             this.radGenModelGenesisG137.Image = null;
@@ -8096,7 +8109,7 @@ namespace PowerSDR
             0,
             0,
             0});
-            this.udG59XtrvIF.Location = new System.Drawing.Point(64, 93);
+            this.udG59XtrvIF.Location = new System.Drawing.Point(64, 53);
             this.udG59XtrvIF.Maximum = new decimal(new int[] {
             144000000,
             0,
@@ -8533,17 +8546,6 @@ namespace PowerSDR
             this.chkG59_PTT_Inv.UseVisualStyleBackColor = true;
             this.chkG59_PTT_Inv.CheckedChanged += new System.EventHandler(this.chkG59_PTT_Inv_CheckedChanged);
             // 
-            // chkVFOB_extend
-            // 
-            this.chkVFOB_extend.Image = null;
-            this.chkVFOB_extend.Location = new System.Drawing.Point(20, 73);
-            this.chkVFOB_extend.Name = "chkVFOB_extend";
-            this.chkVFOB_extend.Size = new System.Drawing.Size(104, 32);
-            this.chkVFOB_extend.TabIndex = 6;
-            this.chkVFOB_extend.Text = "VFOB extend";
-            this.toolTip1.SetToolTip(this.chkVFOB_extend, "VFOB extend fro SPLIT operation.");
-            this.chkVFOB_extend.CheckedChanged += new System.EventHandler(this.chkVFOB_extend_CheckedChanged);
-            // 
             // radGenModelGenesisG11
             // 
             this.radGenModelGenesisG11.Image = null;
@@ -8952,7 +8954,7 @@ namespace PowerSDR
             // 
             this.chG59XTRV_separate_RX_TX.AutoSize = true;
             this.chG59XTRV_separate_RX_TX.Image = null;
-            this.chG59XTRV_separate_RX_TX.Location = new System.Drawing.Point(20, 61);
+            this.chG59XTRV_separate_RX_TX.Location = new System.Drawing.Point(20, 21);
             this.chG59XTRV_separate_RX_TX.Name = "chG59XTRV_separate_RX_TX";
             this.chG59XTRV_separate_RX_TX.Size = new System.Drawing.Size(123, 17);
             this.chG59XTRV_separate_RX_TX.TabIndex = 6;
@@ -16121,8 +16123,6 @@ namespace PowerSDR
             // 
             // tpGeneralHardware
             // 
-            this.tpGeneralHardware.Controls.Add(this.grpG6);
-            this.tpGeneralHardware.Controls.Add(this.grpG11);
             this.tpGeneralHardware.Controls.Add(this.grpG59);
             this.tpGeneralHardware.Controls.Add(this.grpRTL_SDR);
             this.tpGeneralHardware.Controls.Add(this.grpQRP2000);
@@ -16135,6 +16135,8 @@ namespace PowerSDR
             this.tpGeneralHardware.Controls.Add(this.grpGenesis500);
             this.tpGeneralHardware.Controls.Add(this.grpGenesis40);
             this.tpGeneralHardware.Controls.Add(this.grpGenesis3020);
+            this.tpGeneralHardware.Controls.Add(this.grpG6);
+            this.tpGeneralHardware.Controls.Add(this.grpG11);
             this.tpGeneralHardware.Location = new System.Drawing.Point(4, 22);
             this.tpGeneralHardware.Name = "tpGeneralHardware";
             this.tpGeneralHardware.Size = new System.Drawing.Size(592, 318);
@@ -16786,6 +16788,7 @@ namespace PowerSDR
             this.grpG59.Controls.Add(this.lblG59PTT);
             this.grpG59.Controls.Add(this.chkG59_PTT_Inv);
             this.grpG59.Controls.Add(this.chkG59MicPreamp);
+            this.grpG59.Controls.Add(this.chkG59PreampDisable);
             this.grpG59.Controls.Add(this.grpXTRV);
             this.grpG59.Controls.Add(this.chkG59RX2);
             this.grpG59.Controls.Add(this.chkG59_PA10);
@@ -16808,14 +16811,27 @@ namespace PowerSDR
             this.chkG59MicPreamp.UseVisualStyleBackColor = true;
             this.chkG59MicPreamp.CheckedChanged += new System.EventHandler(this.chkG59MicPreamp_CheckedChanged);
             // 
+            // chkG59PreampDisable
+            // 
+            this.chkG59PreampDisable.AutoSize = true;
+            this.chkG59PreampDisable.Image = null;
+            this.chkG59PreampDisable.Location = new System.Drawing.Point(40, 166);
+            this.chkG59PreampDisable.Name = "chkG59PreampDisable";
+            this.chkG59PreampDisable.Size = new System.Drawing.Size(121, 17);
+            this.chkG59PreampDisable.TabIndex = 9;
+            this.chkG59PreampDisable.Text = "TX - Preamp disable";
+            this.chkG59PreampDisable.UseVisualStyleBackColor = true;
+            this.toolTip1.SetToolTip(this.chkG59PreampDisable, "Disable receiver preamps during transmit.");
+            this.chkG59PreampDisable.CheckedChanged += new System.EventHandler(this.chkG59PreampDisable_CheckedChanged);
+            // 
             // grpXTRV
             // 
             this.grpXTRV.Controls.Add(this.udG59XtrvIF);
             this.grpXTRV.Controls.Add(this.lblG59XtrvIF);
             this.grpXTRV.Controls.Add(this.chG59XTRV_separate_RX_TX);
-            this.grpXTRV.Location = new System.Drawing.Point(21, 168);
+            this.grpXTRV.Location = new System.Drawing.Point(21, 208);
             this.grpXTRV.Name = "grpXTRV";
-            this.grpXTRV.Size = new System.Drawing.Size(157, 121);
+            this.grpXTRV.Size = new System.Drawing.Size(157, 81);
             this.grpXTRV.TabIndex = 7;
             this.grpXTRV.TabStop = false;
             this.grpXTRV.Text = "XTRV";
@@ -16824,7 +16840,7 @@ namespace PowerSDR
             // 
             this.lblG59XtrvIF.AutoSize = true;
             this.lblG59XtrvIF.Image = null;
-            this.lblG59XtrvIF.Location = new System.Drawing.Point(3, 96);
+            this.lblG59XtrvIF.Location = new System.Drawing.Point(3, 56);
             this.lblG59XtrvIF.Name = "lblG59XtrvIF";
             this.lblG59XtrvIF.Size = new System.Drawing.Size(61, 13);
             this.lblG59XtrvIF.TabIndex = 24;
@@ -20862,7 +20878,7 @@ namespace PowerSDR
             }
 		}
 
-		private static bool saving = false;
+//		private static bool saving;
 
         public void SaveOptions()
         {
@@ -20880,7 +20896,7 @@ namespace PowerSDR
                     Thread.Sleep(100);
                 }
 
-                saving = true;
+//                saving = true;
 
                 ArrayList a = new ArrayList();
                 ArrayList temp = new ArrayList();
@@ -20957,7 +20973,7 @@ namespace PowerSDR
 
 
                 DB.SaveVars("Options", ref a);		// save the values to the DB
-                saving = false;
+//                saving = false;
 
                 console.chkPower.Checked = pwr;
             }
@@ -22749,7 +22765,6 @@ namespace PowerSDR
                 chkGeneralUSBPresent.Checked = false;
                 //chkGeneralRXOnly.Enabled = true;
                 //chkGeneralRXOnly.Checked = false;
-                chkGeneralDisablePTT.Checked = false;
 
                 switch (value)
                 {
@@ -22834,6 +22849,8 @@ namespace PowerSDR
                         chkContinuousTuning.Enabled = true;
                         grpNETBox.Visible = true;
                         console.CurrentVisibleGroup = VisibleGroup.G59;
+                        grpG59.Visible = true;
+                        console.grpG59.Visible = true;
                         chkGeneralUSBPresent.Enabled = false;
                         console.btnNetwork.Visible = true;
                         console.btnUSB.Visible = false;
@@ -22852,7 +22869,7 @@ namespace PowerSDR
                         {
                             //chkGeneralRXOnly.Enabled = true;
                             //chkGeneralRXOnly.Checked = false;
-                            chkGeneralDisablePTT.Checked = false;
+                            //chkGeneralDisablePTT.Checked = false;
                             force_model = false;
                         }
 
@@ -23537,17 +23554,19 @@ namespace PowerSDR
             }
         }
 
-        private bool rtty_offset_enabled_a;
+//        private bool rtty_offset_enabled_a;
         public bool RttyOffsetEnabledA
         {
-            get { return rtty_offset_enabled_a; }
+            get { return false; }
+//            get { return rtty_offset_enabled_a; }
 //            set { chkRTTYOffsetEnableA.Checked = value; }
         }
 
-        private bool rtty_offset_enabled_b;
+//        private bool rtty_offset_enabled_b;
         public bool RttyOffsetEnabledB
         {
-            get { return rtty_offset_enabled_b; }
+            get { return false; }
+//            get { return rtty_offset_enabled_b; }
 //            set { chkRTTYOffsetEnableB.Checked = value; }
         }
 
@@ -24169,6 +24188,7 @@ namespace PowerSDR
                     catch (Exception ex)
                     {
                         index = 0;
+                        Debug.Write(ex.ToString());
                     }
 
                     console.AudioOutputIndex1 = index;
@@ -25279,7 +25299,7 @@ namespace PowerSDR
                                 bool success = false;
                                 bool condition1 = false;
                                 bool condition2 = false;
-                                bool condition3 = false;
+//                                bool condition3 = false;
                                 int i;
 
                                 switch (console.WinVer)
@@ -28191,7 +28211,7 @@ namespace PowerSDR
 
 			// general tab
 			chkGeneralDisablePTT.Checked = false;
-			udGeneralCalFreq2.Value = 7;
+            udGeneralCalFreq2.Value = 7;
 			udGeneralCalLevel.Value = -70;
 			comboGeneralProcessPriority.Text = "Normal";
             
@@ -31445,6 +31465,14 @@ namespace PowerSDR
         private void chkVFOB_extend_CheckedChanged(object sender, EventArgs e)
         {
             console.VFOB_SPLIT_EXTENDED = chkVFOB_extend.Checked;
+        }
+
+        private void chkG59PreampDisable_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkG59PreampDisable.Checked)
+                console.G59PreampDisable = true;
+            else
+                console.G59PreampDisable = false;
         }
 
         #endregion

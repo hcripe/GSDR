@@ -966,7 +966,7 @@ namespace System.Windows.Forms
 					new UI.CtrlVoidFunc(UI.CallControlScale),
 					new object[] { this, new object[] {ratio}});
 			}
-			else base.Scale(ratio);
+			else base.Scale(new SizeF(ratio, ratio));
 		}
 
 		public new void Scale(float dx, float dy)
@@ -977,7 +977,7 @@ namespace System.Windows.Forms
 					new UI.CtrlVoidFunc(UI.CallControlScale),
 					new object[] { this, new object[] { dx, dy }});
 			}
-			else base.Scale(dx, dy);
+			else base.Scale(new SizeF(dx, dy));
 		}
 
 		public new void Select()

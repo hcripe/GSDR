@@ -41,7 +41,7 @@ namespace PowerSDR
         Thread send_thread;
         AutoResetEvent send_event = new AutoResetEvent(false);
         byte[] send_data = new byte[1024];
-        uint data_length = 0;
+//        uint data_length = 0;
         private delegate void DebugCallbackFunction(string name);
         public bool debug = false;
 

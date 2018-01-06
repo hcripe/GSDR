@@ -564,8 +564,12 @@ namespace PowerSDR
 
     unsafe public partial class Console : System.Windows.Forms.Form
     {
+<<<<<<< HEAD
         public const string gsdrVersion = "2.0.16"; // wd0dxd        
         const string GSDR_revision = "  " + gsdrVersion; // wd0dxd
+=======
+        const string GSDR_revision = "  v2.1.0";
+>>>>>>> master
         private CheckBoxTS chkG6ATT_18dB;
         private CheckBoxTS chkG6ATT_12dB;
 
@@ -6446,6 +6450,7 @@ namespace PowerSDR
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.grpVFOnew);
             this.Controls.Add(this.grpG11);
             this.Controls.Add(this.grpModeSpecificPhone);
             this.Controls.Add(this.grpG6);
@@ -6454,7 +6459,6 @@ namespace PowerSDR
             this.Controls.Add(this.grpModeSpecificDigital);
             this.Controls.Add(this.grpMainRXMode);
             this.Controls.Add(this.grpSubRXMode);
-            this.Controls.Add(this.grpVFOnew);
             this.Controls.Add(this.grpSoundControls);
             this.Controls.Add(this.grpSoundControls1);
             this.Controls.Add(this.grpVFOB);
@@ -9585,8 +9589,9 @@ namespace PowerSDR
             }
             catch (Exception ex)
             {
+                Debug.Write(ex.ToString());
                 //MessageBox.Show("Error starting Network watcher!\nCheck you network settings!\n" +
-                    //ex.ToString());
+                //ex.ToString());
             }
 
             if (current_model == Model.GENESIS_G59NET)
@@ -10010,7 +10015,6 @@ namespace PowerSDR
 
                     string name = vals[0];
                     string val = vals[1];
-                    int num = 0;
 
                     if (name.StartsWith("filter_presets["))
                     {
@@ -14174,6 +14178,16 @@ namespace PowerSDR
             }
         }
 
+        private bool g59PreampDisable = false;
+        public bool G59PreampDisable
+        {
+            get { return g59PreampDisable; }
+            set
+            {
+                g59PreampDisable = value;
+            }
+        }
+
         private short extPA_PTT_delay_on = 100;
         public short ExtPA_PTT_Delay_ON
         {
@@ -17289,9 +17303,9 @@ namespace PowerSDR
                             num *= (float)((double)ptbPWR.Value * 0.01);
                             return num.ToString("f2") + " W";
                         }
-                        else return "0" + separator + "00 W";
+                        else
+                            return "0" + separator + "00 W";
                     }
-                    break;
 
                 case Model.GENESIS_G11:
                     if (vfoAFreq < max_freq)
@@ -17312,7 +17326,6 @@ namespace PowerSDR
                         }
                         else return "0" + separator + "00 W";
                     }
-                    break;
             }
 
             return "0.0W";
@@ -19927,7 +19940,6 @@ namespace PowerSDR
                 // update peak value
                 float x = 0;
                 float y = 0;
-                float y_peek_power = 0;
                 switch (current_display_engine)
                 {
                     case DisplayEngine.GDI_PLUS:
@@ -26440,6 +26452,8 @@ namespace PowerSDR
         }
 
         private int saved_spectrum_grid_max = 0;
+        private static bool AFPreampStateSave = false;
+        private static bool RFPreampStateSave = false;
         private void chkMOX_CheckedChanged(object sender, System.EventArgs e)  // changes yt7pwr
         {
             double freq = 0.0;
@@ -26582,7 +26596,6 @@ namespace PowerSDR
                         case DSPMode.DRM:
                             chkMOX.Checked = false;
                             return;
-                            break;
                         default:  // for Phone modes save Zoom and Pan
                             {
                                 cw_key_mode = false;
@@ -26750,6 +26763,14 @@ namespace PowerSDR
                         {
                             Thread.Sleep(1);
 
+                            AFPreampStateSave = chkG59AFbtn.Checked;
+                            RFPreampStateSave = chkG59RFbtn.Checked;
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = false;
+                                chkG59RFbtn.Checked = false;
+                            }
+
                             if (chkVFOSplit.Checked)
                             {
                                 if (line_mic_shared && current_dsp_mode_subRX != DSPMode.CWU &&
@@ -26772,6 +26793,14 @@ namespace PowerSDR
                         break;
                     case Model.GENESIS_G59NET:
                         {
+                            AFPreampStateSave = chkG59AFbtn.Checked;
+                            RFPreampStateSave = chkG59RFbtn.Checked;
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = false;
+                                chkG59RFbtn.Checked = false;
+                            }
+
                             if (chkVFOSplit.Checked)
                             {
                                 if (line_mic_shared && current_dsp_mode_subRX != DSPMode.CWU &&
@@ -26866,6 +26895,11 @@ namespace PowerSDR
                             g59.WriteToDevice(24, 0);                               //  CW monitor off
                             Thread.Sleep(1);
                             g59.WriteToDevice(14, 0);                               // transmiter OFF
+                            if (G59PreampDisable)
+                            {
+                                chkG59AFbtn.Checked = AFPreampStateSave;
+                                chkG59RFbtn.Checked = RFPreampStateSave;
+                            }
                         }
                         break;
                     case Model.GENESIS_G59NET:
@@ -29052,8 +29086,6 @@ namespace PowerSDR
                                                         }
                                                     }
                                                     break;
-
-                                                    vfoa_lock = false;
                                             }
 
                                             Display_GDI.LOSC = (long)(freq * 1e6);
@@ -34279,7 +34311,7 @@ namespace PowerSDR
                         lblVFOBTX.BackColor = console_color;
                         lblVFOBTX.ForeColor = console_color;
                         lblVFOATX.BackColor = Color.Red;
-                        lblVFOATX.ForeColor = Color.White;
+                        lblVFOATX.ForeColor = Color.Olive;
                     }
 
                     lblVFOBTX.Visible = false;
@@ -36686,7 +36718,7 @@ namespace PowerSDR
                 lblVFOATX.Visible = true;
                 lblVFOBTX.Visible = false;
                 lblVFOATX.BackColor = Color.Red;
-                lblVFOATX.ForeColor = Color.White;
+                lblVFOATX.ForeColor = Color.Olive;
             }
         }
         #endregion
@@ -39653,7 +39685,6 @@ namespace PowerSDR
                         case WBIR_State.FastAdapt:
                             if (MOX)
                             {
-                                float real, imag;
                                 //DttSP.SetCorrectIQMu(0, 0, 0.0);
                                 //DttSP.SetCorrectIQMu(0, 1, 0.0);
                                 WBIR_state = WBIR_State.MOXAdapt;
@@ -39690,7 +39721,6 @@ namespace PowerSDR
                         case WBIR_State.SlowAdapt:
                             if (MOX)
                             {
-                                float real, imag;
                                 //DttSP.SetCorrectIQMu(0, 0, 0.0);    // reset wbir
                                 //DttSP.SetCorrectIQMu(0, 1, 0.0);
                                 WBIR_state = WBIR_State.MOXAdapt;

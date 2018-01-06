@@ -883,14 +883,12 @@ namespace PowerSDR
                             return 1;
                         else
                             return 0;
-                        break;
 
                     case Model.GENESIS_G11:
                         if (chkG11ATTbtn.Checked)
                             return 1;
                         else
                             return 0;
-                        break;
 
                     default:
                         return 0;
@@ -944,14 +942,12 @@ namespace PowerSDR
                             return 1;
                         else
                             return 0;
-                        break;
 
                     case Model.GENESIS_G11:
                         if (chkG11RFbtn.Checked)
                             return 1;
                         else
                             return 0;
-                        break;
 
                     default:
                         return 0;
@@ -992,7 +988,7 @@ namespace PowerSDR
             }
         }
 
-        private int cat_af_preamp_status = 0;       // yt7pwr
+//        private int cat_af_preamp_status;       // yt7pwr
         public int CATAFPreampStatus
         {
             get 
@@ -1001,26 +997,19 @@ namespace PowerSDR
                 {
                     case Model.GENESIS_G59USB:
                     case Model.GENESIS_G59NET:
-                        {
-                            if (chkG59AFbtn.Checked)
-                                return 1;
-                            else
-                                return 0;
-                        }
-                        break;
+                        if (chkG59AFbtn.Checked)
+                            return 1;
+                        else
+                            return 0;
 
                     case Model.GENESIS_G11:
-                        {
-                            if (chkG11AFbtn.Checked)
-                                return 1;
-                            else
-                                return 0;
-                        }
-                        break;
+                        if (chkG11AFbtn.Checked)
+                            return 1;
+                        else
+                            return 0;
 
                     default:
                         return 0;
-                        break;
                 }
             }
             set
@@ -1033,12 +1022,12 @@ namespace PowerSDR
                             if (value == 0)
                             {
                                 chkG59AFbtn.Checked = false;
-                                cat_af_preamp_status = 0;
+//                                cat_af_preamp_status = 0;
                             }
                             else if (value == 1)
                             {
                                 chkG59AFbtn.Checked = true;
-                                cat_af_preamp_status = 1;
+//                                cat_af_preamp_status = 1;
                             }
                         }
                         break;

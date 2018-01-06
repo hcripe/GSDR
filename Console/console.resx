@@ -6039,6 +6039,9 @@
   <data name="lblMemoryNumber.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 82</value>
   </data>
+  <data name="lblMemoryNumber.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
   <data name="lblMemoryNumber.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 24</value>
   </data>
@@ -6098,6 +6101,9 @@
   </data>
   <data name="lblFMMemory.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 99</value>
+  </data>
+  <data name="lblFMMemory.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
   </data>
   <data name="lblFMMemory.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 24</value>
@@ -7762,7 +7768,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpModeSpecificPhone.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="grpVFOA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -8611,7 +8617,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpVFOnew.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>0</value>
   </data>
   <data name="lblNotchShift.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -10189,7 +10195,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpG59.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="grpZoom.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -11032,7 +11038,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpModeSpecificDigital.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
+  </data>
+  <data name="lblTuneStep.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="lblTuneStep.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -13132,7 +13141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpSubRXMode.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="grpMainRXMode.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -13159,7 +13168,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpMainRXMode.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="grpG11.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 411</value>
@@ -13183,7 +13192,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpG11.ZOrder" xml:space="preserve">
+<<<<<<< HEAD
     <value>5</value>
+=======
+    <value>6</value>
+>>>>>>> master
   </data>
   <data name="grpMoreBands.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -14092,7 +14105,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpModeSpecificFM.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="grpG6.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 411</value>
@@ -14119,7 +14132,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpG6.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

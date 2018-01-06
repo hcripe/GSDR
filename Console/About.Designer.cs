@@ -214,6 +214,19 @@ namespace PowerSDR
             this.lblPowerSDR.TabIndex = 3;
             this.lblPowerSDR.Text = "(based on PowerSDR ";
             // 
+<<<<<<< HEAD
+=======
+            // lblGenesis
+            // 
+            this.lblGenesis.AutoSize = true;
+            this.lblGenesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGenesis.Location = new System.Drawing.Point(39, 22);
+            this.lblGenesis.Name = "lblGenesis";
+            this.lblGenesis.Size = new System.Drawing.Size(279, 25);
+            this.lblGenesis.TabIndex = 2;
+            this.lblGenesis.Text = "Genesis 2.1 by YT7PWR";
+            // 
+>>>>>>> master
             // lblFIRMWARE
             // 
             this.lblFIRMWARE.AutoSize = true;

@@ -137,7 +137,7 @@ namespace PowerSDR
 		
 		// define the position and size of the keyboard area
 		private int kylx = 0, kyty = 0;		    		// ulc of key area
-		private int kyysz = 90, kyxsz = 665;			// extents
+//		private int kyysz = 90, kyxsz = 665;			// extents
 		private char[] kbufold = new char[NKEYS];		// sent keys
 		private char[] kbufnew = new char[NKEYS];		// unsent keys
 

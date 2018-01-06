@@ -1627,6 +1627,7 @@ namespace PowerSDR
             }
             catch (Exception ex)
             {
+                Debug.Write(ex.ToString());
                 return false;
             }
         }
@@ -1659,6 +1660,7 @@ namespace PowerSDR
             }
             catch (Exception ex)
             {
+                Debug.Write(ex.ToString());
                 return false;
             }
         }

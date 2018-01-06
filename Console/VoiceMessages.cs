@@ -148,7 +148,7 @@ namespace PowerSDR
             SaveSettings();
         }
 
-        private void FormClosing(object sender, System.ComponentModel.CancelEventArgs e)
+        private new void FormClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             try
             {
