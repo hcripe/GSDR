@@ -69,13 +69,13 @@ namespace PowerSDR
         private static string path;
         private const string pic_file_ext = ".png";
 
-        private Console console;
+        private console console;
 
         #endregion
 
         #region constructor and destructor
 
-        public Skin(Console c)
+        public Skin(console c)
         {
             console = c;
         }

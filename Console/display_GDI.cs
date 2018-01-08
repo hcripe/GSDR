@@ -58,7 +58,7 @@ namespace PowerSDR
         #region Variable Declaration
         private static double avg_last_ddsfreq = 0;				// Used to move the display average when tuning
         private static double avg_last_dttsp_osc = 0;
-        public static Console console;
+        public static console console;
         //private static Mutex background_image_mutex;			// used to lock the base display image
         //private static Bitmap background_bmp;					// saved background picture for display
         public static Bitmap panadapter_bmp;  				    // Bitmap for use when drawing

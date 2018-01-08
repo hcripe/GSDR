@@ -39,7 +39,7 @@ namespace PowerSDR
     {
         #region properties
 
-        Console console;
+        console console;
         private string[] Message1_txt = new string[64];
         private string[] Message2_txt = new string[64];
         private string[] Message3_txt = new string[64];
@@ -126,7 +126,7 @@ namespace PowerSDR
 
         #endregion
 
-        public VoiceMessages(Console c)
+        public VoiceMessages(console c)
         {
             this.AutoScaleMode = AutoScaleMode.Inherit;
             InitializeComponent();

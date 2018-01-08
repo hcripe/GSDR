@@ -85,7 +85,7 @@ namespace PowerSDR
 		#region Variable Declarations
 
 		private System.ComponentModel.IContainer components;
-		private Console console;
+		private console console;
         public bool running = false;
         private delegate void CrossThreadCallback();
 		public static Mutex keydisplay = new Mutex();	// around the key display
@@ -191,7 +191,7 @@ namespace PowerSDR
 
         #region constructor/destructor
 
-        public CWX(Console c)
+        public CWX(console c)
         {
             InitializeComponent();
             this.DoubleBuffered = true;

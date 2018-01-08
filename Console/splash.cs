@@ -75,7 +75,8 @@ namespace Splash_Screen
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.LabelTS lblStatus;
         private System.Windows.Forms.Panel pnlStatus;
-		private System.ComponentModel.IContainer components;
+        private LabelTS lblSwVersion;
+        private System.ComponentModel.IContainer components;
 
 		#endregion
 
@@ -93,7 +94,7 @@ namespace Splash_Screen
             this.Font = new_font;
             this.PerformAutoScale();
             this.PerformLayout();
-
+            this.lblSwVersion.Text = "ver " + PowerSDR.console.gsdrSwVersion; //wd0dxd
 			this.Opacity = .00;
 			timer1.Interval = TIMER_INTERVAL;
 			timer1.Start();
@@ -125,6 +126,7 @@ namespace Splash_Screen
             this.lblTimeRemaining = new System.Windows.Forms.LabelTS();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblStatus = new System.Windows.Forms.LabelTS();
+            this.lblSwVersion = new System.Windows.Forms.LabelTS();
             this.pnlStatus.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -166,10 +168,24 @@ namespace Splash_Screen
             this.lblStatus.Text = "Status";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblSwVersion
+            // 
+            this.lblSwVersion.AutoSize = true;
+            this.lblSwVersion.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblSwVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSwVersion.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lblSwVersion.Image = null;
+            this.lblSwVersion.Location = new System.Drawing.Point(398, 76);
+            this.lblSwVersion.Name = "lblSwVersion";
+            this.lblSwVersion.Size = new System.Drawing.Size(78, 16);
+            this.lblSwVersion.TabIndex = 3;
+            this.lblSwVersion.Text = "ver **.**.**";
+            // 
             // Splash
             // 
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(556, 429);
+            this.Controls.Add(this.lblSwVersion);
             this.Controls.Add(this.pnlStatus);
             this.Controls.Add(this.lblStatus);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -179,6 +195,7 @@ namespace Splash_Screen
             this.Text = "Splash";
             this.pnlStatus.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 		#endregion

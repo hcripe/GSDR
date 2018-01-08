@@ -137,7 +137,7 @@ namespace PowerSDR
         public static byte[] network_input_bufer_r;
         public static byte[] iq_data_l;
         public static byte[] iq_data_r;
-        public static Console console = null;
+        public static console console = null;
         unsafe private static void* stream1;    // input
         unsafe private static void* stream2;    // 
         unsafe private static void* stream3;    // output

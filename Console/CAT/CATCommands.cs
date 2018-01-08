@@ -44,7 +44,7 @@ namespace PowerSDR
     {
         #region Variable Definitions
 
-        private Console console;
+        private console console;
         private CATParser parser;
         private string separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
         private Band[] BandList;
@@ -64,7 +64,7 @@ namespace PowerSDR
         {
         }
 
-        public CATCommands(Console c, CATParser p)
+        public CATCommands(console c, CATParser p)
         {
             console = c;
             parser = p;

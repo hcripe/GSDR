@@ -23,7 +23,7 @@ namespace PowerSDR
         private FilterPreset[] filter_presets = new FilterPreset[(int)DSPMode.LAST];
         private FilterPreset[] filter_presets_subrx = new FilterPreset[(int)DSPMode.LAST];
         public bool show_subRX = false;
-		private Console console;
+		private console console;
 		private System.Windows.Forms.ComboBox comboDSPMode;
 		private System.Windows.Forms.RadioButtonTS radFilter1;
 		private System.Windows.Forms.RadioButtonTS radFilter2;
@@ -60,7 +60,7 @@ namespace PowerSDR
 
 		#region Constructor and Destructor
 
-        public FilterForm(Console c, DSPMode mode, Filter filter, bool subrx)
+        public FilterForm(console c, DSPMode mode, Filter filter, bool subrx)
         {
             //
             // Required for Windows Form Designer support

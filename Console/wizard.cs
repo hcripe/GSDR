@@ -64,7 +64,7 @@ namespace PowerSDR
         private int sound_card_index;
         private Model model;
 
-        Console console;
+        console console;
         private System.Windows.Forms.ButtonTS btnPrevious;
         private System.Windows.Forms.ButtonTS btnNext;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -95,7 +95,7 @@ namespace PowerSDR
 
         #region Constructor and Destructor
 
-        public SetupWizard(Console c, int sound_card_index)
+        public SetupWizard(console c, int sound_card_index)
         {
             this.AutoScaleMode = AutoScaleMode.Inherit;
             InitializeComponent();

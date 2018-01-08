@@ -35,7 +35,7 @@ namespace PowerSDR
     public class ServerSendData
     {
         private Socket s;
-        private Console console;
+        private console console;
         public bool IsOpen = false;
         private IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.0"), 5001);
         private IPEndPoint ipep2 = new IPEndPoint(IPAddress.Parse("224.0.0.0"), 5000);
@@ -53,7 +53,7 @@ namespace PowerSDR
 
         #endregion
 
-        public ServerSendData(Console c)
+        public ServerSendData(console c)
         {
             console = c;
         }

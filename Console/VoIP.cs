@@ -95,7 +95,7 @@ namespace PowerSDR
     {
         #region variable
 
-        Console console;
+        console console;
         private bool m_IsClosing = false;
         private bool m_IsDebug = false;
         private SIP_Stack m_pStack = null;
@@ -144,7 +144,7 @@ namespace PowerSDR
 
         #region constructor/destructor
 
-        public VoIP(Console c)
+        public VoIP(console c)
         {
             console = c;
             this.AutoScaleMode = AutoScaleMode.Inherit;

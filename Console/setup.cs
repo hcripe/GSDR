@@ -89,7 +89,7 @@ namespace PowerSDR
 
         Settings settings = new Settings();
         private delegate void DebugCallbackFunction(string name);
-		private Console console;
+		private console console;
 		private Progress progress;
 		private ArrayList KeyList;
 		private int sound_card;
@@ -1238,7 +1238,7 @@ namespace PowerSDR
 
 		#region Constructor and Destructor
 
-        public Setup(Console c)
+        public Setup(console c)
         {
             try
             {
@@ -4109,7 +4109,7 @@ namespace PowerSDR
             "M-Audio Delta 44 (PCI)",
             "PreSonus FireBox (FireWire)",
             "Edirol FA-66 (FireWire)",
-            "E-mu 0202 USB)",
+            "E-mu 0202 (USB)",
             "SB Audigy (PCI)",
             "SB Audigy 2 (PCI)",
             "SB Audigy 2 ZS (PCI)",
@@ -22585,7 +22585,10 @@ namespace PowerSDR
 					case SoundCard.AUDIGY:
 						comboAudioSoundCard.Text = "SB Audigy (PCI)";
 						break;
-					case SoundCard.AUDIGY_2:
+                    case SoundCard.EMU_0202:
+                        comboAudioSoundCard.Text = "Emu 0202 (USB)";
+                        break;
+                    case SoundCard.AUDIGY_2:
 						comboAudioSoundCard.Text = "SB Audigy 2 (PCI)";
 						break;
 					case SoundCard.AUDIGY_2_ZS:
@@ -24853,6 +24856,10 @@ namespace PowerSDR
                         case SoundCard.FIREBOX:
                             def_volt = 6.39;
                             break;
+                        case SoundCard.EMU_0202:
+                            def_volt = 1.69;
+                            break;
+
                     }
 
                     if(current_sound_card != SoundCard.UNSUPPORTED_CARD)
@@ -26163,12 +26170,12 @@ namespace PowerSDR
                             }
                             break;
                         case SoundCard.EMU_0202:
-                            udAudioVoltage1.Value = 1.68M;
                             if (!comboAudioSampleRate1.Items.Contains(96000))
                                 comboAudioSampleRate1.Items.Add(96000);
-                            if (comboAudioSampleRate1.Items.Contains(192000))
-                                comboAudioSampleRate1.Items.Remove(192000);
-                            comboAudioSampleRate1.Text = "48000";
+                            if (!comboAudioSampleRate1.Items.Contains(192000))
+                                comboAudioSampleRate1.Items.Add(192000);
+                            if (comboAudioSoundCard.Focused || comboAudioSampleRate1.SelectedIndex < 0)
+                                comboAudioSampleRate1.Text = "192000";
                             foreach (PADeviceInfo p in comboAudioDriver1.Items)
                             {
                                 if (p.Name == "ASIO")
@@ -26180,13 +26187,13 @@ namespace PowerSDR
 
                             foreach (PADeviceInfo dev in comboAudioInput1.Items)
                             {
-                                if (dev.Name == "ASIO E-MU AUDIO")
+                                if (dev.Name == "ASIO E-MU Audio")
                                 {
-                                    comboAudioInput1.Text = "ASIO E-MU AUDIO";
-                                    comboAudioOutput1.Text = "ASIO E-MU AUDIO";
+                                    comboAudioInput1.Text = "ASIO E-MU Audio";
+                                    comboAudioOutput1.Text = "ASIO E-MU Audio";
                                 }
                             }
-                            if (comboAudioInput1.Text != "ASIO E-MU AUDIO")
+                            if (comboAudioInput1.Text != "ASIO E-MU Audio")
                             {
                                 foreach (PADeviceInfo dev in comboAudioInput1.Items)
                                 {
@@ -26208,7 +26215,7 @@ namespace PowerSDR
                                 comboAudioTransmit1.Text = "Line In";
                                                      
                             if (comboAudioInput1.Text != "ASIO4ALL v2" &&
-                                comboAudioInput1.Text != "ASIO E-MU AUDIO")
+                                comboAudioInput1.Text != "ASIO E-MU Audio")
                             {
                                 MessageBox.Show("ASIO4ALL driver not found.  Please visit " +
                                     "www.asio4all.com, download and install the driver, " +

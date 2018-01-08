@@ -42,7 +42,7 @@ namespace PowerSDR
         public bool debug = false;
         delegate void DebugCallbackFunction(string name);
         delegate void CrossThreadCallback(string type, int parm1, int[] parm2, string parm3);
-        public Console console = null;
+        public console console = null;
         bool run_client = false;
         bool IPv6_enabled = false;
         byte[] receive_buffer = new byte[64];
@@ -52,7 +52,7 @@ namespace PowerSDR
 
         #region constructor
 
-        public WinLIRC(Console c)
+        public WinLIRC(console c)
         {
             console = c;
         }

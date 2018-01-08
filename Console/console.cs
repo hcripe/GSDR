@@ -32,6 +32,8 @@
  *  contact via email at: yt7pwr@ptt.rs or yt7pwr2002@yahoo.com
 */
 
+// Added support for Emu-0202 Sound Card WDODXD
+
 using System;
 using System.Collections;
 using System.ComponentModel;
@@ -562,14 +564,10 @@ namespace PowerSDR
     #endregion
 
 
-    unsafe public partial class Console : System.Windows.Forms.Form
+    unsafe public partial class console : System.Windows.Forms.Form
     {
-<<<<<<< HEAD
-        public const string gsdrVersion = "2.0.16"; // wd0dxd        
-        const string GSDR_revision = "  " + gsdrVersion; // wd0dxd
-=======
-        const string GSDR_revision = "  v2.1.0";
->>>>>>> master
+        public const string gsdrSwVersion = "2.1.0";
+        const string GSDR_revision = " v" + gsdrSwVersion;
         private CheckBoxTS chkG6ATT_18dB;
         private CheckBoxTS chkG6ATT_12dB;
 
@@ -1238,7 +1236,7 @@ namespace PowerSDR
 
         #region Constructor and Destructor
 
-        public Console(string[] args)
+        public console(string[] args)
         {
             CmdLineArgs = args;
             #if DEBUG
@@ -1336,6 +1334,9 @@ namespace PowerSDR
                     case SoundCard.EDIROL_FA_66:
                         multimeter_cal_offset = -46.82864f;
                         break;
+                    case SoundCard.EMU_0202:
+                        multimeter_cal_offset = -52.43533f;
+                        break;
                     case SoundCard.UNSUPPORTED_CARD:
                         multimeter_cal_offset = -52.43533f;
                         break;
@@ -1366,6 +1367,9 @@ namespace PowerSDR
                         break;
                     case SoundCard.EDIROL_FA_66:
                         DisplayCalOffset = -80.429f;
+                        break;
+                    case SoundCard.EMU_0202:
+                        DisplayCalOffset = -82.62103f;
                         break;
                     case SoundCard.UNSUPPORTED_CARD:
                         DisplayCalOffset = -82.62103f;
@@ -1483,7 +1487,7 @@ namespace PowerSDR
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Console));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(console));
             this.mnuWave = new System.Windows.Forms.MenuItem();
             this.mnuEQ = new System.Windows.Forms.MenuItem();
             this.mnuCWX = new System.Windows.Forms.MenuItem();
@@ -6706,7 +6710,7 @@ namespace PowerSDR
 
                 Application.EnableVisualStyles();
                 Application.DoEvents();
-                Application.Run(new Console(args));
+                Application.Run(new console(args));
             }
             catch (Exception ex)
             {
@@ -19781,7 +19785,7 @@ namespace PowerSDR
         {
             try
             {
-                System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Console));
+                System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(console));
                 pause_DisplayThread = true;
                 Display_GDI.Close();
                 Thread.Sleep(100);

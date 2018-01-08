@@ -43,11 +43,11 @@ namespace PowerSDR
     {
         private delegate void DebugCallbackFunction(string name);
 
-        public Console console;
+        public console console;
         public bool connected = false;
         public bool debug = false;
 
-        public QRP2000(Console c)
+        public QRP2000(console c)
         {
             console = c;
         }

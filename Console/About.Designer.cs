@@ -31,7 +31,7 @@ namespace PowerSDR
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.buttonOK = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblRevisionNumber = new System.Windows.Forms.LabelTS();
+            this.lblSwVersion = new System.Windows.Forms.LabelTS();
             this.lblGenesis = new System.Windows.Forms.Label();
             this.lblRadioModel = new System.Windows.Forms.LabelTS();
             this.lblModel = new System.Windows.Forms.Label();
@@ -60,7 +60,7 @@ namespace PowerSDR
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblRevisionNumber);
+            this.groupBox1.Controls.Add(this.lblSwVersion);
             this.groupBox1.Controls.Add(this.lblGenesis);
             this.groupBox1.Controls.Add(this.lblRadioModel);
             this.groupBox1.Controls.Add(this.lblModel);
@@ -81,29 +81,29 @@ namespace PowerSDR
             this.groupBox1.Text = "Info";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // lblRevisionNumber
+            // lblSwVersion
             // 
-            this.lblRevisionNumber.AutoSize = true;
-            this.lblRevisionNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRevisionNumber.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblRevisionNumber.Image = null;
-            this.lblRevisionNumber.Location = new System.Drawing.Point(105, 54);
-            this.lblRevisionNumber.Name = "lblRevisionNumber";
-            this.lblRevisionNumber.Size = new System.Drawing.Size(146, 24);
-            this.lblRevisionNumber.TabIndex = 13;
-            this.lblRevisionNumber.Text = "Version: **.*.**";
-            this.lblRevisionNumber.Click += new System.EventHandler(this.GSDR_revision_Click);
+            this.lblSwVersion.AutoSize = true;
+            this.lblSwVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSwVersion.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lblSwVersion.Image = null;
+            this.lblSwVersion.Location = new System.Drawing.Point(105, 54);
+            this.lblSwVersion.Name = "lblSwVersion";
+            this.lblSwVersion.Size = new System.Drawing.Size(146, 24);
+            this.lblSwVersion.TabIndex = 13;
+            this.lblSwVersion.Text = "Version: **.*.**";
+            this.lblSwVersion.Click += new System.EventHandler(this.GSDR_revision_Click);
             // 
             // lblGenesis
             // 
             this.lblGenesis.AutoSize = true;
             this.lblGenesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGenesis.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblGenesis.Location = new System.Drawing.Point(73, 16);
+            this.lblGenesis.Location = new System.Drawing.Point(39, 22);
             this.lblGenesis.Name = "lblGenesis";
-            this.lblGenesis.Size = new System.Drawing.Size(210, 25);
+            this.lblGenesis.Size = new System.Drawing.Size(272, 25);
             this.lblGenesis.TabIndex = 2;
-            this.lblGenesis.Text = "GSDR by YT7PWR";
+            this.lblGenesis.Text = "Genesis 2.1 by YT7PWR";
             this.lblGenesis.Click += new System.EventHandler(this.lblGenesis_Click);
             // 
             // lblRadioModel
@@ -214,19 +214,6 @@ namespace PowerSDR
             this.lblPowerSDR.TabIndex = 3;
             this.lblPowerSDR.Text = "(based on PowerSDR ";
             // 
-<<<<<<< HEAD
-=======
-            // lblGenesis
-            // 
-            this.lblGenesis.AutoSize = true;
-            this.lblGenesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenesis.Location = new System.Drawing.Point(39, 22);
-            this.lblGenesis.Name = "lblGenesis";
-            this.lblGenesis.Size = new System.Drawing.Size(279, 25);
-            this.lblGenesis.TabIndex = 2;
-            this.lblGenesis.Text = "Genesis 2.1 by YT7PWR";
-            // 
->>>>>>> master
             // lblFIRMWARE
             // 
             this.lblFIRMWARE.AutoSize = true;
@@ -273,6 +260,6 @@ namespace PowerSDR
         private System.Windows.Forms.Label lblBoot;
         private System.Windows.Forms.LabelTS lblRadioModel;
         private System.Windows.Forms.Label lblModel;
-        private System.Windows.Forms.LabelTS lblRevisionNumber;
+        private System.Windows.Forms.LabelTS lblSwVersion;
     }
 }

@@ -48,7 +48,7 @@ namespace PowerSDR
         private Socket ServerSocket;
         private Socket WorkingSocket;
         private int ServerPort;
-        private Console console;
+        private console console;
         private string ServerIPAddress = "127.0.0.1";
         private delegate void ConnectCallback(byte[] data);
         public byte[] receive_buffer;
@@ -76,7 +76,7 @@ namespace PowerSDR
 
         #endregion
 
-        public MultiPSKEthernetServer(Console c)
+        public MultiPSKEthernetServer(console c)
         {
             console = c;
             receive_buffer = new byte[65535];

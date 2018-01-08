@@ -37,11 +37,11 @@ namespace PowerSDR
     public partial class XTRV : Form
     {
 
-        public Console console;
+        public console console;
         delegate void XTRV_cross_thread_callback(int nr, string btn_txt, double f_min, double f_max, double losc,
             double pa_pwr, double pa_gain, bool rx_only);
 
-        public XTRV(Console c)
+        public XTRV(console c)
         {
             this.AutoScaleMode = AutoScaleMode.Inherit;
             InitializeComponent();

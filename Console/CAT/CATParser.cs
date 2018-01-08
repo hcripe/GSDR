@@ -59,7 +59,7 @@ namespace PowerSDR
         public bool IsActive;
         private XmlDocument doc;
         private CATCommands cmdlist;
-        private Console console;
+        private console console;
         public string Error1 = "?;";
         public string Error2 = "E;";
         public string Error3 = "O;";
@@ -68,7 +68,7 @@ namespace PowerSDR
 
         #endregion Variable declarations
 
-        public CATParser(Console c)
+        public CATParser(console c)
         {
             console = c;
             cmdlist = new CATCommands(console, this);

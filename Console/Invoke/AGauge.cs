@@ -56,7 +56,7 @@ namespace PowerSDR
         private delegate void DebugCallbackFunction(string name);
         public bool debug = false;
         public bool booting = false;
-        public Console console;
+        public console console;
         public Int32 m_BaseArcStart = 230;
         public Int32 m_BaseArcSweep = 77;
         private Single m_value = 0;
@@ -174,7 +174,7 @@ namespace PowerSDR
 
         #region constructor
 
-        public AGauge(Console c)
+        public AGauge(console c)
         {
             console = c;
             float dpi = this.CreateGraphics().DpiX;

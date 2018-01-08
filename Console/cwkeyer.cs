@@ -140,7 +140,7 @@ namespace PowerSDR
         }
         private HiPerfTimer timer;
         private float msdel;
-        private Console console;
+        private console console;
 
         public bool QRP2000CW1 = true;
         public bool QRP2000CW2 = false;
@@ -368,7 +368,7 @@ namespace PowerSDR
 
         #region Constructor and Destructor
 
-        unsafe public CWKeyer2(Console c)
+        unsafe public CWKeyer2(console c)
         {
             console = c;
             siolisten = console.Siolisten;

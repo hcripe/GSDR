@@ -53,9 +53,9 @@ namespace PowerSDR
 		private System.Windows.Forms.Button cancelButton;
 		private System.Windows.Forms.TextBox txtOriginal;
 		private System.Windows.Forms.TextBox txtCurrent;
-		private Console console;
+		private console console;
 
-		public cwedit(Console c)
+		public cwedit(console c)
 		{
 			//
 			// Required for Windows Form Designer support

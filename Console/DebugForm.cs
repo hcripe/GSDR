@@ -43,10 +43,10 @@ namespace PowerSDR
 {
     public partial class DebugForm : Form
     {
-        Console console;
+        console console;
         string file = "debug report.txt";
 
-        public DebugForm(Console c, bool enable_debug)
+        public DebugForm(console c, bool enable_debug)
         {
             try
             {

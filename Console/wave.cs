@@ -48,7 +48,7 @@ namespace PowerSDR
 	{
 		#region Variable Declaration
 		
-		private Console console;
+		private console console;
 		private WaveOptions waveOptionsForm;
 		private ArrayList file_list;
 
@@ -79,7 +79,7 @@ namespace PowerSDR
 
 		#region Constructor and Destructor
 
-		public WaveControl(Console c)
+		public WaveControl(console c)
 		{
             this.AutoScaleMode = AutoScaleMode.Inherit;
             InitializeComponent();

@@ -35,9 +35,9 @@ namespace PowerSDR
 {
     public partial class About : Form
     {
-        Console console;
+        console console;
 
-        public About(Console c)
+        public About(console c)
         {
             console = c;
             this.AutoScaleMode = AutoScaleMode.Inherit;
@@ -50,7 +50,6 @@ namespace PowerSDR
             this.Font = new_font;
             this.PerformAutoScale();
             this.PerformLayout();
-            lblRevisionNumber.Text = "Version: " + Console.gsdrVersion;  //wd0dxd
         }
 
         private void buttonOK_Click(object sender, EventArgs e)
@@ -65,6 +64,7 @@ namespace PowerSDR
 
         private void About_Load(object sender, EventArgs e)
         {
+            lblSwVersion.Text = "Version: " + console.gsdrSwVersion;
             switch (console.CurrentModel)
             {
                 case Model.GENESIS_G59USB:

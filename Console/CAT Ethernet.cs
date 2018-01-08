@@ -53,7 +53,7 @@ namespace PowerSDR
         Socket client1;
         Socket client2;
         private int ServerPort;
-        private Console console;
+        private console console;
         private CATParser parser;
         private string ServerIPAddress = "127.0.0.1";
         private delegate void CATConnectCallback(byte[] data);
@@ -100,7 +100,7 @@ namespace PowerSDR
 
         #region constructor/destructor
 
-        public CAToverEthernetServer(Console c)
+        public CAToverEthernetServer(console c)
         {
             console = c;
             parser = new CATParser(console);
@@ -1506,7 +1506,7 @@ namespace PowerSDR
         #region Variable
 
         private Socket ClientSocket;
-        private Console console;
+        private console console;
         private string ServerIPAddress = "127.0.0.1";
         private int ServerPort = 5000;
         private string LocalIPAddress = "127.0.0.1";
@@ -1553,7 +1553,7 @@ namespace PowerSDR
 
         #region constructor/destructor
 
-        public CAToverEthernetClient(Console c)
+        public CAToverEthernetClient(console c)
         {
             try
             {

@@ -37,7 +37,7 @@ namespace PowerSDR
     public class ClientRecvData
     {
         private Socket s;
-        private Console console;
+        private console console;
         private byte[] buffer = new byte[65535];
         private byte[] decompBuffer;
         public bool IsOpen = false;
@@ -58,7 +58,7 @@ namespace PowerSDR
 
         #endregion
 
-        public ClientRecvData(Console c)
+        public ClientRecvData(console c)
         {
             console = c;
             if (sendEvent == null)

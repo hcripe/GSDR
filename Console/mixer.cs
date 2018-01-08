@@ -42,7 +42,7 @@ namespace PowerSDR
 {
 	public class Mixer
 	{
-        public static Console console;
+        public static console console;
 
 		#region Constants
 

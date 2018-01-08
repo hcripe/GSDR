@@ -97,7 +97,7 @@ namespace PowerSDR
 
         #region variables
 
-        public Console console;
+        public console console;
         public bool connected = false;
         public delegate void AudioCallbackFunction(float* in_l, float* in_r, float* out_l, float* out_r, int count);
         static AudioCallbackFunction audio_callback;
@@ -120,7 +120,7 @@ namespace PowerSDR
 
         #region constructor
 
-        public ExtIO_RTL(Console c)
+        public ExtIO_RTL(console c)
         {
             console = c;
         }

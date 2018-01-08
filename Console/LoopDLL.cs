@@ -34,7 +34,7 @@ namespace PowerSDR
     unsafe public class LoopDLL
     {
         #region Variable
-        Console console;
+        console console;
 
         #endregion
 
@@ -95,7 +95,7 @@ namespace PowerSDR
 
         #region constructor
 
-        public LoopDLL(Console c)
+        public LoopDLL(console c)
         {
             console = c;
         }

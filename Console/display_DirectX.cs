@@ -98,7 +98,7 @@ namespace PowerSDR
     {
         #region Variable Declaration
 
-        public static Console console;
+        public static console console;
         private static int[] histogram_history;					// histogram counter
         public const float CLEAR_FLAG = -999.999F;				// for resetting buffers
         public const int BUFFER_SIZE = 4096;

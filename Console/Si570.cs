@@ -42,14 +42,14 @@ namespace PowerSDR
 {
     unsafe public class ExtIO_si570_usb
     {
-        public Console console;
+        public console console;
         public bool connected = false;
         int tmp;
         public delegate void CallbackFunction(int cnt, int status, float IQoffs, short[] IQdata);
         private static CallbackFunction callback;
 
 
-        public ExtIO_si570_usb(Console c)
+        public ExtIO_si570_usb(console c)
         {
             console = c;
         }

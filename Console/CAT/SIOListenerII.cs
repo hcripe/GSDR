@@ -49,7 +49,7 @@ namespace PowerSDR
 
         #region Constructor
 
-        public SIOListenerII(Console c)
+        public SIOListenerII(console c)
 		{
 			console = c;
 			console.Closing += new System.ComponentModel.CancelEventHandler(console_Closing);
@@ -164,7 +164,7 @@ namespace PowerSDR
 		#region Variables
 				
 		public SDRSerialSupportII.SDRSerialPort SIO; 
-		Console console;
+		console console;
 		ASCIIEncoding AE = new ASCIIEncoding();
 		private bool Fpass = true;
 		private bool cat_enabled = false;  // is cat currently enabled by user? 

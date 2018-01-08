@@ -62,7 +62,7 @@ using SlimDX;
 
 namespace PowerSDR
 {
-    unsafe public partial class Console : System.Windows.Forms.Form
+    unsafe public partial class console : System.Windows.Forms.Form
     {
         #region variable
 
